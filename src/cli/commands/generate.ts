@@ -15,7 +15,7 @@ import type { GenerateOptions, Logger } from '../../types';
 export const generateCommand = new Command('generate')
   .description('Generate a static wiki from D2 mod data')
   .argument('<mod-path>', 'Path to the mod data directory')
-  .option('-o, --output <path>', 'Output directory for the generated wiki', './wiki-output')
+  .option('-o, --output <path>', 'Output directory for the generated wiki', './docs')
   .option('-c, --config <path>', 'Path to configuration file')
   .option('-n, --site-name <name>', 'Override site name')
   .option('-t, --theme <theme>', 'Theme selection (dark|light|auto)', 'dark')
