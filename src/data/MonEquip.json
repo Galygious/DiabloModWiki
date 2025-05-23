@@ -1,0 +1,49 @@
+{
+  "fields": [
+    "monster",
+    "oninit",
+    "level",
+    "item1",
+    "loc1",
+    "mod1",
+    "item2",
+    "loc2",
+    "mod2",
+    "item3",
+    "loc3",
+    "mod3",
+    "eol"
+  ],
+  "rows": [
+    [
+      "bloodraven",
+      1,
+      0,
+      "sbw",
+      "rarm",
+      6,
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      0
+    ],
+    [
+      "flyingscimitar",
+      1,
+      0,
+      "scm",
+      "rarm",
+      6,
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      0
+    ]
+  ]
+}

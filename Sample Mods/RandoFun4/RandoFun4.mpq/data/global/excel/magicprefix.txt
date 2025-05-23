@@ -1,0 +1,671 @@
+Name	version	spawnable	rare	level	maxlevel	levelreq	classspecific	class	classlevelreq	frequency	group	mod1code	mod1param	mod1min	mod1max	mod2code	mod2param	mod2min	mod2max	mod3code	mod3param	mod3min	mod3max	transformcolor	itype1	itype2	itype3	itype4	itype5	itype6	itype7	etype1	etype2	etype3	etype4	etype5	multiply	add
+																																					0	0
+Sturdy	0	1	1	4		3				0	101	stupidity		1	1	oskill	54	69	11	lifesteal		14	14		armo												0	0
+Strong	0	1	1	9		6				0	101	ac		25	25	ac%		30	30	oskill	44	5	5		armo												0	0
+Glorious	0	1	1	19		14				0	101	aura	Sanctuary	10	13	res-all		8	11	dmg-min		1	1		armo												0	0
+Blessed	0	1	1	25		18				0	101	ac%		70	80	res-all-max		15	15	enr		7	10		armo												0	0
+Saintly	0	1	1	31		23				0	101	hp		50	50	skilltab	20	1	1	str		3	5	dgld	armo												0	0
+Holy	0	1	1	36		27				0	101	dmg-max		15	15	vit		20	20	ac		65	65	dgld	armo												0	0
+Devious	0	1	1	7		5				0	103	res-all		30	50	hp		60	60	mag%		100	100	dblu	shld												0	0
+Fortified	0	1	1	14		10				0	103	skilltab	1	3	3	bar		1	1	swing1		10	10	dblu	shld												0	0
+																																					0	0
+																																					0	0
+																																					0	0
+Jagged	0	1	1	1		1				0	106	hp/lvl	8			oskill	74	12	4	nofreeze	0	1	1		weap												0	0
+Deadly	0	1	1	5		3				0	106	mag%		40	40	cast3		20	20	ac		50	50		weap												0	0
+Vicious	0	1	1	8		6				0	106	res-fire		50	50	regen-stam		30	30	dex	0	10	10		weap												0	0
+Brutal	0	1	1	14		10				0	106	hp		50	50	dmg-min		3	4	dmg-max		2	2		weap												0	0
+Massive	0	1	1	20		15				0	106	dmg-max		4	6	skilltab	6	3	3	oskill	44	8	8	dgld	weap												0	0
+Savage	0	1	1	26		19				0	106	ac%		140	180	res-pois		21	30					dgld	weap							staf	wand				0	0
+Merciless	0	1	1	32		24				0	106	res-fire		75	75	ac		75	75	mana	0	31	31	dgld	weap							staf	wand				0	0
+Vulpine	0	1	1	9		6				0	107	crush		33	33	dmg-ltng		50	75	dmg-mag		114	377	cblu	shld	amul											0	0
+																																					0	0
+																																					0	0
+																																					0	0
+																																					0	0
+Tireless	0	1	1	14		10				0	109	oskill	Heart of Wolverine	13	5	str		25	40	hit-skill	Volcano	23	12		boot												0	0
+Rugged	0	1	1	14		10				0	110	res-all		20	20	dmg-demon		200	250	regen-stam	0	50	50		boot	glov	belt	ring	amul								0	0
+Bronze	0	1	1	1		1				0	111	ac%		60	100	block2		30	30	res-cold		11	12		weap	ring	glov	amul									0	0
+Iron	0	1	1	4		3				0	111	ignore-ac		1	1	aura	Sanctuary	10	13	dmg-ltng		50	75		weap	ring											0	0
+Steel	0	1	1	8		6				0	111	manasteal		15	15	hit-skill	Mark of the Wolf	100	1	dmg-min		1	4		weap	ring											0	0
+Silver	0	1	1	12		9				0	111	str		7	10	ltng-min		1	1	ltng-max		25	43		weap	ring											0	0
+																																					0	0
+Gold	0	1	1	17		12				0	111	hit-skill	Frozen Orb	9	11	dmg-to-mana		12	12	str		1	2	lgld	weap												0	0
+Platinum	0	1	1	22		16				0	111	res-fire		20	20	att%		60	120	dmg-demon		75	75	lgld	weap	ring											0	0
+Meteoric	0	1	1	27		20				0	111	lifesteal		3	7	vit		22	22	res-fire-max	0	10	10	lgld	weap	ring						staf	wand				0	0
+Sharp	0	1	1	5		3				0	112	slow		50	50	dex		10	10	gethit-skill	48	25	3		weap												0	0
+Fine	0	1	1	9		6				0	112	enr		10	10	fire-min		1	1	fire-max		2	3		weap												0	0
+Warrior's	0	1	1	15		11				0	112	regen-stam		30	30	ease		-25	-25	res-pois-len		75	75		weap												0	0
+Soldier's	0	1	1	21		15				0	112	res-all		40	40	red-mag		5	9	ac		305	415		weap												0	0
+Knight's	0	1	1	25		18				0	112	mana-kill		2	2	hit-skill	Bone Spear	15	10	manasteal		2	3	dgld	weap												0	0
+Lord's	0	1	1	30		22				0	112	oskill	51	20	10	block		20	30	hp		65	65	dgld	weap							staf	wand				0	0
+King's	0	1	1	35		26				0	112	ac		50	50	res-all		8	11	res-fire		8	9	dgld	weap							staf	wand				0	0
+Howling	0	1	1	16		12				0	113	extra-ltng		3	5									oran	weap							miss					0	0
+Fortuitous	0	1	1	5		3				0	114	att		35	35	enr		12	12	dmg%		150	200		ring	amul											0	0
+																																					0	0
+																																					0	0
+																																					0	0
+																																					0	0
+																																					0	0
+Glimmering	0	1	1	1		1				0	116	dmg-pois	200	384	384	ignore-ac		1	1	oskill	56	5	5		armo	wand	staf	ring	amul								0	0
+Glowing	0	1	1	6		4				0	116	str		10	10	skilltab	15	3	3					lyel	armo	wand	staf	ring	amul								0	0
+																																					0	0
+																																					0	0
+Lizard's	0	1	1	3		2				0	118	fire-min	0	5	5	fire-max	0	8	8	oskill	59	2	2		armo	ring	amul	rod				boot	glov				0	0
+																																					0	0
+Snake's	0	1	1	6		4				0	118	dmg%		100	100	mana/lvl	5			cast3		25	25		shld	rod	belt	ring	amul								0	0
+Serpent's	0	1	1	14		10				0	118	ltng-min		1	1	ltng-max		61	100	hp		40	40		shld	rod	belt	ring	amul								0	0
+Serpent's	0	1	1	37		27				0	118	dmg-ltng		1	30	ac		160	160	skilltab	20	2	2		tors	helm	boot	glov	mele			h2h	rod				0	0
+Drake's	0	1	1	20		15				0	118	hit-skill	Firestorm	12	16	swing2		20	20	dmg-fire		1	2	cblu	rod	ring	amul	belt									0	0
+Dragon's	0	1	1	24		18				0	118	balance2		10	10	dex		15	15	mag%		26	35	cblu	rod	ring	amul										0	0
+Dragon's	0	1	1	52		39				0	118	stamdrain		10	10	dmg%		240	290	allskills		1	1	cblu	tors	helm	boot	glov									0	0
+Wyrm's	0	1	1	30		22				0	118	ac/lvl	20			res-fire		20	20	ama		2	2	cblu	rod	ring	amul										0	0
+																																					0	0
+																																					0	0
+Prismatic	0	1	1	27		20				0	120	ac%		30	40	skilltab	12	3	3	res-cold		21	30	lpur	amul												0	0
+Prismatic	0	1	1	62		46				0	120	dmg%		50	60	hit-skill	Weaken	8	3	res-all		30	30	lpur	ring												0	0
+Azure	0	1	1	5		3				0	121	all-stats		5	5	manasteal	0	2	2	mana	0	20	20		armo	rod	miss	ring	amul								0	0
+Lapis	0	1	1	12		9				0	121	dex		10	10	ease		-15	-15	manasteal	0	5	5		armo	ring	amul	rod									0	0
+Lapis	0	1	1	35		26				0	121	swing3		30	30	block2		65	65	att-undead		326	450		weap	glov						rod					0	0
+Cobalt	0	1	1	18		13				0	121	dex		3	3	ac		25	25	sor		2	2		armo	ring	amul	rod				glov					0	0
+Cobalt	0	1	1	55		41				0	121	allskills		2	2	light-thorns		4	4	dmg-min		15	20		weap	glov						rod					0	0
+																																					0	0
+Sapphire	0	1	1	25		18				0	121	sor		3	3	hp		100	150	res-pois	0	5	10	lblu	rod	boot	ring	amul	miss			scep					0	0
+																																					0	0
+																																					0	0
+Crimson	0	1	1	5		3				0	122	att		20	20	stam		12	24	lifesteal		4	7		armo	rod	miss	ring	amul	amul							0	0
+Burgundy	0	1	1	12		9				0	122	dmg%		75	150	lifesteal		3	3	skilltab	17	3	3		armo	rod	ring	amul	amul								0	0
+Burgundy	0	1	1	35		26				0	122	heal-kill		14	14	regen-mana	0	12	12	light	0	2	2		weap							rod					0	0
+Garnet	0	1	1	18		13				0	122	att		30	30	dmg-ac		-70	-70	res-all		15	15		armo	rod	ring	amul				glov					0	0
+Garnet	0	1	1	55		41				0	122	move2		20	20	enr		7	9	lifesteal		4	4		weap	glov						rod					0	0
+																																					0	0
+Ruby	0	1	1	25		18				0	122	nofreeze		1	1	skilltab	17	1	1	gold%		75	75	lred	wand	staf	boot	ring	amul								0	0
+																																					0	0
+																																					0	0
+Ocher	0	1	1	5		3				0	123	oskill	62	36	6	swing2		40	40	red-dmg		4	4		armo	rod	ring	amul	miss								0	0
+Tangerine	0	1	1	12		9				0	123	dmg-pois	100	460	460	res-pois	0	11	20	oskill	21	3	3		armo	ring	amul	rod									0	0
+Tangerine	0	1	1	35		26				0	123	deadly/lvl	3			extra-pois		3	5	res-cold		26	30		weap							rod					0	0
+Coral	0	1	1	18		13				0	123	move2		30	30	ac%		31	40	dex		5	6		armo	ring	amul	rod				glov					0	0
+Coral	0	1	1	55		41				0	123	enr		20	20	nofreeze		1	1	dex		15	15		weap	glov						rod					0	0
+																																					0	0
+Amber	0	1	1	25		18				0	123	ac-miss		250	250	hp	0	10	10	dmg-min		1	4	lyel	armo	ring	amul	staf	wand			shld	glov				0	0
+																																					0	0
+																																					0	0
+Beryl	0	1	1	5		3				0	124	oskill	118	3	3	block		30	30	nofreeze		1	1		armo	ring	amul	scep	staf	miss							0	0
+Jade	0	1	1	12		9				0	124	res-fire		33	33	levelup-skill	Blaze	100	36	red-mag		7	7		armo	ring	amul	scep	staf								0	0
+Jade	0	1	1	35		26				0	124	ac		50	50	hp		40	40	mana	0	10	10		weap	ring						staf	scep				0	0
+Viridian	0	1	1	18		13				0	124	allskills		1	1	dmg-cold	100	6	22	skilltab	7	2	2		tors	helm	shld	scep	staf	ring	amul						0	0
+Viridian	0	1	1	55		41				0	124	death-skill	Meteor	100	48	str		10	10	regen		30	30		weap	boot	glov	belt				staf	scep				0	0
+																																					0	0
+Emerald	0	1	1	25		18				0	124	dmg-elem	33	63	324	hp		20	20	hit-skill	66	5	1	lgrn	scep	ring	amul										0	0
+																																					0	0
+Fletcher's	0	1	1	30		22				0	125	ac		30	30	hp		50	50						miss	amul											0	0
+Archer's	0	1	1	40		30				0	125	dmg%		200	240	att		110	110	res-pois-len		50	50	cgrn	miss												0	0
+Archer's	0	1	1	90		67				0	125	hit-skill	48	5	8	att%		25	25	aura	Vigor	10	10	cgrn	amul												0	0
+Monk's	0	1	1	30		22				0	126	balance2		30	30	abs-mag		9	11	cast3		30	30		scep	amul											0	0
+Priest's	0	1	1	40		30				0	126	oskill	80	2	2	ac%		220	260	str		11	15	cgrn	scep												0	0
+Priest's	0	1	1	90		67				0	126	dmg-undead		50	50	oskill	Guided Arrow	3	5	fire-max		10	10	cgrn	amul												0	0
+Summoner's	0	1	1	30		22				0	127	dmg-norm		15	25	skilltab	20	1	1	light		5	5		wand	amul											0	0
+Necromancer's	0	1	1	40		30				0	127	fireskill		2	2	cold-min		24	45	cold-max		91	140	cgrn	wand												0	0
+Necromancer's	0	1	1	90		67				0	127	str		10	10	swing2		45	45	balance2		30	30	cgrn	amul												0	0
+Angel's	0	1	1	30		22				0	128	lifesteal		10	15	cast2		10	10	hp		1	5		staf	amul											0	0
+Arch-Angel's	0	1	1	40		30				0	128	dmg%		150	200	oskill	Vengeance	1	1	att	0	100	100	cgrn	staf												0	0
+Arch-Angel's	0	1	1	90		67				0	128	manasteal		100	100	enr		20	20	mana	0	31	40	cgrn	amul												0	0
+Slayer's	0	1	1	30		22				0	129	thorns		20	20	fire-min	0	5	5	fire-max	0	8	8		mele	amul						rod	h2h				0	0
+Berserker's	0	1	1	40		30				0	129	enr		20	20	deadly/lvl	3			res-ltng		30	30	cgrn	mele							rod	h2h				0	0
+Berserker's	0	1	1	90		67				0	129	thorns		3	10	dmg-undead		50	50	oskill	12	8	8	cgrn	amul												0	0
+																																					0	0
+																																					0	0
+Triumphant	0	1	1	3		2				0	132	gethit-skill	Mind Blast	6	14	ac		305	415	dmg%		11	20		mele	ring											0	0
+Expansion																																						
+Stout	100	1	1	1		1				4	101	res-pois		30	30	swing2		20	20	str		20	20		lcha												0	0
+Stout	100	1	1	7		5				4	101	dmg-norm		5	10	skilltab	8	2	2	dmg-min		5	8		lcha												0	0
+Stout	100	1	1	12		9				4	101	bar		2	2	manasteal		4	7	stam		25	36		lcha												0	0
+Burly	100	1	1	17		12				4	101	res-all		30	50	ease		-40	-40	skilltab	15	2	2		lcha												0	0
+Burly	100	1	1	22		16				4	101	res-cold		35	35	dmg-undead	0	28	28	ac		30	40		lcha												0	0
+Burly	100	1	1	27		20				4	101	res-cold		18	18	att		151	250	ass		3	3		lcha												0	0
+Stalwart	100	1		32		24				4	101	res-all		25	35	hp		40	40	mag%		35	35		lcha												0	0
+Stalwart	100	1		37		29				4	101	mag%		25	50	att%		20	20	dex		2	2		lcha												0	0
+Stalwart	100	1		42		34				4	101	freeze		4	4	dmg-cold		4	44						lcha												0	0
+Stout	100	1	1	1		1				4	101	res-fire-max		5	5	all-stats		5	10	hp/lvl	6				mcha												0	0
+Stout	100	1	1	14		10				4	101	allskills		2	2	dex		20	30	res-ltng		8	9		mcha												0	0
+Stout	100	1	1	20		15				4	101	swing2		15	15	hit-skill	Frost Nova	25	22	dmg-ltng		3	33		mcha												0	0
+Burly	100	1	1	26		19				4	101	move2		20	20	abs-fire%		10	20	oskill	81	6	6		mcha												0	0
+Burly	100	1	1	32		24				4	101	res-fire-max		10	10	noheal		1	1	res-all		16	20		mcha												0	0
+Stalwart	100	1		38		30				4	101	dmg-undead		50	60	dmg%		170	180	hit-skill	91	4	1		mcha												0	0
+Stalwart	100	1		45		37				4	101	noheal		1	1	cold-min		2	4	cold-max		4	8		mcha												0	0
+Stout	100	1	1	1		1				4	101	dmg%		140	140	lifesteal		8	8	mana		30	34		scha												0	0
+Stout	100	1	1	21		15				4	101	block		25	25	regen-mana		15	15	str		25	25		scha												0	0
+Burly	100	1	1	36		28				4	101	dmg-pois	100	102	102	dmg-min		5	5	str	0	3	3		scha												0	0
+Stalwart	100	1		48		40				4	101	deadly		50	50	red-dmg		15	20	ease		-20	-20		scha												0	0
+Blanched	100	1	1	1		1				4	101	ac%		100	120	regen-mana		30	30	block2		50	50	whit	jewl												0	0
+Eburin	100	1	1	16		12				4	101	openwounds		33	33	pierce-immunity-fire		300	300	bar		2	2	whit	jewl												0	0
+Bone	100	1	1	32		24				4	101	oskill	118	2	2	allskills		2	4	aura	Fanaticism	12	15	whit	jewl												0	0
+Ivory	100	1		64		56				4	101	hp		50	50	dmg-cold	125	63	112	mag%/lvl	8			whit	jewl												0	0
+Sturdy	1	1	1	1		1				9	101	dmg%/lvl	24			mana	0	5	10	red-dmg		3	3		armo												0	0
+Sturdy	1	1	1	4		3				9	101	pois-min		48	48	pois-max		96	96	pois-len		150	150		armo												0	0
+Strong	1	1	1	9		6				8	101	all-stats		5	10	hp		6	10	lifesteal	0	8	8		armo												0	0
+Glorious	1	1	1	19		14				8	101	hit-skill	52	2	10	crush		10	10	res-ltng		5	5		armo												0	0
+Blessed	1	1	1	25		18				7	101	cold-min		4	4	cold-max		8	8	cold-len		75	75		armo												0	0
+Saintly	1	1	1	31		23				7	101	regen-mana		25	25	dmg-undead		125	125	mana		13	17	dgld	armo												0	0
+Holy	1	1	1	36		27				6	101	res-cold		30	30	red-mag		7	11	stam		16	25	dgld	armo												0	0
+Godly	100	1		45		38				3	101	dex/lvl	4			nofreeze		1	1	ease		-40	-40	dgld	armo												0	0
+Devious	1	0	1	7		5				5	102	red-mag		1	1										shld	circ	orb	wand	staf								0	0
+Blank	1	0	1	14		10				4	102	red-mag		2	2										shld	circ	orb	wand	staf								0	0
+Null	100	0	1	21		16				4	102	red-mag		3	5									dblu	shld	circ											0	0
+Antimagic	100	0		28		21				4	102	red-mag		6	10									dblu	shld	circ											0	0
+Red	100	0	1	4		3				4	103	dmg-min		1	2										lcha												0	0
+Red	100	0	1	16		12				4	103	dmg-min		3	3										lcha												0	0
+Sanguinary	100	0	1	28		21				4	103	dmg-min		4	4										lcha												0	0
+Sanguinary	100	0	1	40		32				4	103	dmg-min		5	6										lcha												0	0
+Bloody	100	0		52		46				4	103	dmg-min		7	8										lcha												0	0
+Red	100	0	1	11		8				4	103	dmg-min		1	2									dred	mcha												0	0
+Sanguinary	100	0	1	33		25				4	103	dmg-min		3	3									dred	mcha												0	0
+Bloody	100	0		55		47				4	103	dmg-min		4	4									dred	mcha												0	0
+Red	100	0	1	24		16				4	103	dmg-min		1	1									dred	scha												0	0
+Sanguinary	100	0	1	41		33				4	103	dmg-min		2	2									dred	scha												0	0
+Bloody	100	0		58		50				4	103	dmg-min		3	3									dred	scha												0	0
+Scarlet	100	1	1	8		6				4	103	dmg%		30	30	dmg-pois	250	300	300	oskill	240	127	13	dred	jewl												0	0
+Crimson	100	1	1	38		30				4	103	ac%		160	200	balance2		30	30	str		20	20	dred	jewl												0	0
+Jagged	100	0	1	3		2				4	104	dmg-max		1	2										lcha												0	0
+Jagged	100	0	1	10		7				4	104	dmg-max		3	4										lcha												0	0
+Jagged	100	0	1	17		12				4	104	dmg-max		5	6										lcha												0	0
+Forked	100	0	1	25		18				4	104	dmg-max		7	8										lcha												0	0
+Forked	100	0	1	32		24				4	104	dmg-max		9	10										lcha												0	0
+Serrated	100	0		39		31				4	104	dmg-max		11	12										lcha												0	0
+Serrated	100	0		47		39				4	104	dmg-max		13	14										lcha												0	0
+Jagged	100	0	1	10		7				4	104	dmg-max		1	1									blac	mcha												0	0
+Jagged	100	0	1	20		15				4	104	dmg-max		2	2									blac	mcha												0	0
+Forked	100	0	1	30		22				4	104	dmg-max		3	3									blac	mcha												0	0
+Forked	100	0	1	40		32				4	104	dmg-max		4	5									blac	mcha												0	0
+Serrated	100	0		50		42				4	104	dmg-max		6	7									blac	mcha												0	0
+Jagged	100	0	1	23		17				4	104	dmg-max		1	1									blac	scha												0	0
+Forked	100	0	1	38		30				4	104	dmg-max		2	2									blac	scha												0	0
+Serrated	100	0		53		45				4	104	dmg-max		3	3									blac	scha												0	0
+Carbuncle	100	1	1	12		9				4	104	lifesteal		5	7	skilltab	14	2	3	dmg-cold	50	37	133	dred	jewl												0	0
+Carmine	100	1	1	35		27				4	104	dmg-cold	75	3	5	res-cold		35	35	dmg-mag		108	108	dred	jewl												0	0
+Vermillion	100	1		58		50				4	104	red-mag		10	15	dmg%		150	150	mag%		1	1	dred	jewl												0	0
+Jagged	1	1	1	1		1				9	105	enr		20	20	balance2		20	20	oskill	14	4	4		weap	circ						staf	wand	orb			0	0
+Deadly	1	1	1	5		3				9	105	att		50	50	balance2		30	30	lifesteal	0	4	4		weap	circ						staf	wand	orb			0	0
+Vicious	1	1	1	8		6				8	105	red-dmg		5	5	balance2		30	30	skilltab	10	1	1		weap							staf	wand	orb			0	0
+Brutal	1	1	1	14		10				8	105	red-dmg		2	2	dmg-cold	3	24	38	str		10	10		weap							staf	wand	orb			0	0
+Massive	1	1	1	20		15				7	105	dmg%		200	300	oskill	Heart of Wolverine	13	5	cast2		10	10	dgld	weap							staf	wand	orb			0	0
+Savage	1	1	1	26		19				7	105	att-undead		100	100	regen		20	20	manasteal		4	5	dgld	weap							staf	wand	orb			0	0
+Merciless	1	1	1	32		24				6	105	dmg-fire		25	75	ac%		100	100	dmg-demon		201	300	dgld	weap							staf	wand	orb			0	0
+Ferocious	100	1	1	41		33				6	105	str		10	15	gethit-skill	53	18	5	thorns		7	9	blac	weap							staf	wand	orb			0	0
+Cruel	100	1		51		43				5	105	skilltab	13	3	3	hit-skill	Decrepify	30	1	hp		20	20	blac	weap							staf	wand	orb			0	0
+Cinnabar	100	1	1	1		1				4	105	swing2		20	20	dmg%		20	20	regen	0	3	3	dred	jewl												0	0
+Rusty	100	1	1	13		9				4	105	res-fire		30	30	stam		16	25	res-pois		5	5	dred	jewl												0	0
+Realgar	100	1	1	45		37				4	105	allskills		1	1	light		-3	-3	dmg%	0	41	50	dred	jewl												0	0
+Ruby	100	1		66		58				4	105	slow		50	50	lifesteal	0	3	3	hp		41	60	dred	jewl												0	0
+Vulpine	1	1	1	9		6				3	107	ac%		40	50	manasteal		6	8	lifesteal		5	9	cblu	shld	amul	orb	staf									0	0
+Dun	100	1	1	7		5				3	107	ac/lvl	10			dmg-norm		15	35						jewl												0	0
+Tireless	1	1	1	6		4				4	108	str		8	8	swing2		30	30	extra-pois		25	50		boot												0	0
+Tireless	100	1	1	14		10				4	108	crush		40	40	dmg-to-mana		45	45	att	0	60	60		boot												0	0
+Brown	100	1	1	39		31				4	108	deadly		50	50	sor		1	3	dex		10	10		jewl												0	0
+Rugged	100	1	1	1		1				4	109	lifesteal		3	3	noheal		1	1	res-pois		25	26		lcha												0	0
+Rugged	100	1	1	7		5				4	109	cold-min		2	4	cold-max		4	15	cold-len		100	100		lcha												0	0
+Rugged	100	1	1	21		15				4	109	manasteal		4	7	half-freeze		1	1	gethit-skill	38	2	0		lcha												0	0
+Rugged	100	1	1	1						4	109	dmg%		150	200	regen		10	10	dex	0	4	4		mcha													
+Rugged	100	1	1	7		5				4	109	ac%		50	50	oskill	36	3	3	dex		7	9		mcha												0	0
+Rugged	100	1	1	21		15				4	109	dmg%		40	50	ac%		30	60	res-pois	0	15	15		mcha												0	0
+Rugged	100	1	1	1						4	109	swing2		15	15	allskills		2	4	str		1	1		scha													
+Rugged	100	1	1	21		15				4	109	mana		175	175	thorns		14	14	mag%		30	30		scha												0	0
+Rugged	1	1	1	1		1				4	109	res-pois		-90	-70	res-pois-len		75	75	regen		3	3		boot	glov	belt	ring	amul	circ							0	0
+Rugged	1	1	1	8		6				4	109	fireskill		3	3	move2		30	30	ac-miss		35	35		boot	belt											0	0
+Rugged	1	1	1	8		6				4	109	dmg%		250	250	reduce-ac		50	50	ac		20	25		ring	amul	circ										0	0
+Vigorous	100	1	1	16		12				4	109	ac%		20	30	dmg-cold	75	50	140	lifesteal		10	10		boot	belt											0	0
+Chestnut	100	1	1	1		1				4	109	cold-min		1	1	cold-max		3	6	cold-len		50	50		jewl												0	0
+Maroon	100	1	1	17		12				4	109	ac%		40	60	swing2		20	20	dmg-elem		50	200		jewl												0	0
+Bronze	100	1	1	1		1				4	110	ac		30	30	hp		10	10	regen		5	8		lcha												0	0
+Bronze	100	1	1	7		5				4	110	regen		12	12	dmg-max		6	7	state	fullsetgeneric	1	1		lcha												0	0
+Bronze	100	1	1	13		9				4	110	lifesteal		9	15	oskill	Heart of Wolverine	12	3	dmg-pois	100	39	39		lcha												0	0
+Iron	100	1	1	19		14				4	110	dmg-elem		55	160	aura	Conviction	12	12	att		75	75		lcha												0	0
+Iron	100	1	1	25		18				4	110	res-fire		40	40	swing2		40	40	ac		15	20		lcha												0	0
+Iron	100	1	1	31		23				4	110	dmg%		150	180	res-ltng		4	7	hp		16	20		lcha												0	0
+Steel	100	1		37		29				4	110	swing2		30	30	ac%		120	150	state	fullsetgeneric	1	1		lcha												0	0
+Steel	100	1		43		35				4	110	red-mag		5	5	dex		25	25	balance3		12	12		lcha												0	0
+Steel	100	1		49		41				4	110	dmg%		280	330	ac		40	40	lifesteal		4	5		lcha												0	0
+Bronze	100	1	1	1		1				4	110	noheal		1	1	allskills		1	1	dmg-max		1	1		mcha												0	0
+Bronze	100	1	1	7		5				4	110	red-mag		2	2	hp		21	25	dex		7	9		mcha												0	0
+Bronze	100	1	1	16		12				4	110	crush		30	30	str		15	15	hp		31	40		mcha												0	0
+Iron	100	1	1	25		18				4	110	ac		40	40	oskill	82	6	6	balance2		25	25		mcha												0	0
+Iron	100	1	1	34		26				4	110	att-skill	53	5	3	light		8	8						mcha												0	0
+Steel	100	1		43		36				4	110	ac-hth		200	200	dmg-ltng		15	15	oskill	Fire Ball	18	18		mcha												0	0
+Steel	100	1		52		44				4	110	dmg%		200	250	allskills		1	1	ac		50	50		mcha												0	0
+Bronze	100	1	1	1		1				4	110	extra-ltng		10	20	dmg%		150	190	dmg-pois	125	103	103		scha												0	0
+Bronze	100	1	1	21		15				4	110	move2		20	20	ass		2	2	regen-mana		16	16		scha												0	0
+Iron	100	1	1	39		31				4	110	res-ltng		30	30	cast2		20	20	att	0	81	100		scha												0	0
+Steel	100	1		57		49				4	110	dmg-norm		40	62	skilltab	4	1	1	red-mag		2	2		scha												0	0
+Bronze	1	1	1	1		1				8	110	mana		15	15	manasteal		5	5	thorns		3	3		weap	ring	glov	amul	circ			staf	wand	orb			0	0
+Iron	1	1	1	4		3				8	110	regen-stam		25	25	swing2		40	40	res-all		25	35		weap	ring	circ					staf	wand	orb			0	0
+Steel	1	1	1	8		6				7	110	dmg-ltng		1	6	lifesteal		8	10	res-cold		10	10		weap	ring	circ					staf	wand	orb			0	0
+Silver	1	1	1	12		9				7	110	oskill	118	3	3	fire-min		1	1	fire-max		2	6		weap	ring	circ					staf	wand	orb			0	0
+Gold	1	1	1	17		12				6	110	balance2		20	20	reduce-ac		25	25	dmg%		325	375	lgld	weap	ring	circ					staf	wand	orb			0	0
+Platinum	1	1	1	22		16				6	110	res-cold		35	35	dmg%		200	280	ac%		60	60	lgld	weap	ring	circ					staf	wand	orb			0	0
+Meteoric	1	1	1	27		20				5	110	att/lvl	16			red-dmg		3	3	ease		-15	-15	lgld	weap							staf	wand	orb			0	0
+Strange	100	1	1	32		24				5	110	dmg%		160	210	allskills		1	1	thorns		10	20	lgld	weap							staf	wand	orb			0	0
+Weird	100	1		37		27				4	110	oskill	76	1	3	ac		12	12	str		3	5	lgld	weap							staf	wand	orb			0	0
+Nickel	100	1	1	1		1				4	110	ac-hth		50	50	mana%		10	10	red-mag		12	15		jewl												0	0
+Tin	100	1	1	8		6				4	110	reduce-ac		33	33	ac		15	15	res-pois		13	15		jewl												0	0
+Silver	100	1	1	25		18				4	110	ac%		10	10	ac		1	1	hit-skill	66	5	1		jewl												0	0
+Argent	100	1		44		36				4	110	ltng-min		1	1	ltng-max		12	15	cast3		20	20		jewl												0	0
+Fine	100	1	1	15		11				4	111	block		30	30	skilltab	14	1	3	dmg-max		10	10		lcha												0	0
+Fine	100	1	1	22		16				4	111	regen		15	15	hit-skill	36	10	8	move3		30	30		lcha												0	0
+Sharp	100	1	1	29		21				4	111	ac-miss		230	230	hp		21	30	cast3	0	20	20		lcha												0	0
+Fine	100	1	1	19		14				4	111	res-all		20	20	hit-skill	Venom	25	15	thorns		20	20		mcha												0	0
+Sharp	100	1	1	28		21				4	111	cast2		10	10	regen		16	16	pierce-fire		28	28		mcha												0	0
+Fine	100	1		28		21				4	111	ignore-ac		1	1	thorns		10	20	str		10	15		scha												0	0
+Sharp	1	1	1	5		3				9	111	pierce-cold		3	5	gethit-skill	71	6	3						weap							staf	wand	orb			0	0
+Fine	1	1	1	12		9				9	111	dmg%		50	90	ac%		130	140	res-ltng		11	20		weap							staf	wand	orb			0	0
+Warrior's	1	1	1	19		13				8	111	dmg%		150	190	stamdrain		-20	-20	mana	0	31	40		weap							staf	wand	orb			0	0
+Soldier's	1	1	1	27		19				8	111	swing2		80	80	sor		2	2	manasteal		9	12		weap							staf	wand	orb			0	0
+Knight's	1	1	1	38		30				7	111	dmg%		150	200	regen		20	20	dmg-fire		236	480	dgld	weap							staf	wand	orb			0	0
+Lord's	1	1	1	47		39				6	111	att-demon		100	100	ac		25	25	dmg-cold	25	1	1	dgld	weap							staf	wand	orb			0	0
+King's	1	1	1	56		48				5	111	ac%		60	100	enr		15	15	nofreeze		1	1	dgld	weap							staf	wand	orb			0	0
+Master's	100	1	1	56		48				5	111	dmg%		180	230	extra-cold		8	15	str		10	10	dgld	weap							staf	wand	orb			0	0
+Grandmaster's	100	1		69		61				4	111	manasteal		5	5	regen	0	3	3	dex		1	1	dgld	weap							staf	wand	orb			0	0
+Glimmering	1	1	1	1		1				1	112	mana		10	10	openwounds		25	25	ac%		81	100		armo	wand	staf	ring	amul	orb							0	0
+Glowing	1	1	1	6		4				1	112	skilltab	7	3	3	dex		10	10	light		5	5	lyel	armo	wand	staf	ring	amul	orb							0	0
+Bright	100	1	1	1		1				1	112	lifesteal		15	15	gethit-skill	93	5	10	dmg%		200	280		jewl												0	0
+Screaming	100	1	1	10		7				3	113	dmg-undead		50	50									oran	weap							miss	swor	axe	pole	spea	0	0
+Howling	1	1	1	16		12				3	113	ltng-min		1	1	ltng-max		9	16					oran	weap							miss	swor	axe	pole	spea	0	0
+Wailing	100	1	1	20		13				3	113	enr		10	10									oran	weap							miss	swor	axe	pole	spea	0	0
+Screaming	100	1	1	10		7				4	113	dmg-max		8	8									oran	miss												0	0
+Howling	100	1	1	16		12				4	113	ac%		160	200									oran	miss												0	0
+Wailing	100	1		24		18				4	113	res-ltng	0	16	16									oran	miss												0	0
+Lucky	100	1	1	21						4	114	noheal		1	1	oskill	Plague Javelin	60	11	dex		6	9		lcha												0	0
+Lucky	100	1		38						4	114	att		60	60	ltng-min		1	1	ltng-max		10	10		lcha												0	0
+Lucky	100	1		55						4	114	allskills		1	1	ac%		180	200	oskill	240	127	13		lcha												0	0
+Lucky	100	1	1	34						4	114	dmg%		230	280	enr		15	15	dex		20	20		mcha												0	0
+Lucky	100	1		53						4	114	dmg%		50	60	att%		20	20	gold%/lvl	15				mcha												0	0
+Lucky	100	1		51						4	114	ease		-50	-50	regen-mana		10	15	oskill	240	127	13		mcha												0	0
+Felicitous	100	1	1	5		3				4	114	lifesteal		5	5	allskills		1	1	dex		2	3		ring	amul	circ										0	0
+Fortuitous	1	1		12		8				4	114	ease		-60	-60	ac%		150	190	all-stats		5	10		ring	amul	circ										0	0
+Emerald	100	1	1	16		12				4	114	res-cold		20	20	sor		3	3	ac		50	50		jewl												0	0
+Lizard's	100	1	1	1		1				4	115	regen		20	20	hp/lvl	10			hit-skill	Life Tap	15	5		lcha												0	0
+Lizard's	100	1	1	7		5				4	115	hit-skill	Mark of the Wolf	100	1	ac/lvl	16			skilltab	16	1	1		lcha												0	0
+Lizard's	100	1	1	13		9				4	115	oskill	Warmth	1	1	cast2		35	35						lcha												0	0
+Snake's	100	1	1	19		14				4	115	ac-miss		50	50	hit-skill	Life Tap	5	10	oskill	71	8	8		lcha												0	0
+Snake's	100	1	1	25		18				4	115	dmg-norm		25	50	abs-ltng		20	20	stupidity		33	33		lcha												0	0
+Snake's	100	1	1	31		23				4	115	str		10	10	swing2		25	25	res-pois	0	5	10		lcha												0	0
+Serpent's	100	1	1	37		29				4	115	swing2		20	20	skilltab	7	3	3	balance2		20	20		lcha												0	0
+Serpent's	100	1	1	43		35				4	115	mag%		100	100	oskill	278	20	3	att	0	21	40		lcha												0	0
+Serpent's	100	1	1	49		41				4	115	openwounds		33	33	dex		15	15	att		100	100		lcha												0	0
+Lizard's	100	1	1	1		1				4	115	dmg%		50	60	swing2		10	10	dmg-pois	125	52	52		mcha												0	0
+Lizard's	100	1	1	9		6				4	115	oskill	22	3	3	cold-min		5	7	cold-max		9	15		mcha												0	0
+Lizard's	100	1	1	17		12				4	115	dmg-cold	200	32	196	light		4	4	dmg-pois	50	187	187		mcha												0	0
+Snake's	100	1	1	25		18				4	115	manasteal		9	9	ltng-min		1	1	ltng-max		14	25		mcha												0	0
+Snake's	100	1	1	33		25				4	115	dmg%/lvl	16			ac%		50	80	ac		40	40		mcha												0	0
+Serpent's	100	1	1	41		33				4	115	deadly		33	33	ac		400	600	cast2		30	30		mcha												0	0
+Serpent's	100	1	1	49		41				4	115	hit-skill	56	5	6	att		200	250	dmg-to-mana		10	10		mcha												0	0
+Lizard's	100	1	1	16		12				4	115	balance3		40	40	deadly		20	20	skilltab	2	1	1		scha												0	0
+Lizard's	100	1	1	16		12				4	115	allskills		1	1	hit-skill	Tornado	20	15	oskill	8	6	6		scha												0	0
+Snake's	100	1	1	32		24				4	115	manasteal		100	100	dmg%		140	170	oskill	Hydra	10	30		scha												0	0
+Serpent's	100	1		48		40				4	115	crush		25	25	att-und/lvl	20			swing2		20	20		scha												0	0
+Lizard's	1	1	1	3		2				4	115	res-pois		10	30	res-cold		16	30	bar		1	1		armo	ring	amul	rod	orb			boot	glov				0	0
+Snake's	1	1	1	6		4				4	115	cold-min		4	4	cold-max		4	12	cold-len		150	150		shld	rod	belt	ring	amul	circ							0	0
+Serpent's	1	1	1	14		10				3	115	swing2		20	20	dmg-norm		20	30	light		2	2		shld	rod	belt	ring	amul	circ							0	0
+Serpent's	1	1	1	37		27				2	115	manasteal		5	5	move3		40	40	dmg-max		2	2		tors	boot	glov	weap	orb			rod					0	0
+Drake's	1	1	1	20		15				2	115	freeze		2	2	dmg%		160	210	res-ltng		25	40	cblu	rod	ring	amul	orb	circ								0	0
+Dragon's	1	1	1	24		18				2	115	enr		15	15	ac%		75	100	ac		4	8	cblu	rod	ring	amul	orb	circ								0	0
+Dragon's	1	1	1	52		39				2	115	gold%		80	100	att%		20	20	regen-mana		10	10	cblu	tors	boot	glov										0	0
+Wyrm's	1	1	1	30		22				2	115	res-all		5	5	ac%		20	30	dmg-norm		15	25	cblu	rod	ring	amul	orb	circ								0	0
+Great Wyrm's	100	1	1	37		29				2	115	thorns		8	8	dmg-ac		-70	-70	lifesteal		7	13	cblu	rod	ring	amul	orb	circ								0	0
+Bahamut's	100	1		45		37				2	115	ac%		160	220	gethit-skill	Confuse	10	15	res-fire		50	50	cblu	rod	ring	amul	orb	circ								0	0
+Zircon	100	1	1	3		2				2	115	mana-kill		4	4	abs-ltng%		25	25	hp		11	15	cblu	jewl												0	0
+Jacinth	100	1	1	17		12				2	115	crush		25	25	dmg-ac		-70	-70					cblu	jewl												0	0
+Turquoise	100	1		29		21				2	115	cold-min		6	9	cold-max		19	30	dmg%		50	50	cblu	jewl													
+Shimmering	100	1		8	13	6				1	116	sor		2	2	dmg-elem		50	200	gethit-skill	52	5	5		lcha												1280	500
+Shimmering	100	1		14	34	10				1	116	dex		17	17	oskill	Teleport	1	1	dmg-max		2	2		lcha												1280	1500
+Shimmering	100	1		35		27				1	116	dmg%		100	100	str		20	20	swing3		30	30		lcha												1280	5000
+Shimmering	100	1		17	33	12				1	116	vit/lvl	4			vit		20	20	skilltab	16	2	2	lpur	mcha												1280	1500
+Shimmering	100	1		34		26				1	116	mana-kill		2	2	stam		12	24	ass		2	2	lpur	mcha												1280	5000
+Shimmering	100	1		33		25				1	116	heal-kill		5	10	dex		10	10	res-cold		31	40	lpur	scha												1280	10000
+Shimmering	100	1	1	6		4				5	116	manasteal		3	3	light	0	1	1	mana		61	90	lpur	shld												1280	500
+Rainbow	100	1	1	18		13				5	116	stamdrain		10	10	stam		21	30	att-skill	39	5	3	lpur	shld												1280	2000
+Scintillating	100	1	1	28		21				5	116	lifesteal		5	5	slow		20	20	ac		30	30	lpur	shld												1280	4000
+Prismatic	1	1	1	39		31				4	116	regen-mana		20	20	red-dmg		2	2	ac		4	8	lpur	shld												1280	8000
+Chromatic	100	1		50		42				4	116	swing3		40	40	noheal		1	1	mana	0	41	60	lpur	shld												1280	16000
+Shimmering	100	1	1	8		6				5	116	mag%		30	60	dmg%		190	240	ac%		75	100	lpur	amul	circ											1280	3000
+Rainbow	100	1	1	21		15				5	116	light		-4	-4	enr		2	2	res-fire		25	40	lpur	amul	circ											1280	6000
+Scintillating	100	1	1	34		25				5	116	red-mag		6	10	move2		25	25	light		3	3	lpur	amul	circ											1280	12000
+Prismatic	1	1	1	42		31				4	116	cast2		10	10									lpur	amul	circ											1280	24000
+Chromatic	100	1		55		41				3	116	str		20	20	att%		150	200	allskills		2	2	lpur	amul	circ											1280	32000
+Shimmering	100	1	1	45		37				3	116	deadly/lvl	12			oskill	51	20	10	skilltab	6	3	3	lpur	ring												1280	4000
+Rainbow	100	1	1	56		48				2	116	mana-kill		2	2	res-all		15	15	dmg%		75	75	lpur	ring												1280	8000
+Scintillating	100	1		67		59				2	116	swing3		30	30	ac%		170	200	ac	0	24	24	lpur	ring												1280	16000
+Shimmering	100	1	1	16		12				1	116	ignore-ac		1	1	ac/lvl	16			red-dmg%		8	8	lpur	jewl												1280	3000
+Scintillating	100	1		34		26				1	116	heal-kill		13	13	aura	Concentration	16	20	dex		10	10	lpur	jewl												1280	8000
+Azure	100	1	1	1		1				2	117	hp		50	50	balance3		20	20	ac		100	100		lcha												0	0
+Lapis	100	1	1	10		7				2	117	allskills		1	1	res-cold		10	10	oskill	81	3	3		lcha												0	0
+Cobalt	100	1	1	20		15				2	117	ac		30	30	dmg%		150	200	swing2		30	30		lcha												0	0
+Sapphire	100	1		30		22				2	117	str		10	10	att		50	75	oskill	64	50	9		lcha												0	0
+Azure	100	1	1	1		1				2	117	dmg%	0	51	65	oskill	64	3	3	str		20	20		mcha												0	0
+Lapis	100	1	1	16		12				2	117	rip		1	1	vit		15	15	crush		35	35		mcha												0	0
+Cobalt	100	1	1	25		18				2	117	ac%		140	200	res-pois		13	15	hp		31	40	lblu	mcha												0	0
+Sapphire	100	1		35		27				2	117	res-pois		45	45	gold%	0	75	75	mag%		50	50	lblu	mcha												0	0
+Azure	100	1	1	1		1				2	117	hit-skill	Holy Bolt	100	5	res-fire	0	21	30	oskill	67	10	10		scha												0	0
+Lapis	100	1	1	14		10				2	117	ltng-min		1	1	ltng-max		27	58	att/lvl	16				scha												0	0
+Cobalt	100	1	1	27		20				2	117	res-all		30	30	swing2		40	40	hp		50	50	lblu	scha												0	0
+Sapphire	100	1		40		32				2	117	oskill	36	3	3	res-cold-max	0	10	10	red-mag		10	10	lblu	scha												0	0
+Azure	1	1	1	5		3				2	117	oskill	Cyclone Armor	30	21	att		50	50	dex		4	6		armo	weap	ring	amul	orb	circ							0	0
+Lapis	1	1	1	12		9				4	117	res-all		8	8	res-pois		11	12	oskill	91	3	3		armo	ring	amul	orb	circ								0	0
+Lapis	1	1	1	35		26				2	117	dmg%		100	100	balance2		50	50	mana/lvl	6				weap							orb					0	0
+Cobalt	1	1	1	18		13				3	117	slow		50	50	dex		15	15	att-skill	39	5	3		armo	ring	amul	orb	circ								0	0
+Cobalt	1	1	1	55		41				2	117	ac		300	300	ltng-min		1	1	ltng-max		10	20		weap							orb					0	0
+Sapphire	1	1	1	25		18				3	117	ac		75	100	mag%		5	15	oskill	84	3	3	lblu	rod	boot	amul	orb	circ								0	0
+Lapis Lazuli	100	1	1	2		1				4	117	hit-skill	121	5	4	oskill	56	60	11	res-all-max		15	15	lblu	jewl												0	0
+Sapphire	100	1	1	19		14				4	117	stamdrain		50	50	skilltab	7	1	3	res-all		6	8	lblu	jewl												0	0
+Crimson	100	1	1	1		1				2	118	ac/lvl	24			hp/lvl	10			stam		15	25		lcha												0	0
+Russet	100	1	1	10		7				2	118	ac		150	220	res-all		8	8	manasteal		5	5		lcha												0	0
+Garnet	100	1	1	20		15				2	118	res-ltng		30	30	cold-min		3	4	cold-max		5	8		lcha												0	0
+Ruby	100	1		30		22				2	118	dex		35	35	swing2		20	20	allskills		1	1		lcha												0	0
+Crimson	100	1	1	1		1				2	118	red-dmg		5	5	att%		200	300	manasteal	0	3	3		mcha												0	0
+Russet	100	1	1	16		12				2	118	lifesteal		8	8	dmg/lvl	20			att	0	101	120		mcha												0	0
+Garnet	100	1	1	25		18				2	118	ac%		70	80	lifesteal		8	8	dmg-mag		80	240	lred	mcha												0	0
+Ruby	100	1		35		27				2	118	dmg%		180	230	ac%		75	100	dmg-to-mana		7	12	lred	mcha												0	0
+Crimson	100	1	1	1		1				2	118	dmg-fire		1	6	oskill	92	11	13	mana		50	50		scha												0	0
+Russet	100	1	1	14		10				2	118	ac		15	15	skilltab	20	1	2	pal		2	2	lred	scha												0	0
+Garnet	100	1		27		20				2	118	res-ltng		40	40	oskill	Teeth	4	5	regen		6	6	lred	scha												0	0
+Ruby	100	1	1	40		32				2	118	cast3		30	30	stamdrain		35	35	mana	0	20	20		scha												0	0
+Russet	1	1	1	12		9				4	118	dmg%		180	230	regen	0	2	2	dex		1	2		armo	ring	amul	orb	circ								0	0
+Russet	1	1	1	35		26				1	118	ac		25	25	mag%		8	12	oskill	139	4	4		weap							orb					0	0
+Garnet	1	1	1	18		13				3	118	dmg%		200	240	manasteal		11	15	mana		50	50		armo	ring	amul	orb	circ								0	0
+Garnet	1	1	1	55		41				1	118	lifesteal		3	6	mana-kill		5	5	dmg%		150	150		weap							orb					0	0
+Ruby	1	1	1	25		18				3	118	nofreeze		1	1	enr		10	10	oskill	6	10	10	lred	rod	boot	amul	orb	circ								0	0
+Garnet	100	1	1	2		1				4	117	lifesteal		5	9	manasteal		10	10	hp		50	75	lred	jewl												0	0
+Ruby	100	1	1	18		13				4	117	ac		50	50	ac%		20	20	dmg-pois	150	299	299	lred	jewl												0	0
+Tangerine	100	1	1	1		1				2	119	res-ltng		20	40	red-dmg%		10	15	res-all		50	50		lcha												0	0
+Ocher	100	1	1	10		7				2	119	dmg%		190	240	thorns	0	12	12	dmg-fire/lvl	24				lcha												0	0
+Coral	100	1	1	20		15				2	119	dmg%		160	190	freeze		2	2	abs-ltng		3	9		lcha												0	0
+Amber	100	1		30		22				2	119	ac%		10	10	ac		100	100	oskill	6	10	10		lcha												0	0
+Tangerine	100	1	1	1		1				2	119	ac		10	10	ac/lvl	24			hp		50	50		mcha												0	0
+Ocher	100	1	1	16		12				2	119	dmg%		80	120	manasteal		7	7	att		50	50		mcha												0	0
+Coral	100	1	1	25		18				2	119	cold-min		1	1	cold-max		3	5	cold-len		50	50	lyel	mcha												0	0
+Amber	100	1		35		27				2	119	att-skill	53	5	0	oskill	Teeth	4	5	res-pois		10	30	lyel	mcha												0	0
+Tangerine	100	1	1	1		1				2	119	dmg-mag		5	10	skilltab	18	3	3	gold%		100	100		scha												0	0
+Ocher	100	1	1	14		10				2	119	block2		30	30	enr		20	30	str		16	20		scha												0	0
+Coral	100	1	1	27		20				2	119	ac%		130	160	dmg-undead	0	28	28	pal		2	2	lyel	scha												0	0
+Amber	100	1		40		32				2	119	swing1		10	10	vit		10	10	dex	0	3	3	lyel	scha												0	0
+Tangerine	1	1	1	5		3				4	119	oskill	62	36	6	extra-pois		3	5	regen-mana		8	8		armo	weap	ring	amul	orb	circ							0	0
+Ocher	1	1	1	12		9				4	119	dmg-fire		20	240	skilltab	18	1	1	dmg/lvl	6				armo	ring	amul	orb	circ								0	0
+Ocher	1	1	1	35		26				1	119	nofreeze		1	1	extra-fire		3	5	gold%		5	10		weap							orb					0	0
+Coral	1	1	1	18		13				3	119	gethit-skill	53	5	5	skilltab	8	1	1	block2		30	30		armo	ring	amul	orb	circ								0	0
+Coral	1	1	1	55		41				1	119	freeze		2	2	ease		-25	-25	move2		20	20		weap							orb					0	0
+Amber	1	1	1	25		18				3	119	thorns		8	8	ac%		75	100	move3		30	30	lyel	rod	boot	amul	orb	circ								0	0
+Camphor	100	1	1	2		1				4	117	move2		20	20	stam		15	25	bar		1	1	lyel	jewl												0	0
+Ambergris	100	1	1	19		14				4	117	att		35	35	pierce-pois		23	23	gold%		5	10	lyel	jewl												0	0
+Beryl	100	1	1	1		1				2	120	vit		10	10	dmg-max		2	3	ac		50	50		lcha												0	0
+Viridian	100	1	1	10		7				2	120	lifesteal		8	8	ac%		90	120	hit-skill	Bone Spear	100	18		lcha												0	0
+Jade	100	1	1	20		15				2	120	dmg-demon		200	200	hp		50	50	res-all		10	20		lcha												0	0
+Emerald	100	1		30		22				2	120	allskills		1	1	mana-kill		2	2	light		2	2		lcha												0	0
+Beryl	100	1	1	1		1				2	120	manasteal		10	13	ac%		160	220	skilltab	11	1	1		mcha												0	0
+Viridian	100	1	1	16		12				2	120	att		50	50	swing2		30	30	ac		50	50		mcha												0	0
+Jade	100	1	1	25		18				2	120	mag%		100	100	ac%		90	120	mana	0	31	40	cgrn	mcha												0	0
+Emerald	100	1		35		27				2	120	res-ltng		60	60	enr		10	10	move3		30	30	cgrn	mcha												0	0
+Beryl	100	1	1	1		1				2	120	balance2		30	30	att	0	100	100	mag%		20	35		scha												0	0
+Viridian	100	1	1	14		10				2	120	dmg%		200	200	regen	0	4	4	res-all	0	15	15		scha												0	0
+Jade	100	1	1	27		20				2	120	enr		15	15	deadly		33	33	dmg%		21	30	cgrn	scha												0	0
+Emerald	100	1		40		32				2	120	dmg-demon		200	200	ac		200	200	hp		50	50	cgrn	scha												0	0
+Beryl	1	1	1	5		3				4	120	oskill	129	3	3	str		20	20	att/lvl	33				armo	weap	ring	amul	orb	circ							0	0
+Viridian	1	1	1	12		9				4	120	dmg%		180	230	oskill	12	4	4	mana		150	150		armo	ring	amul	orb	circ								0	0
+Viridian	1	1	1	35		26				1	120	att		75	75	regen-mana	0	12	12	res-fire		21	25		weap							orb					0	0
+Jade	1	1	1	18		13				3	120	res-fire		24	24	skilltab	20	1	2	dmg%		40	75		armo	ring	amul	orb	circ								0	0
+Jade	1	1	1	55		41				1	120	dmg%		250	300	enr		10	10	skilltab	19	1	1		weap							orb					0	0
+Emerald	1	1	1	25		18				3	120	red-mag		3	3	dmg-to-mana		7	12	lifesteal	0	5	5	cgrn	rod	boot	amul	orb	circ								0	0
+Beryl	100	1	1	2		1				4	117	dmg-elem		50	200	att		10	20	dex		16	20	cgrn	jewl												0	0
+Jade	100	1	1	19		14				4	117	fire-min		2	2	fire-max		3	5	att	0	121	150	cgrn	jewl												0	0
+Triumphant	1	1	1	3		2				4	121	dmg%		150	210	cold-min		5	7	cold-max		9	15		weap	ring	circ										0	0
+Victorious	100	1	1	17		12				4	121	ac%		170	200	skilltab	17	1	1	dex		10	10		weap	circ											0	0
+Aureolin	100	1	1	22		16				4	121	dmg%		70	80	str		15	15	skilltab	12	3	3		jewl												0	0
+Mechanist's	100	1	1	10		7				3	122	dmg%		70	100	str		20	20	dmg-undead		201	275		weap	shld	helm	tors	circ			thro					0	0
+Artificer's	100	1		33		25				2	122	oskill	Cyclone Armor	30	21	dmg%		350	400	manasteal	0	5	5		weap	shld	helm	tors				thro					0	0
+Jeweler's	100	1		55		47				1	122	regen		10	10	regen-mana		15	15	skilltab	9	1	1		weap	shld	helm	tors				thro					0	0
+Assamic	100	1	1	3		1				2	123	enr		10	10	res-all		30	50	att		66	66		weap	circ						wand	orb				0	0
+Arcadian	100	1	1	15		11				2	123	res-fire		-90	-70	att		10	20	dmg-pois	75	52	52		weap	circ						wand	orb				0	0
+Unearthly	100	1	1	25		18				1	123	hp		80	80	dmg%		300	300	regen-mana	0	12	12		weap							wand	orb				0	0
+Astral	100	1	1	35		26				1	123	light		3	3	aura	Fanaticism	1	1	oskill	47	7	7		weap							wand	orb				0	0
+Elysian	100	1	1	45		33				1	123	freeze		1	1	allskills		5	5	oskill	Warmth	1	1	dgld	weap							wand	orb				0	0
+Celestial	100	1		55		41				1	123	red-mag		6	10	dmg-pois	100	153	153	heal-kill		6	9	dgld	weap							wand	orb				0	0
+Diamond	100	1	1	26		19				1	123	deadly		33	33	hit-skill	Bone Spirit	30	20	mana		150	150		jewl												0	0
+Fletcher's	100	1		50		42	ama			1	125	openwounds		10	10	res-fire		25	25	balance3		24	24		lcha												0	0
+Acrobat's	100	1		50		42	ama			1	125	thorns		47	47	ac		20	25	oskill	53	6	6		lcha												0	0
+Harpoonist's	100	1		50		42	ama			1	125	manasteal		3	3	dex		8	15	mana-kill		1	1		lcha												0	0
+Fletcher's	100	1	1	20		15	ama			1	125	ac%		180	240	reduce-ac		33	33	red-dmg		4	4		miss	glov											0	0
+Bowyer's	100	1	1	40		30	ama			1	125	levelup-skill	Frost Nova	100	43	move2		20	20	ac		100	100	lgld	miss	glov											0	0
+Archer's	100	1		60		45	ama			1	125	res-ltng		-90	-70	regen		7	7	att%	0	20	20	lgld	miss	glov											0	0
+Acrobat's	100	1	1	20		15	ama			1	125	dmg-undead		50	50	att		25	25	oskill	245	2	2		glov	amul	circ										0	0
+Gymnast's	100	1	1	40		30	ama			1	125	dmg-pois	100	409	409	dmg%		130	180	res-all		16	20	lgld	glov	amul	circ										0	0
+Athlete's	100	1		60		45	ama			1	125	regen-mana		15	15	red-dmg%		30	30	half-freeze		1	1	lgld	glov	amul	circ										0	0
+Harpoonist's	100	1	1	20		15	ama			1	125	allskills		2	2	hp		20	20	ac		33	40		spea	glov											0	0
+Spearmaiden's	100	1	1	40		30	ama			1	125	openwounds		35	35	fireskill		2	2	reanimate	1	10	10	lgld	spea	glov											0	0
+Lancer's	100	1		60		45	ama			1	125	move2		20	20	str		15	25	dmg-max		4	6	lgld	spea	glov											0	0
+Burning	100	1	1	50		42	sor			1	125	light-thorns		15	15	lifesteal		9	12	kill-skill	Decrepify	50	6		lcha												0	0
+Sparking	100	1	1	50		42	sor			1	125	oskill	Lightning Bolt	3	3	ltng-min		1	1	ltng-max		12	12		lcha												0	0
+Chilling	100	1	1	50		42	sor			1	125	hp		10	10	manasteal		5	5	res-pois-len		50	50		lcha												0	0
+Burning	100	1	1	20		15	sor			1	125	dmg%		260	310	mana%		15	15	balance2		20	20		staff	orb	amul	circ									0	0
+Blazing	100	1	1	40		30	sor			1	125	res-fire		20	30	ac		17	17	red-dmg		7	7	lgld	staff	orb	amul	circ									0	0
+Volcanic	100	1		60		45	sor			1	125	dmg%		150	190	red-dmg%		25	25	res-pois		40	40	lgld	staff	orb	amul	circ									0	0
+Sparking	100	1	1	20		15	sor			1	125	ac		170	210	hit-skill	Frozen Orb	9	11	balance2		30	30		staff	orb	amul	circ									0	0
+Charged	100	1	1	40		30	sor			1	125	crush		25	25	res-fire-max		10	10	dex		15	15	lgld	staff	orb	amul	circ									0	0
+Powered	100	1		60		45	sor			1	125	dmg-demon		30	60	ac/lvl	16			res-pois-len		25	25	lgld	staff	orb	amul	circ									0	0
+Chilling	100	1	1	20		15	sor			1	125	dmg-mag		100	180	dmg%		200	250	regen		6	9		staff	orb	amul	circ									0	0
+Freezing	100	1	1	40		30	sor			1	125	dmg-undead		50	50	mana		36	36	swing2		30	30	lgld	staff	orb	amul	circ									0	0
+Glacial	100	1		60		45	sor			1	125	res-pois		50	50	regen		3	3	lifesteal		15	15	lgld	staff	orb	amul	circ									0	0
+Hexing	100	1	1	50		42	nec			1	125	ease		-100	-100	mag%		88	88	dex		10	15		lcha												0	0
+Fungal	100	1	1	50		42	nec			1	125	ac		15	15	att		50	50	res-cold		5	10		lcha												0	0
+Graverobber's	100	1	1	50		42	nec			1	125	manasteal		7	7	aura	Concentration	8	12	dmg-demon		151	200		lcha												0	0
+Hexing	100	1	1	20		15	nec			1	125	nofreeze		1	1	allskills		1	1	balance2		20	20		wand	head	amul	circ									0	0
+Blighting	100	1	1	40		30	nec			1	125	oskill	Lightning Mastery	1	2	enr		1	1	hp%		27	27	lgld	wand	head	amul	circ									0	0
+Accursed	100	1		60		45	nec			1	125	oskill	70	3	3	gold%		50	50	att%/lvl	2			lgld	wand	head	amul	circ									0	0
+Fungal	100	1	1	20		15	nec			1	125	cast2		30	30	dmg-max		1	3	state	monsterset	1	1		wand	head	amul	knif	circ			tkni					0	0
+Noxious	100	1	1	40		30	nec			1	125	light		1	1	ama		1	2					lgld	wand	head	amul	knif	circ			tkni					0	0
+Venomous	100	1		60		45	nec			1	125	dmg-cold	75	3	5	dmg%		200	300	swing3		30	30	lgld	wand	head	amul	knif	circ			tkni					0	0
+Graverobber's	100	1	1	20		15	nec			1	125	regen		5	5	half-freeze		1	1	dmg-pois	50	31	31		wand	head	amul	circ									0	0
+Vodoun	100	1	1	40		30	nec			1	125	allskills		1	1	hp%		15	25	nec	0	2	2	lgld	wand	head	amul	circ									0	0
+Golemlord's	100	1		60		45	nec			1	125	red-mag		15	15	dmg-undead		250	250	ac%		30	30	lgld	wand	head	amul	circ									0	0
+Lion Branded	100	1	1	50		42	pal			1	125	light		3	3	oskill	Teeth	4	5	hp		6	10		lcha												0	0
+Captain's	100	1	1	50		42	pal			1	125	heal-kill		7	12	mana		5	10	balance3		12	12		lcha												0	0
+Preserver's	100	1	1	50		42	pal			1	125	dmg-to-mana		20	20	res-ltng	0	22	22	skilltab	10	3	3		lcha												0	0
+Lion Branded	100	1	1	20		15	pal			1	125	move2		20	20	allskills		2	2	openwounds		50	50		scep	swor	mace	shld	ashd	amul	circ						0	0
+Hawk Branded	100	1	1	40		30	pal			1	125	swing3		30	30	res-all		40	40	cast2		10	10	lgld	scep	swor	mace	shld	ashd	amul	circ						0	0
+Rose Branded	100	1		60		45	pal			1	125	mag%		20	30	dmg-undead	0	44	44	dmg-max		1	5	lgld	scep	swor	mace	shld	ashd	amul	circ						0	0
+Captain's	100	1	1	20		15	pal			1	125	ama		1	1	nec		2	2	manasteal		4	5		scep	swor	mace	shld	ashd	amul	circ						0	0
+Commander's	100	1	1	40		30	pal			1	125	ac%		60	100	red-dmg		15	20	dmg%		160	210	lgld	scep	swor	mace	shld	ashd	amul	circ						0	0
+Marshal's	100	1		60		45	pal			1	125	att		50	50	res-pois		30	30	enr		7	10	lgld	scep	swor	mace	shld	ashd	amul	circ						0	0
+Preserver's	100	1	1	20		15	pal			1	125	dmg%		150	190	ama	0	2	2	str		1	4		shld	ashd	amul	circ									0	0
+Warder's	100	1	1	40		30	pal			1	125	dmg-pois	250	333	333	oskill	58	3	3	bar	0	2	2	lgld	shld	ashd	amul	circ									0	0
+Guardian's	100	1		60		45	pal			1	125	swing2		10	10	skilltab	20	3	3	oskill	139	4	4	lgld	shld	ashd	amul	circ									0	0
+Expert's	100	1	1	50		42	bar			1	125	att		40	40	hit-skill	48	5	8	ac		100	200		lcha												0	0
+Fanatic	100	1	1	50		42	bar			1	125	hit-skill	64	5	3	thorns		20	40	dmg%		200	260		lcha												0	0
+Sounding	100	1	1	50		42	bar			1	125	str		5	5	balance3		40	40	hp		41	60		lcha												0	0
+Expert's	100	1	1	20		15	bar			1	125	att		200	450	hit-skill	Static Field	7	13	mana	0	11	20		phlm	weap	helm					miss	rod				0	0
+Veteran's	100	1	1	40		30	bar			1	125	dmg%		150	190	mag%		25	25	res-pois		30	30	lgld	phlm	weap	helm					miss	rod				0	0
+Master's	100	1		60		45	bar			1	125	ama		1	1	skilltab	14	2	2	regen-mana	0	19	19	lgld	phlm	weap	helm					miss	rod				0	0
+Fanatic	100	1	1	20		15	bar			1	125	att		101	120	oskill	Fire Mastery	3	3						phlm	weap	amul					miss	rod				0	0
+Raging	100	1	1	40		30	bar			1	125	dmg%		50	60	ac%		60	60	manasteal		9	12	lgld	phlm	weap	amul					miss	rod				0	0
+Furious	100	1		60		45	bar			1	125	dmg-ltng		1	6	att%		25	25	res-ltng		35	35	lgld	phlm	weap	amul					miss	rod				0	0
+Sounding	100	1	1	20		15	bar			1	125	ac%		50	60	mana		35	35	skilltab	6	1	1		phlm	weap	amul					miss	rod				0	0
+Resonant	100	1	1	40		30	bar			1	125	res-all-max		15	15	hit-skill	Twister	33	22	manasteal		8	9	lgld	phlm	weap	amul					miss	rod				0	0
+Echoing	100	1		60		45	bar			1	125	enr		15	15	light		-2	-2	lifesteal		4	7	lgld	phlm	weap	amul					miss	rod				0	0
+Trainer's	100	1	1	50		42	dru			1	125	dmg%		150	200	oskill	240	3	3	dex		15	15		lcha												0	0
+Spiritual	100	1	1	50		42	dru			1	125	openwounds		25	25	ac		25	25	mag%		25	40		lcha												0	0
+Nature's	100	1	1	50		42	dru			1	125	fire-min		2	2	fire-max		3	4	hp		11	20		lcha												0	0
+Trainer's	100	1	1	20		15	dru			1	125	crush		25	25	lifesteal		4	6	vit		10	10		club	pelt	amul	circ									0	0
+Caretaker's	100	1	1	40		30	dru			1	125	swing2		20	20	regen		10	10	dmg-pois	150	171	171	lgld	club	pelt	amul	circ									0	0
+Keeper's	100	1		60		45	dru			1	125	oskill	37	2	2	sor		1	3	att		4	8	lgld	club	pelt	amul	circ									0	0
+Spiritual	100	1	1	20		15	dru			1	125	swing2		40	40	hp		11	15	cold-len	0	100	100		club	pelt	amul	circ									0	0
+Feral	100	1	1	40		30	dru			1	125	openwounds		30	30	ac/lvl	8			skilltab	19	2	2	lgld	club	pelt	amul	circ									0	0
+Communal	100	1		60		45	dru			1	125	oskill	103	3	3	dmg%		150	180	hit-skill	Bone Spirit	30	20	lgld	club	pelt	amul	circ									0	0
+Nature's	100	1	1	20		15	dru			1	125	openwounds		25	25	dex		15	15	att-undead		76	175		club	pelt	amul	circ									0	0
+Terra's	100	1	1	40		30	dru			1	125	att%		20	20	cast2		30	30	skilltab	14	2	2	lgld	club	pelt	amul	circ									0	0
+Gaea's	100	1		60		45	dru			1	125	block		10	10	thorns/lvl	8			ac%		90	120	lgld	club	pelt	amul	circ									0	0
+Entrapping	100	1	1	50		42	ass			1	125	red-dmg%		15	20	deadly		33	33	ac		44	50		lcha												0	0
+Mentalist's	100	1	1	50		42	ass			1	125	res-all		10	10	cast2		33	33	skilltab	1	1	1		lcha												0	0
+Shogukusha's	100	1	1	50		42	ass			1	125	lifesteal		3	7	dmg-ac		-70	-70	regen-mana		20	20		lcha												0	0
+Entrapping	100	1	1	20		15	ass			1	125	balance2		20	20	res-pois		10	30	dmg-to-mana		12	12		h2h	amul	circ										0	0
+Trickster's	100	1	1	40		30	ass			1	125	light		2	2	att%		300	300	dmg-demon		318	318	lgld	h2h	amul	circ										0	0
+Cunning	100	1		60		45	ass			1	125	res-cold		30	30	ltng-min	0	1	1	ltng-max	0	22	22	lgld	h2h	amul	circ										0	0
+Mentalist's	100	1	1	20		15	ass			1	125	dmg%		50	70	ac		13	15						h2h	amul	helm	circ									0	0
+Psychic	100	1	1	40		30	ass			1	125	noheal		1	1	dmg-mag		80	240	dmg-max		11	12	lgld	h2h	amul	helm	circ									0	0
+Shadow	100	1		60		45	ass			1	125	res-ltng		4	7	oskill	71	5	5	red-mag		15	15	lgld	h2h	amul	helm	circ									0	0
+Shogukusha's	100	1	1	20		15	ass			1	125	cast3		30	30	gethit-skill	Terror	14	13	enr		10	10		h2h	amul	glov	circ									0	0
+Sensei's	100	1	1	40		30	ass			1	125	ac%		120	150	regen		16	16	dmg-ltng		20	60	lgld	h2h	amul	glov	circ									0	0
+Kenshi's	100	1		60		45	ass			1	125	ltng-min		1	1	ltng-max		5	9	hp		45	65	lgld	h2h	amul	glov	circ									0	0
+Miocene	100			1		1				1	101	ac/lvl	6											whit	tors												0	0
+Miocene	100		1	1		1				1	101	ac/lvl	1											whit	glov	boot	belt	shld									0	0
+Oligocene	100		1	10		7				1	101	ac/lvl	9											whit	tors												0	0
+Oligocene	100		1	10		7				1	101	ac/lvl	2											whit	glov	boot	belt	shld									0	0
+Eocene	100		1	20		15				1	101	ac/lvl	18											whit	tors												0	0
+Eocene	100		1	20		15				1	101	ac/lvl	3											whit	glov	boot	belt	shld									0	0
+Paleocene	100	1	1	30		22				4	101	gethit-skill	54	25	1	skilltab	19	3	3	res-cold-max	0	10	10	whit	tors												0	0
+Paleocene	100	1	1	30		22				3	101	dmg%		100	100	openwounds		50	50	lifesteal		9	13	whit	glov	boot	belt	shld									0	0
+Knave's	100			1		1				1	111	dmg/lvl	1			att/lvl	10							whit	weap							staf	wand	orb			0	0
+Jack's	100		1	10		7				1	111	dmg/lvl	2			att/lvl	15							whit	weap							staf	wand	orb			0	0
+Jester's	100		1	20		15				1	111	dmg/lvl	3			att/lvl	22							whit	weap							staf	wand	orb			0	0
+Joker's	100		1	35		26				1	111	dmg/lvl	4			att/lvl	33							whit	weap							staf	wand	orb			0	0
+Trump	100	1	1	50		37				7	111	skilltab	16	2	2	allskills		5	5	red-dmg%		-20	-10	whit	weap							staf	wand	orb			0	0
+Loud	100			1		1				1	105	dmg/lvl	2											whit	weap							staf	wand	orb			0	0
+Calling	100		1	10		7				1	105	dmg/lvl	3											whit	weap							staf	wand	orb			0	0
+Yelling	100		1	20		15				1	105	dmg/lvl	4											whit	weap							staf	wand	orb			0	0
+Shouting	100		1	35		26				1	105	dmg/lvl	5											whit	weap							staf	wand	orb			0	0
+Gritty	100	1	1	50		37				7	105	balance2		20	20	cold-min		1	2	cold-max		2	4	whit	weap							staf	wand	orb			0	0
+Paradox	100		1	25		18				1	101	ac%/lvl	12											whit	tors												0	0
+Paradox	100		1	25		18				1	105	dmg%/lvl	12											whit	weap							staf	wand	orb			0	0
+Robineye	100			1		1				1	111	att/lvl	4											whit	weap							staf	wand	orb			0	0
+Sparroweye	100			10		7				1	111	att/lvl	6											whit	weap							staf	wand	orb			0	0
+Falconeye	100			20		15				1	111	att/lvl	8											whit	weap							staf	wand	orb			0	0
+Hawkeye	100	1		35		26				7	111	oskill	66	1	3	str		20	20	allskills		1	1	whit	weap							staf	wand	orb			0	0
+Eagleeye	100			50		37				1	111	att/lvl	16											whit	weap							staf	wand	orb			0	0
+Visionary	100	1	1	25		18				1	111	dmg-ltng		1	120	att%		20	20	str/lvl	3			whit	helm	miss											0	0
+Mnemonic	100	1	1	25		18				1	115	dmg%		210	260	thorns	0	8	8	mag%		25	25	cblu	helm												0	0
+Snowflake	100	1	1	25		18				3	137	vit		20	20	slow		20	20	hp		6	10	lblu	weap	circ											0	0
+Shivering	100	1	1	35		26				2	137	lifesteal		5	5	res-all		75	75	mana%		15	15	lblu	weap												0	0
+Boreal	100	1	1	50		40				1	137	skilltab	20	1	1	dmg%		31	40					lblu	weap												0	0
+Hibernal	100	1	1	70		60				1	137	gold%		50	80	skilltab	10	1	1	dex		1	3	lblu	weap												0	0
+Ember	100	1	1	25		18				3	138	str		20	20	block2		20	20	swing3		30	30	dred	weap	circ											0	0
+Smoldering	100	1	1	35		26				2	138	block2		30	30	nec	0	2	2	oskill	52	1	1	dred	weap												0	0
+Smoking	100	1	1	47		37				1	138	regen-mana		30	30	enr		20	20	slow		33	33	dred	weap												0	0
+Flaming	100	1	1	61		51				1	138	dmg%		200	250	levelup-skill	Venom	100	23	att		41	60	dred	weap												0	0
+Scorching	100	1	1	77		67				1	138	dmg%		200	300	oskill	Raven	60	14	hit-skill	Ice Blast	18	20	dred	weap												0	0
+Static	100	1	1	25		18				3	139	light-thorns		15	15	str		20	20	oskill	Whirlwind	1	1	lyel	weap	circ											0	0
+Glowing	100	1	1	34		25				2	139	red-mag		7	12	gethit-skill	54	25	1	dmg-demon		280	330	lyel	weap												0	0
+Buzzing	100	1	1	46		36				1	139	abs-cold%		15	25	att%		40	75	str		7	9	lyel	weap												0	0
+Arcing	100	1	1	60		50				1	139	dmg%		70	80	lifesteal		6	9	res-all		15	15	lyel	weap												0	0
+Shocking	100	1	1	76		66				1	139	hp		25	25	sor		3	3	res-pois-len		75	75	lyel	weap												0	0
+Septic	100	1	1	1		1				3	140	hit-skill	Weaken	8	3	oskill	Bone Wall	2	3	att		41	60	dgrn	weap	circ											0	0
+Envenomed	100	1	1	10		7				2	140	str		15	15	res-all		50	70	hit-skill	45	10	3	dgrn	weap												0	0
+Corosive	100	1	1	20		15				1	140	slow		50	50	ltng-min		1	1	ltng-max		10	10	dgrn	weap												0	0
+Toxic	100	1	1	35		26				1	140	skilltab	12	1	3	res-all		50	70	enr		4	6	dgrn	weap												0	0
+Pestilent	100	1		50		37				1	140	fire-min		1	1	fire-max		2	3	res-fire	0	16	16	dgrn	weap												0	0
+Maiden's	1	1	1	36		27	ama			4	125	att-und/lvl	10			block		25	25	noheal		1	1		amul	circ											0	0
+Valkyrie's	1	1	1	90		67	ama			2	125	str		10	10	hit-skill	52	2	10	att%		200	300	cgrn	amul	circ											0	0
+Maiden's	1	1	1	30		22	ama			4	125	dmg-fire		20	240	nofreeze		1	1	hp		20	20		miss	spea											0	0
+Valkyrie's	1	1	1	50		42	ama			2	125	dmg/lvl	16			red-dmg		3	3	res-fire	0	12	12	cgrn	miss	spea											0	0
+Monk's	1	1	1	36		27	pal			4	125	res-cold		50	50	dmg-demon		320	380	thorns	0	12	12		amul	circ											0	0
+Priest's	1	1	1	90		67	pal			2	125	dmg-fire		24	48	str		10	15	ac		105	105	cgrn	amul	circ											0	0
+Monk's	1	1	1	30		22	pal			4	125	dmg%		200	300	cold-min		8	10	cold-max		15	20		scep	ashd											0	0
+Priest's	1	1	1	50		42	pal			2	125	att-demon		25	50	dmg-min		2	2	dmg-max		2	3	cgrn	scep	ashd											0	0
+Monk's	1	1	1	35		27	pal			4	125	dmg-fire		55	115	res-pois-len		75	75	fire-max	0	24	24		swor	mace	hamm	shld									0	0
+Priest's	1	1	1	65		58	pal			2	125	att		150	150	swing2		30	30	dmg-max		2	2	cgrn	swor	mace	hamm	shld									0	0
+Summoner's	1	1	1	36		27	nec			4	125	red-dmg		10	15	str		15	15	light		5	5		amul	circ											0	0
+Necromancer's	1	1	1	90		67	nec			2	125	dmg%		30	50	gethit-skill	Lower Resist	10	7	dex		21	30	cgrn	amul	circ											0	0
+Summoner's	1	1	1	30		22	nec			4	125	mana%		20	20	half-freeze		1	1	ac		3	5		wand	knif	head										0	0
+Necromancer's	1	1	1	50		42	nec			2	125	manasteal		9	9	res-pois		30	30	balance2		20	20	cgrn	wand	knif	head										0	0
+Angel's	1	1	1	36		27	sor			4	125	dmg-to-mana		12	12	mana		24	29	lifesteal		8	10		amul	circ											0	0
+Arch-Angel's	1	1	1	90		67	sor			2	125	att%		10	10	oskill	87	30	3	block2		20	20	cgrn	amul	circ											0	0
+Angel's	1	1	1	30		22	sor			4	125	ac		400	400	ltng-min		1	1	ltng-max		59	90		staf	orb											0	0
+Arch-Angel's	1	1	1	50		42	sor			2	125	lifesteal		5	5	att-demon		200	200	res-all		15	15	cgrn	staf	orb											0	0
+Slayer's	1	1	1	36		27	bar			4	125	noheal		1	1	str		10	10	red-mag		3	3		amul	circ											0	0
+Berserker's	1	1	1	90		67	bar			2	125	dmg-norm		15	27	openwounds		25	25	lifesteal		6	7	cgrn	amul	circ											0	0
+Slayer's	1	1	1	30		22	bar			4	125	ltng-min		1	1	ltng-max		21	60						tkni	axe	spea	club	swor	hamm	mace	jave					0	0
+Berserker's	1	1	1	50		42	bar			1	125	regen-stam		32	32	dmg-min		3	3	hp		21	25	cgrn	tkni	axe	spea	club	swor	hamm	mace	jave					0	0
+Slayer's	100	1	1	30		22	bar			4	125	ease		-60	-60	dmg-to-mana		45	45	block2		20	20		phlm												0	0
+Berserker's	100	1	1	50		42	bar			2	125	light		-3	-3	light-thorns		5	5	skilltab	2	2	2	cgrn	phlm												0	0
+Shaman's	100	1	1	36		27	dru			4	125	nec		1	1	ease		-60	-60	allskills		2	2		amul	circ											0	0
+Hierophant's	100	1	1	90		67	dru			2	125	res-all		5	5	res-ltng-max	0	10	10	dex		10	10	cgrn	amul	circ											0	0
+Shaman's	100	1	1	30		22	dru			4	125	noheal		1	1	skilltab	16	2	2	dmg-min		1	1		club	pelt											0	0
+Hierophant's	100	1	1	50		42	dru			2	125	str		10	20	att-undead		100	100	mana		14	20	cgrn	club	pelt											0	0
+Magekiller's	100	1	1	36		27	ass			4	125	oskill	Oak Sage	27	5	res-ltng	0	28	28	mana		50	50		amul	circ											0	0
+Witch-hunter's	100	1	1	90		67	ass			2	125	thorns		15	15	skilltab	12	1	1	dmg-max		5	7	cgrn	amul	circ											0	0
+Magekiller's	100	1	1	30		22	ass			4	125	res-cold		30	30	hit-skill	45	10	10	gold%		80	160		h2h												0	0
+Witch-hunter's	100	1	1	50		42	ass			2	125	dex		15	15	mag%		8	12	dmg-fire/lvl	24			cgrn	h2h												0	0
+Compact	100	1	1	1		1				6	141	dmg%		175	175	swing2		50	50	lifesteal		4	7		thro												0	0
+Thin	100	1	1	17		12				5	141	att-undead		150	250	death-skill	Chain Lightning	100	47	res-ltng		8	9		thro												0	0
+Dense	100	1	1	38		30				4	141	dmg%		70	80	mana%		10	10	res-all	0	15	15		thro												0	0
+Consecrated	100	1	1	1		1				4	142	gethit-skill	71	6	3	str		20	20	res-cold	0	22	22		weap							wand	orb				0	0
+Pure	100	1	1	15		11				3	142	cast2		20	20	res-all		15	15	skilltab	15	3	3	lgld	weap							wand	orb				0	0
+Sacred	100	1	1	25		18				2	142	half-freeze		1	1	dru		2	2					lgld	weap							wand	orb				0	0
+Hallowed	100	1	1	35		27				1	142	oskill	Enchant	20	23	mana-kill		2	2	mana	0	21	30	lgld	weap							wand	orb				0	0
+Divine	100	1		45		37				1	142	ac%		60	100	reduce-ac		25	25	ease		-40	-40	lgld	weap							wand	orb				0	0
+Pearl	100	1	1	18		13				1	142	att		52	64	res-ltng		5	5	oskill	139	7	7		jewl												0	0
+Crimson	1	1	1	5		3				4	118	ac		20	20	oskill	Attract	60	17	att		13	24		armo	ring	amul	orb	circ	weap							0	0
+Red	100	1	1	15		11				4	103	mag%		15	30	dru		1	2	bar		3	3		lcha												0	0
+Sanguinary	100	1	1	45		37				4	103	deadly		35	35	balance2		30	30	dmg%		180	230		lcha												0	0
+Bloody	100	1		75		67				4	103	dmg-min		8	8	res-cold		20	40	ac/lvl	16				lcha												0	0
+Red	100	1	1	30		22				4	103	allskills		2	4	dmg-undead		200	200	regen	0	3	3	dred	mcha												0	0
+Sanguinary	100	1		60		52				4	103	ac		20	20	str		10	10	pal		2	2	dred	mcha												0	0
+Red	100	1	1	90		82				4	103	res-fire		40	40	oskill	54	20	1	light		5	5	dred	scha												0	0
+Jagged	100	1	1	7		5				4	104	ac%		100	120	balance2		20	20	gold%/lvl	15				lcha												0	0
+Forked	100	1	1	37		29				4	104	att		45	45	pierce-ltng		15	20	oskill	Volcano	30	14		lcha												0	0
+Serrated	100	1		67		59				4	104	balance2		30	30	mag%		50	50	res-cold		10	10		lcha												0	0
+Jagged	100	1	1	22		16				4	104	oskill	66	1	3	dmg%		150	200	dmg-ltng		1	74	blac	mcha												0	0
+Forked	100	1		52		44				4	104	ease		-60	-60	abs-ltng		3	9	oskill	67	10	10	blac	mcha												0	0
+Jagged	100	1	1	81		73				4	104	hp	0	38	38	oskill	81	3	3	att%	0	25	25	blac	scha												0	0
+Snowflake	100	1	1	9		6				2	137	stupidity		2	2	ac-miss		50	50	ac%		120	150		lcha												0	0
+Shivering	100	1	1	15		11				1	137	ignore-ac		1	1	regen	0	3	3	str		10	10		lcha												0	0
+Boreal	100	1	1	30		22				1	137	regen-mana		20	20	res-all		10	10	dmg-fire		25	35		lcha												0	0
+Hibernal	100	1		45		38				1	137	dex		35	35	oskill	Immolation Arrow	150	18	mana		25	25		lcha												0	0
+Snowflake	100	1	1	18		13				2	137	ltng-min		1	1	ltng-max		25	43	att%		20	20		mcha												0	0
+Shivering	100	1	1	29		21				1	137	stam		40	40	extra-ltng		10	15						mcha												0	0
+Boreal	100	1	1	49		41				1	137	dex		10	10	ac		30	30	stam		8	16	lblu	mcha												0	0
+Hibernal	100	1		69		61				1	137	slow		20	20	manasteal		5	5	ac%		150	150	lblu	mcha												0	0
+Snowflake	100	1	1	27		20				2	137	ac		30	30	block		20	20	red-dmg%		10	15		scha												0	0
+Shivering	100	1	1	42		34				1	137	ac		100	100	light		-2	-2	str		25	35		scha												0	0
+Boreal	100	1	1	66		58				1	137	manasteal		5	5	light		2	2	thorns		10	20	lblu	scha												0	0
+Hibernal	100	1		91		83				1	137	mag%		100	100	abs-cold		6	11	dru		3	3	lblu	scha												0	0
+Ember	100	1	1	5		3				2	138	att%		60	120	regen		4	4	dex		15	15		lcha												0	0
+Smoldering	100	1	1	15		11				1	138	dmg%		200	250	res-all		30	50	ac		40	40		lcha												0	0
+Smoking	100	1	1	28		21				1	138	lifesteal		9	9	att%		50	50	dmg-undead		25	50		lcha												0	0
+Flaming	100	1		43		35				1	138	res-all		15	15	dex		12	12	dmg%		240	290		lcha												0	0
+Ember	100	1	1	13		9				2	138	oskill	16	2	2	skilltab	7	1	1	bar		1	1		mcha												0	0
+Smoldering	100	1	1	27		20				1	138	cheap		10	15	abs-cold%		7	15	cast3		20	20		mcha												0	0
+Smoking	100	1	1	47		39				1	138	deadly		35	35	dmg%		350	350	swing2		30	30	lred	mcha												0	0
+Flaming	100	1		67		59				1	138	ac%		140	200	regen-mana		40	40	res-ltng		35	35	lred	mcha												0	0
+Ember	100	1	1	21		15				2	138	swing2		20	20	dmg-max		4	6	skilltab	20	1	1		scha												0	0
+Smoldering	100	1	1	40		32				1	138	att		75	75	res-fire		50	50	dex		4	6		scha												0	0
+Smoking	100	1	1	64		56				1	138	abs-cold		6	11	ltng-min		1	1	ltng-max		12	12	lred	scha												0	0
+Flaming	100	1		89		81				1	138	dex		15	15	oskill	Oak Sage	25	4	extra-pois		25	25	lred	scha												0	0
+Static	100	1	1	7		5				2	139	swing2		20	20	res-ltng		30	30	mana		27	33		lcha												0	0
+Glowing	100	1	1	14		10				1	139	dmg%		165	165	hit-skill	38	10	0	allskills		1	2		lcha												0	0
+Arcing	100	1	1	29		21				1	139	dmg%		100	100	openwounds		30	30	mag%	0	80	80		lcha												0	0
+Shocking	100	1		44		36				1	139	oskill	Battle Orders	1	6	enr		10	10						lcha												0	0
+Static	100	1	1	14		10				2	139	res-all		40	50	oskill	Spirit of Barbs	33	13	dmg%	0	21	30		mcha												0	0
+Glowing	100	1	1	28		20				1	139	dmg%		30	40	mana-kill		2	2	res-pois		4	7		mcha												0	0
+Arcing	100	1	1	48		40				1	139	res-pois		90	90	allskills		2	2	swing2		20	20	whit	mcha												0	0
+Shocking	100	1		68		60				1	139	dmg-max		15	15	res-pois-len		50	50	oskill	43	8	8	whit	mcha												0	0
+Static	100	1	1	23		17				2	139	dmg-max		20	30	dmg-demon		220	350	dex		6	9		scha												0	0
+Glowing	100	1	1	41		33				1	139	dmg%		220	270	extra-cold		15	30						scha												0	0
+Arcing	100	1	1	65		57				1	139	ease		-30	-30	hp/lvl	10			str		20	20	whit	scha												0	0
+Shocking	100	1		90		82				1	139	dmg%		70	80	ac%		100	100	block		20	20	whit	scha												0	0
+Septic	100	1	1	1		1				2	140	aura	Holy Fire	16	16	mana		16	20	pal		1	1		lcha												0	0
+Envenomed	100	1	1	12		9				1	140	balance2		25	25	ltng-min		1	1	ltng-max		20	20		lcha												0	0
+Toxic	100	1	1	27		20				1	140	nec		2	2	crush		40	40	nofreeze		1	1		lcha												0	0
+Pestilent	100	1		42		34				1	140	res-cold		30	30	att	0	10	20	state	monsterset	1	1		lcha												0	0
+Septic	100	1	1	9		6				2	140	pois-min	0	51	51	pois-max	0	51	51	pois-len	0	100	100		mcha												0	0
+Envenomed	100	1	1	26		19				1	140	mana-kill		6	6	dmg-ac		-70	-70	res-ltng		15	15		mcha												0	0
+Toxic	100	1	1	46		38				1	140	slow		25	25	lifesteal		8	8	ignore-ac		1	1	dgrn	mcha												0	0
+Pestilent	100	1		66		58				1	140	str		10	10	dmg-to-mana		30	30	swing2		40	40	dgrn	mcha												0	0
+Septic	100	1	1	18		13				2	140	ac		10	10	mana	0	31	31	att-demon		301	400		scha												0	0
+Envenomed	100	1	1	39		31				1	140	light		1	5	swing3		30	30	dmg%		41	50		scha												0	0
+Toxic	100	1	1	63		55				1	140	dmg-ltng		1	212	ac-hth		40	40	res-cold	0	11	20	dgrn	scha												0	0
+Pestilent	100	1		88		80				1	140	pal		2	2	res-fire		30	30	light		3	3	dgrn	scha												0	0
+Tireless	1	1	1	1	5	1				4	108	light-thorns		10	14	ac%		160	220	res-all		3	7		boot												0	0
+Lizard's	1	1	1	1	2	1				4	115	lifesteal	0	2	2	fire-min		10	27	fire-max		28	43		armo	ring	amul	rod	orb			boot	glov				0	0
+Azure	1	1	1	1	4	1				3	117	openwounds		10	10	dmg-cold	75	13	21	dmg-fire		5	30		armo	ring	amul	orb	circ								0	0
+Crimson	1	1	1	1	4	1				3	118	noheal		1	1	regen		20	20	dmg-pois	50	187	187		armo	ring	amul	orb	circ								0	0
+Tangerine	1	1	1	1	4	1				3	119	crush		25	25	light-thorns		27	27	allskills		2	4		armo	ring	amul	orb	circ								0	0
+Beryl	1	1	1	1	4	1				3	120	dmg-undead		200	200	dex		20	20	res-ltng		11	20		armo	ring	amul	orb	circ								0	0
+Godly	100	1	1	50		43				1	101	fireskill		2	2	dmg%		230	270	crush		40	50	dgld	armo												0	0
+Cruel	100	1	1	56		48				1	105	hit-skill	Quickness	5	1	res-all		10	10	thorns		7	9	blac	weap							staf	wand	orb			0	0

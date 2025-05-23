@@ -1,0 +1,84 @@
+{
+  "name": "d2-mod-wiki-generator",
+  "version": "0.1.0",
+  "description": "Static site generator for Diablo 2 mod wikis from d2modgen output",
+  "main": "dist/index.js",
+  "bin": {
+    "d2-wiki": "dist/cli/index.js"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:cli": "tsc -p tsconfig.cli.json",
+    "preview": "vite preview",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --ext .ts,.tsx --fix",
+    "format": "prettier --write \"src/**/*.{ts,tsx,json,md}\"",
+    "type-check": "tsc --noEmit",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "diablo2",
+    "d2modgen",
+    "wiki",
+    "static-site-generator",
+    "mod",
+    "arreat-summit"
+  ],
+  "author": "D2 Mod Wiki Generator",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/d2-mod-wiki-generator.git"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0",
+    "fuse.js": "^6.6.2",
+    "marked": "^4.2.5",
+    "commander": "^10.0.0",
+    "chalk": "^5.2.0",
+    "ora": "^6.1.2",
+    "fs-extra": "^11.1.0",
+    "glob": "^8.1.0",
+    "csv-parser": "^3.0.0",
+    "zod": "^3.20.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/node": "^18.14.0",
+    "@types/fs-extra": "^11.0.1",
+    "@types/jest": "^29.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint": "^8.34.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "husky": "^8.0.3",
+    "jest": "^29.4.3",
+    "lint-staged": "^13.1.2",
+    "prettier": "^2.8.4",
+    "ts-jest": "^29.0.5",
+    "typescript": "^4.9.4",
+    "vite": "^4.1.0",
+    "@types/glob": "^8.1.0"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md}": [
+      "prettier --write"
+    ]
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

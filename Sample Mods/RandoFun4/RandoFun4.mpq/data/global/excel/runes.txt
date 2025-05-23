@@ -1,0 +1,179 @@
+Name	*Rune Name	complete	firstLadderSeason	lastLadderSeason	*Patch Release	itype1	itype2	itype3	itype4	itype5	itype6	etype1	etype2	etype3	*RunesUsed	Rune1	Rune2	Rune3	Rune4	Rune5	Rune6	T1Code1	T1Param1	T1Min1	T1Max1	T1Code2	T1Param2	T1Min2	T1Max2	T1Code3	T1Param3	T1Min3	T1Max3	T1Code4	T1Param4	T1Min4	T1Max4	T1Code5	T1Param5	T1Min5	T1Max5	T1Code6	T1Param6	T1Min6	T1Max6	T1Code7	T1Param7	T1Min7	T1Max7	*eol
+Runeword1	Ancients' Pledge	1			109	shld									RalOrtTal	r08	r09	r07				dmg%		70	70	mana%		15	15	mag%		50	50	swing2		20	20	manasteal		15	15	skilltab	20	3	3	res-all		8	8	0
+Runeword2	Armageddon																																																	0
+Runeword3	Authority																																																	0
+Runeword4	Beast	1			110	axe	scep	hamm							BerTirUmMalLum	r30	r03	r22	r23	r17		dex		10	10	dmg-ltng		20	20	regen		20	20	extra-fire		5	5	abs-fire%		15	15	dmg%		50	50	skilltab	18	3	3	0
+Runeword5	Beauty																																																	0
+Runeword6	Black	1			109	club	hamm	mace							ThulIoNef	r10	r16	r04				regen		20	20	nofreeze		1	1	regen-mana		15	15	freeze		3	3	hp		30	30	res-ltng-max	0	10	10	oskill	Meteor	10	10	0
+Runeword7	Blood																																																	0
+Runeword8	Bone	1			111	tors									SolUmUm	r12	r22	r22				light		5	5	red-dmg		2	2	fire-min		2	2	fire-max		5	5	half-freeze		1	1	thorns	0	16	16	att-dem/lvl	5			0
+Runeword9	Bramble	1			110	tors									RalOhmSurEth	r08	r27	r29	r05			swing2		15	15	ease		-50	-50	lifesteal		6	6	dmg%		200	200	ethereal		1	1	gold%/lvl	25			thorns	0	12	12	0
+Runeword10	Brand	1			Previously Ladder Only	miss									JahLoMalGul	r31	r28	r23	r25			dmg-undead		50	50	hp		10	10	block2		30	30	vit		5	5	aura	Sanctuary	18	18	dmg%	0	65	65	ease		-15	-15	0
+Runeword11	Breath of the Dying	1			110	weap									VexHelElEldZodEth	r26	r15	r01	r02	r33	r05	swing2		20	20	att		100	100	block		20	20	hit-skill	66	5	2	noheal		1	1	dmg%		10	10	mag%		30	30	0
+Runeword12	Broken Promise																																																	0
+Runeword13	Call to Arms	1			110	weap									AmnRalMalIstOhm	r11	r08	r23	r24	r27		gethit-skill	92	15	15	ac%		150	150	str		20	20	regen-mana		15	15	enr		10	10	oskill	150	2	2	res-fire		25	25	0
+Runeword14	Chains of Honor	1			110	tors									DolUmBerIst	r14	r22	r30	r24			dmg%		130	130	manasteal		3	3	hit-skill	66	5	2	res-fire		20	20	balance2		25	25	mag%	0	20	20	bar		3	3	0
+Runeword15	Chance																																																	0
+Runeword16	Chaos	1			110	h2h									FalOhmUm	r19	r27	r22				dmg%		200	200	att-demon		200	200	res-all	0	25	25	mana-kill		2	2	ltng-min		1	1	ltng-max		58	58	indestruct		1	1	0
+Runeword17	Crescent Moon	1			110	axe	swor	pole							ShaelUmTir	r13	r22	r03				ac-miss		250	250	thorns		8	8	oskill	55	3	3	cold-min		3	3	cold-max		8	8	cold-len		25	25	deadly/lvl	4			0
+Runeword18	Darkness																																																	0
+Runeword19	Daylight																																																	0
+Runeword20	Death	1			Previously Ladder Only	swor	axe								HelElVexOrtGul	r15	r01	r26	r09	r25		mana	0	40	40	hp%		27	27	red-mag		20	20	move2		20	20	swing3		40	40	ltng-min	0	1	1	ltng-max	0	40	40	0
+Runeword21	Deception																																																	0
+Runeword22	Delirium	1			110	helm									LemIstIo	r20	r24	r16				cast2		30	30	mana/lvl	10			freeze		3	3	ease		-25	-25	oskill	Skeleton Mastery	2	2	ac		50	50	ama	0	1	1	0
+Runeword23	Desire																																																	0
+Runeword24	Despair																																																	0
+Runeword25	Destruction	1			Previously Ladder Only	pole	swor								VexLoBerJahKo	r26	r28	r30	r31	r18		crush		25	25	swing2		30	30	aura	Holy Fire	16	16	cast2		10	10	att		66	66	att%		30	30	hp		5	5	0
+Runeword26	Doom	1			110	axe	pole	hamm							HelOhmUmLoCham	r15	r27	r22	r28	r32		str		25	25	dmg%		60	60	stupidity		3	3	abs-fire		10	10	dmg-mag		240	240	dmg-max		23	23	res-ltng		30	30	0
+Runeword27	Dragon	1			Previously Ladder Only	tors	shld								SurLoSol	r29	r28	r12				att		70	70	balance2		20	20	skilltab	2	3	3	dmg-fire		371	371	thorns		30	30	res-cold	0	28	28	hp		30	30	0
+Runeword28	Dread																																																	0
+Runeword29	Dream	1			Previously Ladder Only	helm	shld								IoJahPul	r16	r31	r21				res-all		10	10	balance2		20	20	ac%		200	200	regen	0	3	3	att		60	60	att-demon		300	300	dmg-min		1	1	0
+Runeword30	Duress	1			110	tors									ShaelUmThul	r13	r22	r10				swing2		30	30	block2		30	30	aura	Fanaticism	1	1	dmg-to-mana		10	10	res-all		11	11	dex		6	6	state	fullsetgeneric	1	1	0
+Runeword31	Edge	1			Previously Ladder Only	miss									TirTalAmn	r03	r07	r11				str		30	30	abs-ltng		14	14	oskill	Lightning Bolt	3	3	res-all		10	10	res-ltng		15	15	att		36	36	skilltab	9	1	1	0
+Runeword32	Elation																																																	0
+Runeword33	Enigma	1			110	tors									JahIthBer	r31	r06	r30				res-pois		10	10	swing3		30	30	slow		50	50	att-demon		200	200	gethit-skill	76	5	1	regen		4	4	lifesteal	0	8	8	0
+Runeword34	Enlightenment	1			111	tors									PulRalSur	r21	r08	r12				ac%		120	120	nec		1	1	mana-kill		4	4	oskill	Oak Sage	2	2	mag%		30	30	red-mag		7	7	str		30	30	0
+Runeword35	Envy																																																	0
+Runeword36	Eternity	1			110	mele									AmnBerIstSolSur	r11	r30	r24	r12	r29		att		200	200	allskills		2	2	sor		3	3	indestruct		1	1	mag%		50	50	str		20	20	enr		10	10	0
+Runeword37	Exile	1			110	pala									VexOhmIstDol	r26	r27	r24	r14			skilltab	6	1	1	enr		20	20	bar		2	2	ac%		50	50	mana		50	50	dmg-pois	75	35	35	oskill	49	4	4	0
+Runeword38	Faith	1			"110, Previously Ladder Only"	miss									OhmJahLemEld	r27	r31	r20	r02			dmg%		50	50	cast3		50	50	red-mag		2	2	hit-skill	Fire Ball	5	15	lifesteal		10	10	balance1		10	10	res-all		50	50	0
+Runeword39	Famine	1				axe	hamm								FalOhmOrtJah	r19	r27	r09	r31			dmg-max		3	3	hp		20	20	ac		60	60	att	0	40	40	gold%		30	30	dmg-pois	100	39	39	lifesteal		4	4	0
+Runeword40	Flickering Flame	1	1	2	D2R Ladder 1	helm									NefPulVex	r04	r21	r26				res-fire		75	75	vit		20	20	extra-ltng		15	15	dmg-undead		200	200	ac		35	35	skilltab	14	1	1	manasteal		9	9	0
+Runeword41	Fortitude	1			Previously Ladder Only	weap	tors								ElSolDolLo	r01	r12	r14	r28			ac		25	25	hp/lvl	12			openwounds		66	66	crush		33	33	gethit-skill	240	7	1	gold%		10	10	regen-mana		15	15	0
+Runeword42	Fortune																																																	0
+Runeword43	Amity																																																	0
+Runeword44	Fury	1			109	mele									JahGulEth	r31	r25	r05				light		-1	-1	skilltab	0	2	2	dmg-pois	250	300	300	dmg%		320	320	att-skill	Charged Bolt	20	20	dmg-max		12	12	oskill	77	7	7	0
+Runeword45	Gloom	1			110	tors									FalUmPul	r19	r22	r21				ac%		160	160	att-demon		300	300	aura	Fanaticism	9	9	att		12	12	thorns		5	5	mana	0	25	25	ac		150	150	0
+Runeword46	Glory																																																	0
+Runeword47	Grief	1			Previously Ladder Only	swor	axe								EthTirLoMalRal	r05	r03	r28	r23	r08		res-pois		20	20	pois-min	0	101	101	pois-max	0	101	101	pois-len	0	152	152	dex	0	15	15	ignore-ac		1	1	half-freeze		1	1	0
+Runeword48	Hand of Justice	1			110	weap									SurChamAmnLo	r29	r32	r11	r28			openwounds		35	35	allskills		1	1	dmg%		200	200	res-cold		10	10	ac		60	60	stam		50	50	att		40	40	0
+Runeword49	Harmony	1			Previously Ladder Only	miss									TirIthSolKo	r03	r06	r12	r18			regen		10	10	slow		25	25	att%		10	10	hp	0	31	31	dmg-max		9	9	str		4	4	regen-mana		12	12	0
+Runeword50	Hatred																																																	0
+Runeword51	Heart of the Oak	1			110	staf	mace								KoVexPulThul	r18	r26	r21	r10			ac%		30	30	crush		20	20	dur		20	20	swing2		50	50	thorns	0	16	16	regen-mana		15	15	dex		15	15	0
+Runeword52	Heaven's Will																																																	0
+Runeword53	Holy Tears																																																	0
+Runeword54	Holy Thunder	1			109	scep									EthRalOrtTal	r05	r08	r09	r07			oskill	118	3	3	openwounds		35	35	dmg%		130	130	slow		50	50	res-fire		-70	-70	ac%		100	100	light		1	1	0
+Runeword55	Honor	1			109	mele									AmnElIthTirSol	r11	r01	r06	r03	r12		ama		1	1	swing2		40	40	mana		75	75	res-all		10	10	ac%		40	40	dmg%		30	30	mag%		19	19	0
+Runeword56	Revenge																																																	0
+Runeword57	Humility																																																	0
+Runeword58	Hunger																																																	0
+Runeword59	Ice	1			Previously Ladder Only	miss									AmnShaelJahLo	r11	r13	r31	r28			cold-min		7	7	cold-max		14	14	ac		35	35	dmg-pois	75	171	171	hp%		5	5	light		3	3	swing2		30	30	0
+Runeword60	Infinity	1			Previously Ladder Only	pole	spea								BerMalBerIst	r30	r23	r30	r24			vit		20	20	allskills		1	1	red-dmg%		10	10	enr		10	10	freeze		2	2	res-all		10	10	att	0	40	40	0
+Runeword61	Innocence																																																	0
+Runeword62	Insight	1			Previously Ladder Only	pole	staf	miss							RalTirTalSol	r08	r03	r07	r12			red-mag		1	1	res-pois		30	30	dmg-max		30	30	manasteal		8	8	ac%		150	150	oskill	144	6	6	mana		50	50	0
+Runeword63	Jealousy																																																	0
+Runeword64	Judgment																																																	0
+Runeword65	King's Grace	1			109	swor	scep								AmnRalThul	r11	r08	r10				skilltab	9	3	3	gethit-skill	38	2	0	light		-2	-2	heal-kill		12	12	dmg%		190	190	aura	Holy Freeze	18	18	oskill	82	3	3	0
+Runeword66	Kingslayer	1			110	swor	axe								MalUmGulFal	r23	r22	r25	r19			ignore-ac		1	1	dmg-fire		46	46	str		25	25	hit-skill	72	8	3	dmg-demon		50	50	dmg-pois	50	31	31	dex		4	4	0
+Runeword67	Knight's Vigil																																																	0
+Runeword68	Knowledge																																																	0
+Runeword69	Last Wish	1			Previously Ladder Only	swor	hamm	axe							JahMalJahSurJahBer	r31	r23	r31	r29	r31	r30	deadly		30	30	str		15	15	dex/lvl	4			ama		1	1	att		48	48	res-all		11	11	ac		100	100	0
+Runeword70	Law																																																	0
+Runeword71	Lawbringer	1			Previously Ladder Only	swor	hamm	scep							AmnLemKo	r11	r20	r18				att-demon		200	200	skilltab	11	2	2	oskill	34	3	3	light		3	3	dmg%		50	50	hp		5	5	dmg-min		9	9	0
+Runeword72	Leaf	1			109	staf									TirRal	r03	r08					att		150	150	dmg%		150	150	light		-4	-4	nofreeze		1	1	ac		10	10	res-fire		30	30	red-dmg%		24	24	0
+Runeword73	Lightning																																																	0
+Runeword74	Lionheart	1			109	tors									HelLumFal	r15	r17	r19				light-thorns		25	25	oskill	Teeth	5	5	regen-mana		20	20	ac%		30	30	dmg-max		6	6	mana		90	90	skilltab	6	3	3	0
+Runeword75	Lore	1			109	helm									OrtSol	r09	r12					res-pois-len		75	75	oskill	47	4	4	pois-min	0	16	16	pois-max	0	32	32	pois-len	0	75	75	att-skill	47	10	0	hp		75	75	0
+Runeword76	Love																																																	0
+Runeword77	Loyalty																																																	0
+Runeword78	Lust																																																	0
+Runeword79	Madness																																																	0
+Runeword81	Malice	1			109	mele									IthElEth	r06	r01	r05				oskill	118	3	3	hp%		20	20	pierce-cold		20	20	move3		30	30	lifesteal		10	10	dmg-demon		300	300	thorns		1	1	0
+Runeword82	Melody	1			109	miss									ShaelKoNef	r13	r18	r04				noheal		1	1	regen		5	5	balance2		50	50	ac		15	15	red-mag		3	3	gold%		80	80	oskill	81	6	6	0
+Runeword83	Memory	1			109	staf									LumIoSolEth	r17	r16	r12	r05			gethit-skill	38	15	5	dmg%		200	200	stam		50	50	red-dmg		2	2	att%		20	20	att-demon		300	300	dmg-undead		350	350	0
+Runeword84	Mist	1	1	2	D2R Ladder 1	miss									ChamShaelGulThulIth	r32	r13	r25	r10	r06		dmg-min		5	5	light-thorns		15	15	abs-cold%		15	15	dmg-to-mana		12	12	hp		30	30	dmg-max		40	40	oskill	81	3	3	0
+Runeword85	Morning																																																	0
+Runeword86	Mystery																																																	0
+Runeword87	Myth	1			111	tors									HelAmnNef	r15	r11	r04				mana%		10	10	cold-min		9	9	cold-max		50	50	cold-len		150	150	slow		20	20	levelup-skill	Frost Nova	100	43	dmg-ltng		3	3	0
+Runeword88	Nadir	1			109	helm									NefTir	r04	r03					str		10	10	att		250	250	ac%		140	140	res-fire	0	40	40	vit		10	10	mana		40	40	enr		10	10	0
+Runeword89	Nature's Kingdom																																																	0
+Runeword90	Night																																																	0
+Runeword91	Oath	1			Previously Ladder Only	swor	axe	mace							ShaelPulMalLum	r13	r21	r23	r17			half-freeze		1	1	res-fire-max		10	10	regen-mana		20	20	light		2	2	pierce-cold		24	24									0
+Runeword92	Obedience	1			Previously Ladder Only	pole	spea								HelKoThulEthFal	r15	r18	r10	r05	r19		hit-skill	45	10	10	nec		2	2	red-dmg		3	3	balance3		25	25	att-undead		50	50	skilltab	2	3	3	dmg-fire/lvl	24			0
+Runeword93	Oblivion																																																	0
+Runeword94	Obsession	1	1	2	D2R Ladder 1	staf									ZodIstLemLumIoNef	r33	r24	r20	r17	r16	r04	att		35	35	res-ltng		25	25	swing3		15	15	rep-dur	20			mana-kill		5	5	mag%	0	16	16	ac		40	40	0
+Runeword95	Passion	1			110	weap									DolOrtEldLem	r14	r09	r02	r20			oskill	77	3	3	dmg-pois	200	102	102	dmg/lvl	8			ac%		150	150	thorns		77	77	res-all		20	20	str		2	2	0
+Runeword96	Patience																																																	0
+Runeword97	Pattern	1	1	2	D2R Ladder 1	h2h									TalOrtThul	r07	r09	r10				noheal		1	1	ltng-min		1	1	ltng-max		12	12	death-skill	Meteor	100	31	gethit-skill	56	2	0	oskill	54	3	3	hp%		5	5	0
+Runeword98	Peace	1			111	tors									ShaelThulAmn	r13	r10	r11				res-fire		15	15	att		50	50	thorns		15	15	att/lvl	10			dmg%	0	20	20	dmg-min		2	2	mag%		25	25	0
+Runeword99	Voice of Reason	1			Previously Ladder Only	swor	mace								LemKoElEld	r20	r18	r01	r02			red-dmg%		10	10	lifesteal		7	7	hp		65	65	att	0	80	80	light		1	1	dex		15	15	manasteal	0	5	5	0
+Runeword100	Penitence																																																	0
+Runeword101	Peril																																																	0
+Runeword102	Pestilence																																																	0
+Runeword103	Phoenix	1			Previously Ladder Only	weap	shld								VexVexLoJah	r26	r26	r28	r31			sor		2	2	dmg-min		5	5	red-mag		2	2	ease		-15	-15	ac%		30	30	enr		6	6	oskill	144	3	3	0
+Runeword104	Piety																																																	0
+Runeword105	Pillar of Faith																																																	0
+Runeword106	Plague	1	1	2	D2R Ladder 1	swor	knif	h2h							ChamShaelUm	r32	r13	r22				dmg%		200	200	block2		10	10	oskill	Venom	3	3	cast2		33	33	dex		6	6	manasteal		8	8	regen		3	3	0
+Runeword107	Praise																																																	0
+Runeword108	Prayer																																																	0
+Runeword109	Pride	1			Previously Ladder Only	pole	spea								ChamSurIoLo	r32	r29	r16	r28			dmg%		120	120	lifesteal		10	10	res-fire		5	5	red-dmg%		-10	-10	openwounds		66	66	oskill	17	3	3	dmg-max		5	5	0
+Runeword110	Principle	1			111	tors									RalGulEld	r08	r25	r02				ac		15	15	ease		-20	-20	allskills		1	1	oskill	Battle Cry	4	4	res-all		15	15	ltng-min		1	1	ltng-max		28	28	0
+Runeword111	Prowess in Battle																																																	0
+Runeword112	Prudence	1			110	tors									MalTir	r23	r03					att		40	40	thorns		5	5	cast2		20	20	block		30	30	mana		20	20	mag%		25	25	res-cold		5	5	0
+Runeword113	Punishment																																																	0
+Runeword114	Purity																																																	0
+Runeword115	Question																																																	0
+Runeword116	Radiance	1			109	helm									NefSolIth	r04	r12	r06				dmg%		200	200	noheal		1	1	move2		20	20	allskills		1	1	str		10	10	oskill	11	5	5	sor		3	3	0
+Runeword117	Rain	1			111	tors									OrtMalIth	r09	r23	r06				hit-skill	38	10	0	block		25	25	balance2		20	20	gethit-skill	Poison Nova	10	10	res-ltng		40	40	red-dmg%		16	16	mana		100	100	0
+Runeword118	Reason																																																	0
+Runeword119	Red																																																	0
+Runeword120	Rhyme	1			109	shld									ShaelEth	r13	r05					dmg%		100	100	ac		40	40	rip		1	1	red-dmg		7	7	hit-skill	Poison Nova	25	15	mana		13	13	res-pois		27	27	0
+Runeword121	Rift	1			Previously Ladder Only	pole	scep								HelKoLemGul	r15	r18	r20	r25			red-mag		3	3	light		-2	-2	ignore-ac		1	1	ac		320	320	mana		15	15	dex	0	8	8	bar	0	2	2	0
+Runeword122	Sanctuary	1			110	shld									KoKoMal	r18	r18	r23				ac		10	10	light-thorns		10	10	res-all		35	35	hit-skill	Volcano	23	12	dmg%		400	400	red-dmg		4	4	allskills		2	2	0
+Runeword123	Serendipity																																																	0
+Runeword124	Shadow																																																	0
+Runeword125	Shadow of Doubt																																																	0
+Runeword126	Silence	1			109	weap									DolEldHelIstTirVex	r14	r02	r15	r24	r03	r26	regen-mana		20	20	cold-min		4	4	cold-max		15	15	cold-len		100	100	dmg-ac		-20	-20	gold%		120	120	dex		9	9	0
+Runeword127	Siren's Song																																																	0
+Runeword128	Smoke	1			109	tors									NefLum	r04	r17					res-fire		30	30	ac-hth		200	200	allskills		1	1	dmg-demon		350	350	gethit-skill	52	5	5	skilltab	14	1	1	oskill	225	10	10	0
+Runeword129	Sorrow																																																	0
+Runeword130	Spirit	1			Previously Ladder Only	swor	shld								TalThulOrtAmn	r07	r10	r09	r11			fire-min		1	1	fire-max		2	2	oskill	Battle Orders	6	6	lifesteal		12	12	dmg-to-mana		10	10	res-cold		25	25	dmg%		70	70	0
+Runeword131	Splendor	1			110	shld									EthLum	r05	r17					dmg%		70	70	dmg-min		5	5	rep-dur	10			res-fire		40	40	ac		125	125	res-ltng		15	15	oskill	21	5	5	0
+Runeword132	Starlight																																																	0
+Runeword133	Stealth	1			109	tors									TalEth	r07	r05					ac-miss		300	300	red-dmg%		-10	-10	oskill	72	6	6	abs-fire%		15	15	half-freeze		1	1	skilltab	17	1	1	allskills		1	1	0
+Runeword134	Steel	1			109	swor	axe	mace							TirEl	r03	r01					lifesteal		5	5	crush		25	25	dmg-pois	150	426	426	nofreeze		1	1	dmg-undead		200	200	block2		20	20	swing1		10	10	0
+Runeword135	Still Water																																																	0
+Runeword136	Sting																																																	0
+Runeword137	Stone	1			110	tors									ShaelUmPulLum	r13	r22	r21	r17			mag%		30	30	light		-2	-2	hp		20	20	ac		15	15	dmg%		280	280	cast3		35	35	att		100	100	0
+Runeword138	Storm																																																	0
+Runeword139	Strength	1			109	mele									AmnTir	r11	r03					dmg%		220	220	abs-ltng%		25	25	light		4	4	red-dmg		7	7	res-pois		30	30	bar		1	1	regen		5	5	0
+Runeword140	Tempest																																																	0
+Runeword141	Temptation																																																	0
+Runeword142	Terror																																																	0
+Runeword143	Thirst																																																	0
+Runeword144	Thought																																																	0
+Runeword145	Thunder																																																	0
+Runeword146	Time																																																	0
+Runeword147	Tradition																																																	0
+Runeword148	Treachery	1			111	tors									ShaelThulLem	r13	r10	r20				mana-kill		2	2	manasteal		6	6	dmg%		150	150	oskill	Molten Boulder	16	16	fire-min	0	5	5	fire-max	0	8	8	res-ltng	0	25	25	0
+Runeword149	Trust																																																	0
+Runeword150	Truth																																																	0
+Runeword151	Unbending Will	1	1	2	D2R Ladder 1	swor									FalIoIthEldElHel	r19	r16	r06	r02	r01	r15	dmg-norm		40	40	hit-skill	Amplify Damage	33	3	oskill	Heart of Wolverine	16	16	dmg-fire		32	32	balance3		25	25	regen		5	5	str		9	9	0
+Runeword152	Valor																																																	0
+Runeword153	Vengeance																																																	0
+Runeword154	Venom	1			109	weap									TalDolMal	r07	r14	r23				fire-min		9	9	fire-max		19	19	hp		100	100	dmg-mag		200	200	gethit-skill	Blaze	5	15	hit-skill	Volcano	23	12	ac%		150	150	0
+Runeword155	Victory																																																	0
+Runeword156	Voice																																																	0
+Runeword157	Void																																																	0
+Runeword158	War																																																	0
+Runeword159	Water																																																	0
+Runeword160	Wealth	1			109	tors									LmKoTir	r20	r18	r03				ac		30	30	gethit-skill	44	10	5	dmg%		180	180	manasteal		15	15	stamdrain		35	35	mana		15	15	hp		25	25	0
+Runeword161	Whisper																																																	0
+Runeword162	White	1			109	wand									DolIo	r14	r16					dmg%		50	50	gethit-skill	54	25	1	dmg-to-mana		5	5	mana		50	50	att		12	12	res-all		11	11	dmg-max		63	63	0
+Runeword163	Wind	1			110	mele									SurEl	r29	r01					dex		15	15	mana-kill		4	4	res-cold-max		5	5	ac-miss		400	400	enr		15	15	hp		100	100	red-mag		10	10	0
+Runeword164	Wings of Hope																																																	0
+Runeword165	Wisdom	1	1	2	D2R Ladder 1	helm									PulIthEld	r21	r06	r02				gethit-skill	76	6	2	light		2	2	ac%		100	100	skilltab	3	2	2	ease		-30	-30	oskill	7	6	6	state	fullsetgeneric	1	1	0
+Runeword166	Woe																																																	0
+Runeword167	Wonder																																																	0
+Runeword168	Wrath	1			Previously Ladder Only	miss									PulLumBerMal	r21	r17	r30	r23			freeze		3	3	allskills		2	2	dmg-cold	50	133	133	gethit-skill	53	12	5	ac%		20	20	nec		2	2	nofreeze	0	1	1	0
+Runeword169	Youth																																																	0
+Runeword170	Zephyr	1			109	miss									OrtEth	r09	r05					lifesteal		5	5	dur		15	15	ac		20	20	regen		18	18	extra-cold		15	15	pierce-cold		24	24	dex		6	6	0
+Runeword171	Hustle (armor)	1	3		D2R Ladder 3	tors									ShaelKoEld	r13	r18	r02				oskill	150	13	13	dmg%		130	130	openwounds		33	33	dmg-demon		300	300	skilltab	13	3	3	dmg-undead		350	350	str		15	15	0
+Runeword172	Hustle (weapon)	1	3		D2R Ladder 3	weap									ShaelKoEld	r13	r18	r02				cold-min		4	4	cold-max		8	8	cold-len		75	75	allskills		1	1	oskill	225	12	12	move3		40	40	dmg%		200	200	0
+Runeword173	Mosaic	1	3		D2R Ladder 3	h2h									MalGulAmn	r23	r25	r11				charge-noconsume		50	50	ac%		30	30	mana		50	50	res-pois		30	30	dmg-max		9	9	move2		30	30	openwounds		50	50	0
+Runeword174	Metamorphosis	1	3		D2R Ladder 3	helm									IoChamFal	r16	r32	r19				att		45	45	mana-kill		5	5	openwounds		100	100	light-thorns		5	5	res-all		25	25	dex	0	6	6	oskill	73	5	5	0
+Runeword175	Ground	1	3		D2R Ladder 3	helm									ShaelIoOrt	r13	r16	r09				dmg-norm		7	7	stupidity		2	2	ac%		210	210	crush		50	50	att		100	100	res-all		5	5	dmg-cold/lvl	12			0
+Runeword176	Temper	1	3		D2R Ladder 3	helm									ShaelIoRal	r13	r16	r08				light-thorns		7	7	dmg-und/lvl	20			lifesteal	0	2	2	dmg%	0	100	100	stam		16	16	att-demon		400	400	skilltab	18	2	2	0
+Runeword177	Hearth	1	3		D2R Ladder 3	helm									ShaelIoThul	r13	r16	r10				skilltab	17	3	3	aura	Thorns	15	15	ac%		50	50	att%		50	50	str		5	5	thorns		10	10	dmg-to-mana	0	10	10	0
+Runeword178	Cure	1	3		D2R Ladder 3	helm									ShaelIoTal	r13	r16	r07				dmg		30	30	res-ltng		35	35	dmg-cold	75	30	30	enr		10	10	sor		3	3									0
+Runeword179	Bulwark	1	3		D2R Ladder 3	helm									ShaelIoSol	r13	r16	r12				enr		15	15	allskills		2	2	dmg-pois	50	255	255	dmg%	0	30	30	att-demon		200	200	cast1		10	10	manasteal		6	6	0

@@ -1,0 +1,70 @@
+name	letter	transform	code	weaponMod1Code	weaponMod1Param	weaponMod1Min	weaponMod1Max	weaponMod2Code	weaponMod2Param	weaponMod2Min	weaponMod2Max	weaponMod3Code	weaponMod3Param	weaponMod3Min	weaponMod3Max	helmMod1Code	helmMod1Param	helmMod1Min	helmMod1Max	helmMod2Code	helmMod2Param	helmMod2Min	helmMod2Max	helmMod3Code	helmMod3Param	helmMod3Min	helmMod3Max	shieldMod1Code	shieldMod1Param	shieldMod1Min	shieldMod1Max	shieldMod2Code	shieldMod2Param	shieldMod2Min	shieldMod2Max	shieldMod3Code	shieldMod3Param	shieldMod3Min	shieldMod3Max
+Chipped Amethyst		18	gcv	nec		1	1	ac%		160	160	res-fire		40	40	cold-min		1	1	cold-max		3	3	cold-len		25	25	dmg%		80	80	thorns		2	2	mana		20	20
+Flawed Amethyst		18	gfv	deadly		50	50	skilltab	16	2	2	str		30	30	mag%		25	25	thorns		47	47	reduce-ac		25	25	res-ltng/lvl	8			ac%		200	200	skilltab	6	2	2
+Amethyst		18	gsv	att		60	60	res-cold	0	22	22	skilltab	9	1	1	vit		7	7	dmg%		150	150	ease		-60	-60	ac%		20	20	lifesteal		8	8	str		5	5
+Flawless Amethyst		18	gzv	ac%		100	100	dex		15	15	dmg-min		2	2	pierce-ltng		5	5	oskill	Whirlwind	1	1	vit		22	22	cold-min	0	6	6	cold-max	0	10	10	cold-len	0	60	60
+Perfect Amethyst		17	gpv	res-cold		37	37	regen		3	3	dmg-fire		20	20	mana		35	35	att/lvl	24			block		30	30	thorns		20	20	str		20	20	dmg%	0	40	40
+Chipped Sapphire		5	gcb	ac/lvl	30			allskills		1	1					att		60	60	ac		320	320	nofreeze		1	1	dex		10	10	dmg-demon		318	318				
+Flawed Sapphire		5	gfb	cast2		20	20	allskills		1	1	ac		50	50	abs-ltng		20	20	block2		30	30	ac	0	12	12	regen		10	10	dmg-ltng		240	240	res-cold	0	20	20
+Sapphire		5	gsb	swing2		20	20	thorns		15	15	dex		6	6	gold%		100	100	thorns		20	20	reanimate	1	10	10	att%		150	150	ease		-40	-40	sor	0	1	1
+Flawless Sapphire		5	glb	fire-min		80	80	fire-max		130	130	oskill	52	10	10	str		10	10	fire-min		7	7	fire-max		19	19	dmg-pois	150	426	426	oskill	Corpse Explosion	14	14	dmg-demon		200	200
+Perfect Sapphire		6	gpb	res-ltng		40	40	oskill	Corpse Explosion	14	14	openwounds		100	100	dru		2	2	res-ltng		30	30	skilltab	9	1	1	att		40	40	hp		40	40	red-dmg		4	4
+Chipped Emerald		11	gcg	gethit-skill	Howl	3	1	ac%		240	240					cold-min		10	10	cold-max		20	20	ac-miss		400	400	openwounds		25	25	allskills		2	2	gethit-skill	53	12	5
+Flawed Emerald		11	gfg	dmg%		300	300	ac		25	25	att/lvl	16			dmg%		120	120	cold-min		10	10	cold-max		20	20	dmg%		50	50	ac		40	40	skilltab	1	2	2
+Emerald		11	gsg	ac%		40	40	ac	0	12	12	res-fire-max		5	5	stupidity		1	1	str		30	30	skilltab	4	1	1	crush		25	25	all-stats		20	20	ac%		80	80
+Flawless Emerald		11	glg	res-cold		35	35	ac-miss		350	350	skilltab	10	2	2	att/lvl	16			ac/lvl	12			skilltab	14	1	1	dmg-max		15	15	red-mag		3	3	oskill	53	3	3
+Perfect Emerald		12	gpg	dmg%		150	150	dmg-fire		500	500	enr		10	10	ac		120	120	vit		10	10	crush		25	25	hp		40	40	str		10	10	oskill	53	3	3
+Chipped Ruby		8	gcr	str		10	10	regen-mana		10	10	res-fire		30	30	att%		35	35	ltng-min		1	1	ltng-max		8	8	dmg%		290	290	ac	0	8	8	res-all		7	7
+Flawed Ruby		8	gfr	regen-mana		33	33	res-cold		33	33	str		9	9	pierce-immunity-poison		300	300	res-fire-max		5	5	crush		20	20	oskill	47	2	2	mana		7	7	dmg-pois	125	52	52
+Ruby		8	gsr	lifesteal		5	5	dmg-to-mana		10	10	enr		9	9	dmg-ltng		150	150	dmg%	0	80	80	skilltab	10	1	1	ac		20	20	res-ltng	0	28	28	thorns	0	8	8
+Flawless Ruby		8	glr	dex		20	20	dmg-to-mana		10	10	dmg-pois	100	77	77	indestruct		1	1	att		100	100					hit-skill	Venom	35	15	swing3		30	30	manasteal	0	3	3
+Perfect Ruby		9	gpr	lifesteal		8	8	pal		2	2	res-all		15	15	ac		30	30	allskills		1	1	swing3		30	30	openwounds		33	33	ignore-ac		1	1	ac%		30	30
+Chipped Diamond		1	gcw	crush		50	50	manasteal		15	15	mana/lvl	2			oskill	101	20	20	dmg-undead		50	50	abs-fire		12	12	cast2		30	30	dmg-mag		120	120	move1		3	3
+Flawed Diamond		1	gfw	ac%		20	20	regen		18	18	hp		60	60	swing2		33	33	dmg-max		14	14	oskill	14	4	4	ignore-ac		1	1	aura	Redemption	15	15	dmg-pois	125	103	103
+Diamond		1	gsw	mag%		50	50	res-pois		100	100	mana-kill		1	1	dmg-cold	75	30	30	aura	Vigor	10	10	thorns		3	3	pois-min		8	8	pois-max		24	24	pois-len		75	75
+Flawless Diamond		1	glw	dmg-cold	50	5	5	dmg%		200	200	oskill	36	10	10	dmg-fire		150	150	mana		100	100	res-fire	0	30	30	mana		30	30	allskills		1	1				
+Perfect Diamond		0	gpw	dmg-ltng		28	28	mag%	0	40	40	regen-mana		15	15	vit		7	7	oskill	Bone Armor	5	5	dmg%		270	270	att-skill	Nova	15	22	gethit-skill	48	25	3	att		200	200
+Chipped Topaz		14	gcy	dmg-demon		100	100	skilltab	11	1	1	freeze	0	1	1	ac		100	100	dmg%		30	30	res-pois		15	15	res-all	0	25	25	skilltab	17	1	1	hp		10	10
+Flawed Topaz		14	gfy	cold-min		5	5	cold-max		10	10	ac%		130	130	reduce-ac		50	50	deadly		40	40	oskill	Attract	17	17	dmg%		200	200	res-all		5	5	skilltab	8	1	1
+Topaz		14	gsy	swing2		25	25	ac		300	300	oskill	8	4	4	ac		30	30	fireskill		2	2	block		10	10	move3		35	35	reduce-ac		50	50	att		4	4
+Flawless Topaz		14	gly	dmg%		70	70	res-fire		20	20	half-freeze	0	1	1	dmg%		220	220	att%		150	150	mana		10	10	vit		20	20	kill-skill	Poison Nova	50	20	mana		7	7
+Perfect Topaz		13	gpy	ac%		260	260	dmg-undead		300	300	dmg%		10	10	gethit-skill	Fade	5	8	slow		25	25	dmg-ltng		280	280	ltng-min		1	1	ltng-max		9	9	all-stats		10	10
+Chipped Skull		2	skc	dmg%		100	100	oskill	Bone Armor	5	5	hit-skill	Volcano	23	12	allskills		1	1	mag%		19	19	dex		20	20	dex		25	25	skilltab	17	1	1	dmg-max		2	2
+Flawed Skull		2	skf	str		25	25	extra-ltng		15	15	gethit-skill	38	10	3	dmg-undead		100	100	res-all		20	20	swing1		30	30	nofreeze		1	1	hit-skill	Tornado	20	18	dmg-ltng		33	33
+Skull		2	sku	light	0	2	2	mana		2	2	oskill	106	4	4	hit-skill	52	2	10	skilltab	2	2	2	gold%		160	160	noheal		1	1	dmg%		100	100	ac-miss		30	30
+Flawless Skull		2	skl	res-cold		35	35	ass		2	2	dmg%		120	120	mag%		100	100	res-fire		50	50	ac		100	100	dmg%		150	150	regen-stam		50	50	dmg		85	85
+Perfect Skull		3	skz	res-all		35	35	lifesteal		9	9	dmg%		20	20	noheal		1	1	dmg-cold	250	500	500	skilltab	20	1	1	att		35	35	block		40	40	thorns		5	5
+Expansion																																							
+El Rune	r01L	18	r01	light		-2	-2	stupidity		10	10	dmg-to-mana		12	12	res-fire		20	20	abs-ltng%		25	25	res-all		30	30	hit-skill	56	2	4	extra-cold		5	5	dmg%		275	275
+Eld Rune	r02L	18	r02	dmg%		220	220	ac		140	140	light		3	3	abs-fire%		30	30	res-fire	0	12	12	oskill	72	8	8	vit		15	15	res-cold		30	30	indestruct		1	1
+Tir Rune	r03L	18	r03	pierce-fire		15	15	manasteal	0	2	2	ama		1	1	att%	0	25	25	res-ltng	0	28	28					dmg%		20	20	mana	0	60	60	res-pois		20	20
+Nef Rune	r04L	18	r04	dmg-min		4	4									mag%		100	100	all-stats		30	30	res-pois		10	10	red-dmg%		10	10	dmg%		200	200	mag%		20	20
+Eth Rune	r05L	18	r05	dmg%		100	100	fire-min	0	15	15	fire-max	0	20	20	dmg-to-mana		12	12	hp		20	20	res-fire		11	11	dmg-pois	50	187	187	dmg-demon		200	200	res-all		10	10
+Ith Rune	r06L	18	r06	gold%		75	75	swing3		40	40	res-cold		40	40	indestruct		1	1	mag%		25	25	dmg-min		1	1	hit-skill	Poison Explosion	15	9	thorns		5	5	balance2		25	25
+Tal Rune	r07L	18	r07	vit		15	15	res-all		30	30	dmg%		20	20	aura	Thorns	21	21	balance2		10	10	dmg/lvl	6			cast3		50	50	oskill	IronGolem	17	17	mag%		19	19
+Ral Rune	r08L	18	r08	red-dmg%		10	10	dex		15	15	dmg-max		5	5	ac		35	35	oskill	27	3	3	crush		20	20	pal		2	2	vit		15	15	gethit-skill	72	4	5
+Ort Rune	r09L	18	r09	dur		20	20	dmg-demon		150	150	allskills		2	2	str		16	16	light		-2	-2	hp		20	20	dmg-fire		333	333	dmg%		320	320	res-all		7	7
+Thul Rune	r10L	18	r10	slow		50	50	oskill	150	4	4	regen-mana		15	15	res-all		10	10	pierce-fire		28	28	mana		30	30	att	0	100	100	dmg-demon		75	75	res-pois		15	15
+Amn Rune	r11L	18	r11	ease		-20	-20	ac		261	261	oskill	Fire Wall	13	13	cast2		20	20	gethit-skill	Fade	6	11	res-all	0	14	14	manasteal		7	7	pierce-immunity-fire		300	300				
+Sol Rune	r12L	18	r12	openwounds		33	33	half-freeze		1	1	ac%		220	220	oskill	83	6	6	att		50	50	dmg-ltng		15	15	str		20	20	res-cold		11	11	oskill	39	10	10
+Shael Rune	r13L	18	r13	str		5	5	skilltab	7	2	2	dmg%		20	20	dmg-undead		50	50	indestruct		1	1	str		20	20	swing2		10	10	balance2		25	25	manasteal		6	6
+Dol Rune	r14L	18	r14	pois-min		48	48	pois-max		96	96	pois-len		150	150	light-thorns		15	15	crush		33	33	move3		30	30	dmg-cold	150	486	486	hit-skill	Frozen Orb	15	13	dmg-undead		75	75
+Hel Rune	r15L	18	r15	nec		2	2	dmg%		230	230	gold%		10	10	dur		40	40	gethit-skill	Bone Armor	15	10	mag%/lvl	8			kill-skill	Decrepify	50	6	hp		40	40	lifesteal		3	3
+Io Rune	r16L	18	r16	openwounds		60	60	dur		40	40	reduce-ac		33	33	res-pois		20	20	res-ltng		33	33	noheal		1	1	dmg-norm		45	45	att-skill	Nova	15	22	enr		9	9
+Lum Rune	r17L	18	r17	oskill	49	4	4	fire-min		120	120	fire-max		180	180	dmg-max		15	15	att	0	150	150	manasteal		6	6	ac%		150	150	mana		20	20				
+Ko Rune	r18L	18	r18	dmg%		210	210	swing2		40	40	ac/lvl	16			move2		25	25	str		15	15	oskill	Venom	3	3	dmg-fire		6	6	vit		10	10	oskill	Battle Command	6	6
+Fal Rune	r19L	18	r19	dmg%		230	230	ac%		150	150					skilltab	17	3	3	cast3		65	65	oskill	36	10	10	mana		33	33	mag%	0	9	9	dmg-pois	75	18	18
+Lem Rune	r20L	18	r20	ac%		85	85	light		3	3	balance2		30	30	ac		50	50	att		60	60	mana		90	90	regen		10	10	dex		15	15	skilltab	1	1	1
+Pul Rune	r21L	18	r21	mana		20	20	swing2		20	20	att		64	64	res-fire-max		15	15	ac		25	25	fireskill		3	3	oskill	48	15	15	dmg%		120	120	gethit-skill	Confuse	10	15
+Um Rune	r22L	18	r22	cold-min	0	6	6	cold-max	0	10	10	cold-len	0	60	60	res-pois		25	25	dur		30	30	oskill	Battle Orders	2	2	dmg-fire		9	9	mana		35	35	regen	0	4	4
+Mal Rune	r23L	18	r23	dmg%		280	280	gethit-skill	Poison Nova	10	10	regen-mana	0	8	8	att%		50	50	light		7	7	regen-mana		30	30	dmg%		80	80	dmg-fire		200	200	res-cold	0	30	30
+Ist Rune	r24L	18	r24	dmg-fire		48	48	dmg-demon		100	100	pal		1	1	mana-kill		2	2	ease		-25	-25	light		5	5	block2		40	40	manasteal		5	5	hp		25	25
+Gul Rune	r25L	18	r25	dmg%		400	400	str		10	10	mana	0	30	30	bar		2	2	att%		25	25	res-cold		30	30	att-und/lvl	20			dmg-fire		483	483	dmg-pois	50	187	187
+Vex Rune	r26L	18	r26	res-all		10	10	res-fire-max		5	5	ac/lvl	20			oskill	73	5	5	skilltab	0	2	2	dmg-pois	150	86	86	str		15	15	cast2		10	10	red-dmg%		8	8
+Ohm Rune	r27L	18	r27	dmg-ltng		20	20	hp		20	20	gethit-skill	42	10	3	oskill	64	9	9	dmg-to-mana		20	20	mana	0	38	38	openwounds		15	15	regen	0	3	3	state	fullsetgeneric	1	1
+Lo Rune	r28L	18	r28	ac		75	75	dmg%		200	200	ac%		200	200	dur		100	100	dex		15	15	enr		3	3	move2		25	25	ac%		50	50	red-mag		1	1
+Sur Rune	r29L	18	r29	dmg-demon		100	100	vit		24	24	light-thorns		5	5	res-all		40	40	att	0	80	80	mana/lvl	6			mana		22	22	str		10	10	hp		5	5
+Ber Rune	r30L	18	r30	block		30	30	dmg-norm		50	50	nofreeze		1	1	att		50	50	ac%		200	200	res-cold		15	15	oskill	37	3	3	ac%		80	80	mana		30	30
+Jah Rune	r31L	18	r31	ac-miss		100	100	light-thorns		15	15	balance2		30	30	res-fire		25	25	dmg%		190	190	regen-mana		15	15	hit-skill	92	5	8	lifesteal		3	3	dmg-cold/lvl	12		
+Cham Rune	r32L	18	r32	nofreeze		1	1	ease		-50	-50	res-ltng-max		5	5	dex		10	10	hit-skill	56	2	4	mana		50	50	dmg-ltng		30	30	dru		2	2	dmg-demon		75	75
+Zod Rune	r33L	18	r33	move2		10	10	crush		25	25	red-mag	0	1	1	dmg%		270	270	att		100	100	hp		10	10	pal		2	2	aura	Conviction	12	12	att-skill	36	10	4

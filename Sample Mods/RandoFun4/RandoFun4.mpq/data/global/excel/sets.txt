@@ -1,0 +1,661 @@
+index	name	version	PCode2a	PParam2a	PMin2a	PMax2a	PCode2b	PParam2b	PMin2b	PMax2b	PCode3a	PParam3a	PMin3a	PMax3a	PCode3b	PParam3b	PMin3b	PMax3b	PCode4a	PParam4a	PMin4a	PMax4a	PCode4b	PParam4b	PMin4b	PMax4b	PCode5a	PParam5a	PMin5a	PMax5a	PCode5b	PParam5b	PMin5b	PMax5b	FCode1	FParam1	FMin1	FMax1	FCode2	FParam2	FMin2	FMax2	FCode3	FParam3	FMin3	FMax3	FCode4	FParam4	FMin4	FMax4	FCode5	FParam5	FMin5	FMax5	FCode6	FParam6	FMin6	FMax6	FCode7	FParam7	FMin7	FMax7	FCode8	FParam8	FMin8	FMax8	*eol
+Civerb's Vestments	Civerb's Vestments	0	dmg%		220	220	pois-min		8	8	dmg-undead		300	300	pois-max		24	24	res-pois	0	16	16	pois-len		75	75	oskill	55	6	6					pierce-cold		35	35	manasteal		8	8	hit-skill	Decrepify	20	15	balance2		25	25	dex		6	6	allskills		1	1	att		20	20	cast3		20	20	0
+Hsarus' Defense	Hsarus' Defense	0	ac		25	25	lifesteal		15	15	dmg%		250	250					oskill	Feral Rage	6	6					regen	0	3	3					att-undead		40	40	ac		10	10	mag%		100	100	dmg-undead		50	50	ac/lvl	20			dex		20	20	lifesteal		9	9	dmg-max		2	2	0
+Cleglaw's Brace	Cleglaw's Brace	0	light		-3	-3	dmg-max		2	2	move2		15	15					att	0	60	60													dmg-ltng		40	40	pierce-cold		35	35	oskill	225	12	12	move2		20	20	ac%		130	130	abs-ltng		7	7	manasteal		10	10	ease		-40	-40	0
+Iratha's Finery	Iratha's Finery	0	ac		50	50	gethit-skill	Lower Resist	20	12	swing3		30	30	ltng-min		1	1	fire-min	0	3	3	ltng-max		33	33	fire-max	0	4	4	mana		13	13	abs-fire/lvl	6			vit/lvl	4			oskill	13	3	3	mag%		100	100	mana		77	77	lifesteal	0	2	2	res-fire		5	5	dex		3	3	0
+Isenhart's Armory	Isenhart's Armory	0	dmg%		140	140	str		20	20	mag%		25	25	gethit-skill	76	10	2	ease		-40	-40	pal		2	2	manasteal		7	7	cast2		10	10	light-thorns		15	15	cast1		20	20	res-ltng		50	50	regen-mana		15	15	rip		1	1	hp	0	10	10	att		10	10	manasteal		5	5	0
+Vidala's Rig	Vidala's Rig	0	ac%		100	100	mag%		25	25	vit		40	40	dmg%		325	325	skilltab	13	1	1	regen-stam		50	50	dex		15	15	mana		10	10	dmg-undead		60	60	pal		2	2	sor		3	3	gethit-skill	38	12	4	skilltab	11	2	2	str		10	10	res-fire		30	30	oskill	48	7	7	0
+Milabrega's Regalia	Milabrega's Regalia	0	dmg%		160	160	red-mag		4	4	fire-min		1	1	dmg-ltng		240	240	fire-max		3	3	ac%		50	50	block		20	20	thorns		20	20	thorns		5	5	light-thorns		15	15	mana%		20	20	oskill	Spirit of Barbs	7	7	nofreeze		1	1	mag%		35	35	manasteal		12	12	move3		30	30	0
+Cathan's Traps	Cathan's Traps	0	thorns		8	8	mana		15	15	swing2		60	60	lifesteal		13	13	ease		-50	-50	dmg-max		2	2	skilltab	10	2	2	nofreeze	0	1	1	oskill	101	20	20	ac%		160	160	balance2		30	30	abs-mag		11	11	vit		22	22	regen-mana	0	19	19	dmg%		350	350	mag%		100	100	0
+Tancred's Battlegear	Tancred's Battlegear	0	slow		50	50	dmg		120	120	dmg/lvl	20			oskill	17	3	3	allskills		2	2	dex		15	15	red-dmg%		15	15	att-skill	36	10	4	str		6	6	oskill	76	3	3	ama		1	1	regen-stam		25	25	ltng-min		1	1	ltng-max		480	480	dmg-pois	100	460	460	res-pois		40	40	0
+Sigon's Complete Steel	Sigon's Complete Steel	0	light		-1	-1	abs-fire%		30	30	oskill	Battle Orders	6	6	res-all		45	45	dmg-to-mana		12	12	dmg-pois	125	308	308	manasteal		8	8	oskill	14	6	6	gethit-skill	92	9	6	dmg%		123	123	dmg-ac		-100	-100	mag%		100	100	red-dmg		2	2	dex		30	30	ease		-40	-40	lifesteal	0	8	8	0
+Infernal Tools	Infernal Tools	0	swing2		20	20	mana		175	175	res-ltng	0	20	20	cast2		20	20	skilltab	19	3	3	dmg-pois	150	349	349	str		20	20	thorns		20	20	att		100	100	oskill	77	3	3	dmg%		200	200	allskills		1	1	hp		15	15	pierce-ltng		15	15	block		25	25	skilltab	17	1	1	0
+Berserker's Garb	Berserker's Garb	0	ac%		80	80	red-dmg%		10	10	pierce-immunity-damage		300	300	block		20	20	block		20	20	att%		20	20	gold%		50	50	ac%		75	75	deadly		30	30	ac%		100	100	dmg-max		20	20	oskill	74	5	5	move2		20	20	nofreeze		1	1	mana		40	40	dmg-pois	75	171	171	0
+Death's Disguise	Death's Disguise	0	dmg%		100	100	cast3		20	20	str		6	6	thorns		6	6	att	0	120	120					dmg-fire		200	200					dmg%		200	200	mana		100	100	dmg-norm		45	45	res-all		40	40	ac%		200	200	res-fire		40	40	balance2		50	50	att		10	10	0
+Angelical Raiment	Angelical Raiment	0	ac		20	20	oskill	127	4	4	ac-miss		350	350	ac	0	18	18	hp		40	40	att	0	100	100	fade		1	1	skilltab	7	2	2	oskill	121	1	1	pierce-fire		15	15	dex		10	10	res-cold		37	37	dmg%	0	20	20	res-pois	0	10	10	res-all		12	12	red-mag		4	4	0
+Arctic Gear	Arctic Gear	0	att-undead		100	100	fireskill		1	1	oskill	55	3	3	enr		12	12	crush		25	25	res-all		30	30	regen-mana	0	12	12	hp%		5	5	thorns		10	10	regen		5	5	hp/lvl	12			ac		40	40	block		20	20	dmg%	0	40	40	res-cold		30	30	enr		15	15	0
+Arcanna's Tricks	Arcanna's Tricks	0	red-dmg		5	5	oskill	42	3	3	dmg-max		7	7	red-dmg		11	11	lifesteal		4	4	att		60	60	manasteal		10	10	res-ltng		20	20	enr		9	9	fire-min	0	3	3	fire-max	0	4	4	crush		35	35	block		20	20	pal		2	2	swing2		20	20	mag%		25	25	0
+Expansion																																																																			
+Natalya's Odium	Natalya's Odium	100	att		100	100	vit		20	20	ama		1	1	dmg%		240	240	ac%		220	220	str		10	10	cast3		35	35	res-fire		12	12	balance2		20	20	dmg%		200	200	manasteal		8	8	regen-mana		43	43	dmg-max		7	7	ltng-min		1	1	ltng-max		23	23	ama		1	1	0
+Aldur's Watchtower	Aldur's Watchtower	100	manasteal		7	7	res-cold		20	20	enr		15	15	fire-min		1	1	regen-mana		30	30	fire-max		3	3	oskill	240	6	6	res-all		20	20	mana-kill		2	2	swing2		20	20	hit-skill	234	5	7	allskills		1	1	dmg%	0	30	30	pal		2	2	gethit-skill	48	14	5	oskill	44	8	8	0
+Immortal King	Immortal King	100	ac%		240	240	block		25	25	block2		30	30	regen		10	10	gethit-skill	76	10	2	dmg-undead		250	250	crush		10	10	res-cold		40	40	block		30	30	allskills		1	1	thorns		5	5	aura	Holy Freeze	12	12	swing2		35	35	hp		50	50	str		15	15	oskill	Fire Mastery	3	3	0
+Tal Rasha's Wrappings	Tal Rasha's Wrappings	100	att		28	28	dmg%		150	150	mag%		3	3	res-pois		45	45	skilltab	1	1	1	hp/lvl	6			res-pois-len	0	75	75	oskill	24	3	3	res-all		50	50	allskills		2	2	oskill	41	3	3	gethit-skill	Fade	5	15	dmg-undead	0	44	44	att		132	132	mana		33	33	res-fire		7	7	0
+Griswold's Legacy	Griswold's Legacy	100	swing2		20	20	swing2		25	25	openwounds		50	50	allskills		2	2	res-all		10	10	att-demon		100	100	dmg%		25	25	mana		46	46	block		20	20	oskill	Summon Fenris	15	15	openwounds		25	25	att%		30	30	ac	0	12	12	ac-miss		30	30	skilltab	7	1	1	dmg-max		1	1	0
+Trang-Oul's Avatar	Trang-Oul's Avatar	100	dmg-fire		200	200	swing2		10	10	swing2		33	33	hit-skill	Bone Spear	100	18	skilltab	5	1	1	lifesteal		5	5	att		10	10	res-fire		30	30	all-stats		10	10	dmg-to-mana		12	12	stupidity		1	1	lifesteal		10	10	fire-min		2	2	fire-max		3	3	mag%		20	20	ac		100	100	0
+M'avina's Battle Hymn	M'avina's Battle Hymn	100	allskills		1	1	mag%/lvl	10			str		15	15	ac%		120	120	dmg/lvl	6			res-cold		25	25	oskill	244	3	3	dex		6	6	ac%		50	50	dmg-fire		180	180	res-pois		20	20	nofreeze		1	1	res-all		13	13	dmg-pois	150	349	349	skilltab	12	1	1	att-skill	49	5	3	0
+The Disciple	The Disciple	100	dmg%		210	210	mana		40	40	manasteal		4	4	oskill	92	4	4	oskill	16	4	4	hit-skill	121	5	7	fade		1	1	half-freeze		1	1	hp		10	10	dmg-max		10	10	oskill	84	2	2	res-cold		40	40	ac%		60	60	thorns		14	14	mana		7	7	ac		200	200	0
+Heaven's Brethren	Heaven's Brethren	100	res-pois-len		50	50	half-freeze	0	1	1	hp		57	57	ac%		140	140	fire-min		27	27	fireskill		3	3	fire-max		43	43					ac%		100	100	att-demon		300	300	dmg-norm		30	30	light		2	2	dmg%		90	90	mana-kill		15	15	mana		10	10					0
+Orphan's Call	Orphan's Call	100	res-pois-len		75	75	res-all		30	30	dmg%		10	10	regen-mana		15	15	ac/lvl	16			skilltab	6	2	2	ama	0	2	2	dex		5	5	light		-3	-3	noheal		1	1	pois-min		48	48	pois-max		96	96	pois-len		150	150	att-undead		50	50	att		40	40	res-cold		33	33	0
+Hwanin's Majesty	Hwanin's Majesty	100	res-fire		45	45	thorns		5	5	stupidity		1	1	dmg%		165	165	gethit-skill	38	2	0	allskills		2	2	swing2		10	10	str	0	15	15	swing2		20	20	light		2	2	thorns		8	8	bar		3	3	ac		50	50	ease		-100	-100	block		20	20	ac%		325	325	0
+Sazabi's Grand Tribute	Sazabi's Grand Tribute	100	ac%		100	100	dmg-ltng		120	120	ac-miss		250	250	res-fire		24	24	mag%		100	100	abs-ltng%		15	15					thorns	0	16	16	enr		10	10	ignore-ac		1	1	dmg		30	30	swing2		40	40	half-freeze		1	1	hp		15	15	ac		75	75	skilltab	2	2	2	0
+Bul-Kathos' Children	Bul-Kathos' Children	100	ama	0	2	2	dmg-pois	100	77	77																									pierce-ltng		20	20	ac%		220	220	openwounds		25	25	regen-mana		17	17	gethit-skill	53	12	5	mag%		7	7	res-fire		20	20	oskill	36	6	6	0
+Cow King's Leathers	Cow King's Leathers	100	str		5	5	regen-mana		30	30	dmg-to-mana		20	20	dmg%		35	35	skilltab	16	1	1	dmg-norm		20	20					ac%		60	60	enr		10	10	swing2		50	50	dmg-fire		65	65	dmg-undead		125	125	dmg-demon		200	200	pal		2	2	fire-min		8	8	fire-max		12	12	0
+Naj's Ancient Set	Naj's Ancient Set	100	dmg-min		5	5	dex		10	10	dex		10	10	dmg%		50	50	cast1		20	20	hit-skill	72	5	5					openwounds		33	33	mana		100	100	ltng-min		6	6	ltng-max		120	120	freeze		4	4	dmg%		160	160	allskills		1	1	light		5	5	ac		90	90	0
+McAuley's Folly	McAuley's Folly	100	skilltab	19	2	2	dmg%		100	100	balance2		30	30	cast3		20	20	dmg-max		2	2	move2		20	20	lifesteal		10	10	nofreeze		1	1	mana		30	30	ac%		30	30	ass		2	2	lifesteal		15	15	nofreeze		1	1	swing2		20	20	ac/lvl	16			skilltab	16	1	1	0
+Civerb's Vestments 2	Civerb's Vestments 2	0	res-fire		25	25																													str	0	15	15	dmg-undead	0	200	200	res-ltng	0	25	25	att%	0	25	25	ac		50	50													0
+Hsarus' Defense 2	Hsarus' Defense 2	0	thorns		5	5																													dmg-max	0	5	5	nofreeze	0	1	1	res-ltng	0	25	25																					0
+Cleglaw's Brace 2	Cleglaw's Brace 2	0	ac		50	50																													ac	0	50	50	manasteal	0	6	6	crush	0	35	35	swing2		20	20																	0
+Iratha's Finery 2	Iratha's Finery 2	0	ac		50	50					move2		20	20	pierce		24	24																	res-all	0	20	20	res-fire-max	0	10	10	res-cold-max	0	10	10	res-ltng-max	0	10	10	res-pois-max	0	10	10	dex	0	15	15									0
+Isenhart's Armory 2	Isenhart's Armory 2	0	str		10	10					dex		10	10																					lifesteal	0	5	5	res-all	0	10	10	att%	0	35	35	block		30	30	move2		20	20													0
+Vidala's Rig 2	Vidala's Rig 2	0	att		75	75	manasteal		7	7	dex		15	15																					dmg-cold/lvl	12			freeze	0	1	1	pierce	0	50	50	str		10	10																	0
+Milabrega's Regalia 2	Milabrega's Regalia 2	0	att		75	75	dmg-ltng/lvl	16			att		125	125	nofreeze		1	1																	lifesteal	0	8	8	pal	0	2	2	manasteal	0	10	10	res-pois	0	15	15																	0
+Cathan's Traps 2	Cathan's Traps 2	0	dmg-fire		15	20	regen-mana		16	16	res-ltng		25	25																					att	0	60	60	red-mag	0	3	3	res-all	0	25	25	cast1	0	10	10	mana	0	20	20													0
+Tancred's Battlegear 2	Tancred's Battlegear 2	0	dmg-ltng		15	15					lifesteal		5	5																					gold%	0	75	75	res-all	0	10	10	slow	0	35	35	manasteal	0	5	5																	0
+Sigon's Complete Steel 2	Sigon's Complete Steel 2	0	lifesteal		10	10					ac		100	100																					res-fire	0	12	12	thorns	0	12	12	red-dmg	0	7	7	fire-max	0	24	24	mana		20	20													0
+Infernal Tools 2	Infernal Tools 2	0	dmg-pois	80	25	25					mana		10	10																					att%	0	20	20	nec	0	1	1	openwounds	0	20	20	manasteal		6	6	mana%		20	20	nofreeze		1	1									0
+Berserker's Garb 2	Berserker's Garb 2	0	hp		50	50																													res-pois-len	0	75	75	pois-min	0	16	16	pois-max	0	32	32	pois-len	0	75	75	ac		75	75													0
+Death's Disguise 2	Death's Disguise 2	0	lifesteal		8	8																													att%	0	40	40	dmg-min	0	10	10	res-all	0	25	25																					0
+Angelical Raiment 2	Angelical Raiment 2	0	dex		10	10					mana		50	50																					res-all	0	25	25	half-freeze	0	1	1	mag%	0	40	40	regen-mana		8	8																	0
+Arctic Gear 2	Arctic Gear 2	0	str		5	5					hp		50	50																					dmg-cold/lvl	16			cold-len	0	100	100	nofreeze	0	1	1																					0
+Arcanna's Tricks 2	Arcanna's Tricks 2	0	mana		50	50					hp		50	50	regen-mana		12	12																	cast3	0	20	20	manasteal	0	5	5	mana	0	25	25	allskills		1	1																	0
+Expansion																																																																			
+Natalya's Odium 2	Natalya's Odium 2	100	red-mag		15	15					ac		200	200					res-pois		20	20													res-all		50	50	ass		3	3	ac		150	150	lifesteal		14	14	manasteal		14	14	red-dmg%		30	30	fade		1	1					0
+Aldur's Watchtower 2	Aldur's Watchtower 2	100	att%		150	150					mag%		50	50					lifesteal		10	10													res-all		50	50	dru		3	3	ac		150	150	manasteal		10	10	mana		150	150	dmg%		350	350	state	fullsetgeneric	1	1					0
+Immortal King 2	Immortal King 2	100	att		50	50					att		75	75					att		125	125					att		200	200					res-all		50	50	bar		3	3	hp		150	150	red-mag		10	10	state	fullsetgeneric	1	1													0
+Tal Rasha's Wrappings 2	Tal Rasha's Wrappings 2	100	regen		10	10					mag%		65	65					balance2		25	25													res-all		50	50	sor		3	3	ac		150	150	hp		150	150	ac-miss		50	50	state	fullsetgeneric	1	1									0
+Griswold's Legacy 2	Griswold's Legacy 2	100	str		20	20					dex		30	30																					res-all		50	50	pal		3	3	att		200	200	hp		150	150	state	fullsetgeneric	1	1	balance2		30	30									0
+Trang-Oul's Avatar 2	Trang-Oul's Avatar 2	100	regen-mana		15	15	oskill	Fire Ball	18	18	regen-mana		15	15	oskill	Fire Wall	13	13	regen-mana		15	15	oskill	Meteor	10	10									res-all		50	50	nec		3	3	mana		100	100	ac		200	200	state	monsterset	1	1	regen-mana		15	15	oskill	Fire Mastery	3	3	lifesteal		20	20	0
+M'avina's Battle Hymn 2	M'avina's Battle Hymn 2	100	str		20	20					dex		30	30																					res-all		50	50	ama		3	3	ac		100	100	att		100	100	mag%		100	100	state	fullsetgeneric	1	1									0
+The Disciple 2	The Disciple 2	100	ac		150	150					dmg-pois	75	75	75					str		10	10					dex		10	10					res-all		50	50	allskills		2	2	mana		100	100																					0
+Heaven's Brethren 2	Heaven's Brethren 2	100	lifesteal		10	10					regen		30	30	dmg-fire/lvl	24																			res-all		50	50	allskills		2	2	nofreeze		1	1	light		5	5	red-dmg%		24	24													0
+Orphan's Call 2	Orphan's Call 2	100	hp		35	35					thorns		5	5					ac		100	100													hp		50	50	dex		10	10	str		20	20	ac		100	100	res-all		15	15	mag%	0	80	80									0
+Hwanin's Majesty 2	Hwanin's Majesty 2	100	ac		100	100					ac		200	200																					allskills		2	2	lifesteal		20	20	move3		30	30	res-all		30	30																	0
+Sazabi's Grand Tribute 2	Sazabi's Grand Tribute 2	100	move3		40	40	res-pois-len		75	75																									res-all		30	30	lifesteal		15	15	hp%		27	27	allskills		1	1	red-dmg%		16	16													0
+Bul-Kathos' Children 2	Bul-Kathos' Children 2	100																																	dmg-fire		200	200	allskills		2	2	att		200	200	ac		200	200	dmg-undead		200	200	dmg-demon		200	200	lifesteal		10	10	deadly		20	20	0
+Cow King's Leathers 2	Cow King's Leathers 2	100	res-pois		25	25	ac		100	100																									stam		100	100	str		20	20	gold%		100	100	mag%		100	100	gethit-skill	42	25	5	swing3		30	30	hp		100	100	allskills		1	1	0
+Naj's Ancient Set 2	Naj's Ancient Set 2	100	ac		175	175	mag%/lvl	12																											allskills		1	1	regen		20	20	dex		15	15	res-all		50	50	str		20	20	mana		100	100	fireskill		2	2	hp%		12	12	0
+McAuley's Folly 2	McAuley's Folly 2	100	ac		50	50					att		75	75																					allskills		1	1	mag%		50	50	mana		50	50	lifesteal		4	4																	0
+Civerb's Vestments 3	Civerb's Vestments 3	0	res-fire		25	25																													str	0	15	15	dmg-undead	0	200	200	res-ltng	0	25	25	att%	0	25	25	ac		50	50													0
+Hsarus' Defense 3	Hsarus' Defense 3	0	thorns		5	5																													dmg-max	0	5	5	nofreeze	0	1	1	res-ltng	0	25	25																					0
+Cleglaw's Brace 3	Cleglaw's Brace 3	0	ac		50	50																													ac	0	50	50	manasteal	0	6	6	crush	0	35	35	swing2		20	20																	0
+Iratha's Finery 3	Iratha's Finery 3	0	ac		50	50					move2		20	20	pierce		24	24																	res-all	0	20	20	res-fire-max	0	10	10	res-cold-max	0	10	10	res-ltng-max	0	10	10	res-pois-max	0	10	10	dex	0	15	15									0
+Isenhart's Armory 3	Isenhart's Armory 3	0	str		10	10					dex		10	10																					lifesteal	0	5	5	res-all	0	10	10	att%	0	35	35	block		30	30	move2		20	20													0
+Vidala's Rig 3	Vidala's Rig 3	0	att		75	75	manasteal		7	7	dex		15	15																					dmg-cold/lvl	12			freeze	0	1	1	pierce	0	50	50	str		10	10																	0
+Milabrega's Regalia 3	Milabrega's Regalia 3	0	att		75	75	dmg-ltng/lvl	16			att		125	125	nofreeze		1	1																	lifesteal	0	8	8	pal	0	2	2	manasteal	0	10	10	res-pois	0	15	15																	0
+Cathan's Traps 3	Cathan's Traps 3	0	dmg-fire		15	20	regen-mana		16	16	res-ltng		25	25																					att	0	60	60	red-mag	0	3	3	res-all	0	25	25	cast1	0	10	10	mana	0	20	20													0
+Tancred's Battlegear 3	Tancred's Battlegear 3	0	dmg-ltng		15	15					lifesteal		5	5																					gold%	0	75	75	res-all	0	10	10	slow	0	35	35	manasteal	0	5	5																	0
+Sigon's Complete Steel 3	Sigon's Complete Steel 3	0	lifesteal		10	10					ac		100	100																					res-fire	0	12	12	thorns	0	12	12	red-dmg	0	7	7	fire-max	0	24	24	mana		20	20													0
+Infernal Tools 3	Infernal Tools 3	0	dmg-pois	80	25	25					mana		10	10																					att%	0	20	20	nec	0	1	1	openwounds	0	20	20	manasteal		6	6	mana%		20	20	nofreeze		1	1									0
+Berserker's Garb 3	Berserker's Garb 3	0	hp		50	50																													res-pois-len	0	75	75	pois-min	0	16	16	pois-max	0	32	32	pois-len	0	75	75	ac		75	75													0
+Death's Disguise 3	Death's Disguise 3	0	lifesteal		8	8																													att%	0	40	40	dmg-min	0	10	10	res-all	0	25	25																					0
+Angelical Raiment 3	Angelical Raiment 3	0	dex		10	10					mana		50	50																					res-all	0	25	25	half-freeze	0	1	1	mag%	0	40	40	regen-mana		8	8																	0
+Arctic Gear 3	Arctic Gear 3	0	str		5	5					hp		50	50																					dmg-cold/lvl	16			cold-len	0	100	100	nofreeze	0	1	1																					0
+Arcanna's Tricks 3	Arcanna's Tricks 3	0	mana		50	50					hp		50	50	regen-mana		12	12																	cast3	0	20	20	manasteal	0	5	5	mana	0	25	25	allskills		1	1																	0
+Expansion																																																																			
+Natalya's Odium 3	Natalya's Odium 3	100	red-mag		15	15					ac		200	200					res-pois		20	20													res-all		50	50	ass		3	3	ac		150	150	lifesteal		14	14	manasteal		14	14	red-dmg%		30	30	fade		1	1					0
+Aldur's Watchtower 3	Aldur's Watchtower 3	100	att%		150	150					mag%		50	50					lifesteal		10	10													res-all		50	50	dru		3	3	ac		150	150	manasteal		10	10	mana		150	150	dmg%		350	350	state	fullsetgeneric	1	1					0
+Immortal King 3	Immortal King 3	100	att		50	50					att		75	75					att		125	125					att		200	200					res-all		50	50	bar		3	3	hp		150	150	red-mag		10	10	state	fullsetgeneric	1	1													0
+Tal Rasha's Wrappings 3	Tal Rasha's Wrappings 3	100	regen		10	10					mag%		65	65					balance2		25	25													res-all		50	50	sor		3	3	ac		150	150	hp		150	150	ac-miss		50	50	state	fullsetgeneric	1	1									0
+Griswold's Legacy 3	Griswold's Legacy 3	100	str		20	20					dex		30	30																					res-all		50	50	pal		3	3	att		200	200	hp		150	150	state	fullsetgeneric	1	1	balance2		30	30									0
+Trang-Oul's Avatar 3	Trang-Oul's Avatar 3	100	regen-mana		15	15	oskill	Fire Ball	18	18	regen-mana		15	15	oskill	Fire Wall	13	13	regen-mana		15	15	oskill	Meteor	10	10									res-all		50	50	nec		3	3	mana		100	100	ac		200	200	state	monsterset	1	1	regen-mana		15	15	oskill	Fire Mastery	3	3	lifesteal		20	20	0
+M'avina's Battle Hymn 3	M'avina's Battle Hymn 3	100	str		20	20					dex		30	30																					res-all		50	50	ama		3	3	ac		100	100	att		100	100	mag%		100	100	state	fullsetgeneric	1	1									0
+The Disciple 3	The Disciple 3	100	ac		150	150					dmg-pois	75	75	75					str		10	10					dex		10	10					res-all		50	50	allskills		2	2	mana		100	100																					0
+Heaven's Brethren 3	Heaven's Brethren 3	100	lifesteal		10	10					regen		30	30	dmg-fire/lvl	24																			res-all		50	50	allskills		2	2	nofreeze		1	1	light		5	5	red-dmg%		24	24													0
+Orphan's Call 3	Orphan's Call 3	100	hp		35	35					thorns		5	5					ac		100	100													hp		50	50	dex		10	10	str		20	20	ac		100	100	res-all		15	15	mag%	0	80	80									0
+Hwanin's Majesty 3	Hwanin's Majesty 3	100	ac		100	100					ac		200	200																					allskills		2	2	lifesteal		20	20	move3		30	30	res-all		30	30																	0
+Sazabi's Grand Tribute 3	Sazabi's Grand Tribute 3	100	move3		40	40	res-pois-len		75	75																									res-all		30	30	lifesteal		15	15	hp%		27	27	allskills		1	1	red-dmg%		16	16													0
+Bul-Kathos' Children 3	Bul-Kathos' Children 3	100																																	dmg-fire		200	200	allskills		2	2	att		200	200	ac		200	200	dmg-undead		200	200	dmg-demon		200	200	lifesteal		10	10	deadly		20	20	0
+Cow King's Leathers 3	Cow King's Leathers 3	100	res-pois		25	25	ac		100	100																									stam		100	100	str		20	20	gold%		100	100	mag%		100	100	gethit-skill	42	25	5	swing3		30	30	hp		100	100	allskills		1	1	0
+Naj's Ancient Set 3	Naj's Ancient Set 3	100	ac		175	175	mag%/lvl	12																											allskills		1	1	regen		20	20	dex		15	15	res-all		50	50	str		20	20	mana		100	100	fireskill		2	2	hp%		12	12	0
+McAuley's Folly 3	McAuley's Folly 3	100	ac		50	50					att		75	75																					allskills		1	1	mag%		50	50	mana		50	50	lifesteal		4	4																	0
+Civerb's Vestments 4	Civerb's Vestments 4	0	res-fire		25	25																													str	0	15	15	dmg-undead	0	200	200	res-ltng	0	25	25	att%	0	25	25	ac		50	50													0
+Hsarus' Defense 4	Hsarus' Defense 4	0	thorns		5	5																													dmg-max	0	5	5	nofreeze	0	1	1	res-ltng	0	25	25																					0
+Cleglaw's Brace 4	Cleglaw's Brace 4	0	ac		50	50																													ac	0	50	50	manasteal	0	6	6	crush	0	35	35	swing2		20	20																	0
+Iratha's Finery 4	Iratha's Finery 4	0	ac		50	50					move2		20	20	pierce		24	24																	res-all	0	20	20	res-fire-max	0	10	10	res-cold-max	0	10	10	res-ltng-max	0	10	10	res-pois-max	0	10	10	dex	0	15	15									0
+Isenhart's Armory 4	Isenhart's Armory 4	0	str		10	10					dex		10	10																					lifesteal	0	5	5	res-all	0	10	10	att%	0	35	35	block		30	30	move2		20	20													0
+Vidala's Rig 4	Vidala's Rig 4	0	att		75	75	manasteal		7	7	dex		15	15																					dmg-cold/lvl	12			freeze	0	1	1	pierce	0	50	50	str		10	10																	0
+Milabrega's Regalia 4	Milabrega's Regalia 4	0	att		75	75	dmg-ltng/lvl	16			att		125	125	nofreeze		1	1																	lifesteal	0	8	8	pal	0	2	2	manasteal	0	10	10	res-pois	0	15	15																	0
+Cathan's Traps 4	Cathan's Traps 4	0	dmg-fire		15	20	regen-mana		16	16	res-ltng		25	25																					att	0	60	60	red-mag	0	3	3	res-all	0	25	25	cast1	0	10	10	mana	0	20	20													0
+Tancred's Battlegear 4	Tancred's Battlegear 4	0	dmg-ltng		15	15					lifesteal		5	5																					gold%	0	75	75	res-all	0	10	10	slow	0	35	35	manasteal	0	5	5																	0
+Sigon's Complete Steel 4	Sigon's Complete Steel 4	0	lifesteal		10	10					ac		100	100																					res-fire	0	12	12	thorns	0	12	12	red-dmg	0	7	7	fire-max	0	24	24	mana		20	20													0
+Infernal Tools 4	Infernal Tools 4	0	dmg-pois	80	25	25					mana		10	10																					att%	0	20	20	nec	0	1	1	openwounds	0	20	20	manasteal		6	6	mana%		20	20	nofreeze		1	1									0
+Berserker's Garb 4	Berserker's Garb 4	0	hp		50	50																													res-pois-len	0	75	75	pois-min	0	16	16	pois-max	0	32	32	pois-len	0	75	75	ac		75	75													0
+Death's Disguise 4	Death's Disguise 4	0	lifesteal		8	8																													att%	0	40	40	dmg-min	0	10	10	res-all	0	25	25																					0
+Angelical Raiment 4	Angelical Raiment 4	0	dex		10	10					mana		50	50																					res-all	0	25	25	half-freeze	0	1	1	mag%	0	40	40	regen-mana		8	8																	0
+Arctic Gear 4	Arctic Gear 4	0	str		5	5					hp		50	50																					dmg-cold/lvl	16			cold-len	0	100	100	nofreeze	0	1	1																					0
+Arcanna's Tricks 4	Arcanna's Tricks 4	0	mana		50	50					hp		50	50	regen-mana		12	12																	cast3	0	20	20	manasteal	0	5	5	mana	0	25	25	allskills		1	1																	0
+Expansion																																																																			
+Natalya's Odium 4	Natalya's Odium 4	100	red-mag		15	15					ac		200	200					res-pois		20	20													res-all		50	50	ass		3	3	ac		150	150	lifesteal		14	14	manasteal		14	14	red-dmg%		30	30	fade		1	1					0
+Aldur's Watchtower 4	Aldur's Watchtower 4	100	att%		150	150					mag%		50	50					lifesteal		10	10													res-all		50	50	dru		3	3	ac		150	150	manasteal		10	10	mana		150	150	dmg%		350	350	state	fullsetgeneric	1	1					0
+Immortal King 4	Immortal King 4	100	att		50	50					att		75	75					att		125	125					att		200	200					res-all		50	50	bar		3	3	hp		150	150	red-mag		10	10	state	fullsetgeneric	1	1													0
+Tal Rasha's Wrappings 4	Tal Rasha's Wrappings 4	100	regen		10	10					mag%		65	65					balance2		25	25													res-all		50	50	sor		3	3	ac		150	150	hp		150	150	ac-miss		50	50	state	fullsetgeneric	1	1									0
+Griswold's Legacy 4	Griswold's Legacy 4	100	str		20	20					dex		30	30																					res-all		50	50	pal		3	3	att		200	200	hp		150	150	state	fullsetgeneric	1	1	balance2		30	30									0
+Trang-Oul's Avatar 4	Trang-Oul's Avatar 4	100	regen-mana		15	15	oskill	Fire Ball	18	18	regen-mana		15	15	oskill	Fire Wall	13	13	regen-mana		15	15	oskill	Meteor	10	10									res-all		50	50	nec		3	3	mana		100	100	ac		200	200	state	monsterset	1	1	regen-mana		15	15	oskill	Fire Mastery	3	3	lifesteal		20	20	0
+M'avina's Battle Hymn 4	M'avina's Battle Hymn 4	100	str		20	20					dex		30	30																					res-all		50	50	ama		3	3	ac		100	100	att		100	100	mag%		100	100	state	fullsetgeneric	1	1									0
+The Disciple 4	The Disciple 4	100	ac		150	150					dmg-pois	75	75	75					str		10	10					dex		10	10					res-all		50	50	allskills		2	2	mana		100	100																					0
+Heaven's Brethren 4	Heaven's Brethren 4	100	lifesteal		10	10					regen		30	30	dmg-fire/lvl	24																			res-all		50	50	allskills		2	2	nofreeze		1	1	light		5	5	red-dmg%		24	24													0
+Orphan's Call 4	Orphan's Call 4	100	hp		35	35					thorns		5	5					ac		100	100													hp		50	50	dex		10	10	str		20	20	ac		100	100	res-all		15	15	mag%	0	80	80									0
+Hwanin's Majesty 4	Hwanin's Majesty 4	100	ac		100	100					ac		200	200																					allskills		2	2	lifesteal		20	20	move3		30	30	res-all		30	30																	0
+Sazabi's Grand Tribute 4	Sazabi's Grand Tribute 4	100	move3		40	40	res-pois-len		75	75																									res-all		30	30	lifesteal		15	15	hp%		27	27	allskills		1	1	red-dmg%		16	16													0
+Bul-Kathos' Children 4	Bul-Kathos' Children 4	100																																	dmg-fire		200	200	allskills		2	2	att		200	200	ac		200	200	dmg-undead		200	200	dmg-demon		200	200	lifesteal		10	10	deadly		20	20	0
+Cow King's Leathers 4	Cow King's Leathers 4	100	res-pois		25	25	ac		100	100																									stam		100	100	str		20	20	gold%		100	100	mag%		100	100	gethit-skill	42	25	5	swing3		30	30	hp		100	100	allskills		1	1	0
+Naj's Ancient Set 4	Naj's Ancient Set 4	100	ac		175	175	mag%/lvl	12																											allskills		1	1	regen		20	20	dex		15	15	res-all		50	50	str		20	20	mana		100	100	fireskill		2	2	hp%		12	12	0
+McAuley's Folly 4	McAuley's Folly 4	100	ac		50	50					att		75	75																					allskills		1	1	mag%		50	50	mana		50	50	lifesteal		4	4																	0
+Civerb's Vestments 5	Civerb's Vestments 5	0	res-fire		25	25																													str	0	15	15	dmg-undead	0	200	200	res-ltng	0	25	25	att%	0	25	25	ac		50	50													0
+Hsarus' Defense 5	Hsarus' Defense 5	0	thorns		5	5																													dmg-max	0	5	5	nofreeze	0	1	1	res-ltng	0	25	25																					0
+Cleglaw's Brace 5	Cleglaw's Brace 5	0	ac		50	50																													ac	0	50	50	manasteal	0	6	6	crush	0	35	35	swing2		20	20																	0
+Iratha's Finery 5	Iratha's Finery 5	0	ac		50	50					move2		20	20	pierce		24	24																	res-all	0	20	20	res-fire-max	0	10	10	res-cold-max	0	10	10	res-ltng-max	0	10	10	res-pois-max	0	10	10	dex	0	15	15									0
+Isenhart's Armory 5	Isenhart's Armory 5	0	str		10	10					dex		10	10																					lifesteal	0	5	5	res-all	0	10	10	att%	0	35	35	block		30	30	move2		20	20													0
+Vidala's Rig 5	Vidala's Rig 5	0	att		75	75	manasteal		7	7	dex		15	15																					dmg-cold/lvl	12			freeze	0	1	1	pierce	0	50	50	str		10	10																	0
+Milabrega's Regalia 5	Milabrega's Regalia 5	0	att		75	75	dmg-ltng/lvl	16			att		125	125	nofreeze		1	1																	lifesteal	0	8	8	pal	0	2	2	manasteal	0	10	10	res-pois	0	15	15																	0
+Cathan's Traps 5	Cathan's Traps 5	0	dmg-fire		15	20	regen-mana		16	16	res-ltng		25	25																					att	0	60	60	red-mag	0	3	3	res-all	0	25	25	cast1	0	10	10	mana	0	20	20													0
+Tancred's Battlegear 5	Tancred's Battlegear 5	0	dmg-ltng		15	15					lifesteal		5	5																					gold%	0	75	75	res-all	0	10	10	slow	0	35	35	manasteal	0	5	5																	0
+Sigon's Complete Steel 5	Sigon's Complete Steel 5	0	lifesteal		10	10					ac		100	100																					res-fire	0	12	12	thorns	0	12	12	red-dmg	0	7	7	fire-max	0	24	24	mana		20	20													0
+Infernal Tools 5	Infernal Tools 5	0	dmg-pois	80	25	25					mana		10	10																					att%	0	20	20	nec	0	1	1	openwounds	0	20	20	manasteal		6	6	mana%		20	20	nofreeze		1	1									0
+Berserker's Garb 5	Berserker's Garb 5	0	hp		50	50																													res-pois-len	0	75	75	pois-min	0	16	16	pois-max	0	32	32	pois-len	0	75	75	ac		75	75													0
+Death's Disguise 5	Death's Disguise 5	0	lifesteal		8	8																													att%	0	40	40	dmg-min	0	10	10	res-all	0	25	25																					0
+Angelical Raiment 5	Angelical Raiment 5	0	dex		10	10					mana		50	50																					res-all	0	25	25	half-freeze	0	1	1	mag%	0	40	40	regen-mana		8	8																	0
+Arctic Gear 5	Arctic Gear 5	0	str		5	5					hp		50	50																					dmg-cold/lvl	16			cold-len	0	100	100	nofreeze	0	1	1																					0
+Arcanna's Tricks 5	Arcanna's Tricks 5	0	mana		50	50					hp		50	50	regen-mana		12	12																	cast3	0	20	20	manasteal	0	5	5	mana	0	25	25	allskills		1	1																	0
+Expansion																																																																			
+Natalya's Odium 5	Natalya's Odium 5	100	red-mag		15	15					ac		200	200					res-pois		20	20													res-all		50	50	ass		3	3	ac		150	150	lifesteal		14	14	manasteal		14	14	red-dmg%		30	30	fade		1	1					0
+Aldur's Watchtower 5	Aldur's Watchtower 5	100	att%		150	150					mag%		50	50					lifesteal		10	10													res-all		50	50	dru		3	3	ac		150	150	manasteal		10	10	mana		150	150	dmg%		350	350	state	fullsetgeneric	1	1					0
+Immortal King 5	Immortal King 5	100	att		50	50					att		75	75					att		125	125					att		200	200					res-all		50	50	bar		3	3	hp		150	150	red-mag		10	10	state	fullsetgeneric	1	1													0
+Tal Rasha's Wrappings 5	Tal Rasha's Wrappings 5	100	regen		10	10					mag%		65	65					balance2		25	25													res-all		50	50	sor		3	3	ac		150	150	hp		150	150	ac-miss		50	50	state	fullsetgeneric	1	1									0
+Griswold's Legacy 5	Griswold's Legacy 5	100	str		20	20					dex		30	30																					res-all		50	50	pal		3	3	att		200	200	hp		150	150	state	fullsetgeneric	1	1	balance2		30	30									0
+Trang-Oul's Avatar 5	Trang-Oul's Avatar 5	100	regen-mana		15	15	oskill	Fire Ball	18	18	regen-mana		15	15	oskill	Fire Wall	13	13	regen-mana		15	15	oskill	Meteor	10	10									res-all		50	50	nec		3	3	mana		100	100	ac		200	200	state	monsterset	1	1	regen-mana		15	15	oskill	Fire Mastery	3	3	lifesteal		20	20	0
+M'avina's Battle Hymn 5	M'avina's Battle Hymn 5	100	str		20	20					dex		30	30																					res-all		50	50	ama		3	3	ac		100	100	att		100	100	mag%		100	100	state	fullsetgeneric	1	1									0
+The Disciple 5	The Disciple 5	100	ac		150	150					dmg-pois	75	75	75					str		10	10					dex		10	10					res-all		50	50	allskills		2	2	mana		100	100																					0
+Heaven's Brethren 5	Heaven's Brethren 5	100	lifesteal		10	10					regen		30	30	dmg-fire/lvl	24																			res-all		50	50	allskills		2	2	nofreeze		1	1	light		5	5	red-dmg%		24	24													0
+Orphan's Call 5	Orphan's Call 5	100	hp		35	35					thorns		5	5					ac		100	100													hp		50	50	dex		10	10	str		20	20	ac		100	100	res-all		15	15	mag%	0	80	80									0
+Hwanin's Majesty 5	Hwanin's Majesty 5	100	ac		100	100					ac		200	200																					allskills		2	2	lifesteal		20	20	move3		30	30	res-all		30	30																	0
+Sazabi's Grand Tribute 5	Sazabi's Grand Tribute 5	100	move3		40	40	res-pois-len		75	75																									res-all		30	30	lifesteal		15	15	hp%		27	27	allskills		1	1	red-dmg%		16	16													0
+Bul-Kathos' Children 5	Bul-Kathos' Children 5	100																																	dmg-fire		200	200	allskills		2	2	att		200	200	ac		200	200	dmg-undead		200	200	dmg-demon		200	200	lifesteal		10	10	deadly		20	20	0
+Cow King's Leathers 5	Cow King's Leathers 5	100	res-pois		25	25	ac		100	100																									stam		100	100	str		20	20	gold%		100	100	mag%		100	100	gethit-skill	42	25	5	swing3		30	30	hp		100	100	allskills		1	1	0
+Naj's Ancient Set 5	Naj's Ancient Set 5	100	ac		175	175	mag%/lvl	12																											allskills		1	1	regen		20	20	dex		15	15	res-all		50	50	str		20	20	mana		100	100	fireskill		2	2	hp%		12	12	0
+McAuley's Folly 5	McAuley's Folly 5	100	ac		50	50					att		75	75																					allskills		1	1	mag%		50	50	mana		50	50	lifesteal		4	4																	0
+Civerb's Vestments 6	Civerb's Vestments 6	0	res-fire		25	25																													str	0	15	15	dmg-undead	0	200	200	res-ltng	0	25	25	att%	0	25	25	ac		50	50													0
+Hsarus' Defense 6	Hsarus' Defense 6	0	thorns		5	5																													dmg-max	0	5	5	nofreeze	0	1	1	res-ltng	0	25	25																					0
+Cleglaw's Brace 6	Cleglaw's Brace 6	0	ac		50	50																													ac	0	50	50	manasteal	0	6	6	crush	0	35	35	swing2		20	20																	0
+Iratha's Finery 6	Iratha's Finery 6	0	ac		50	50					move2		20	20	pierce		24	24																	res-all	0	20	20	res-fire-max	0	10	10	res-cold-max	0	10	10	res-ltng-max	0	10	10	res-pois-max	0	10	10	dex	0	15	15									0
+Isenhart's Armory 6	Isenhart's Armory 6	0	str		10	10					dex		10	10																					lifesteal	0	5	5	res-all	0	10	10	att%	0	35	35	block		30	30	move2		20	20													0
+Vidala's Rig 6	Vidala's Rig 6	0	att		75	75	manasteal		7	7	dex		15	15																					dmg-cold/lvl	12			freeze	0	1	1	pierce	0	50	50	str		10	10																	0
+Milabrega's Regalia 6	Milabrega's Regalia 6	0	att		75	75	dmg-ltng/lvl	16			att		125	125	nofreeze		1	1																	lifesteal	0	8	8	pal	0	2	2	manasteal	0	10	10	res-pois	0	15	15																	0
+Cathan's Traps 6	Cathan's Traps 6	0	dmg-fire		15	20	regen-mana		16	16	res-ltng		25	25																					att	0	60	60	red-mag	0	3	3	res-all	0	25	25	cast1	0	10	10	mana	0	20	20													0
+Tancred's Battlegear 6	Tancred's Battlegear 6	0	dmg-ltng		15	15					lifesteal		5	5																					gold%	0	75	75	res-all	0	10	10	slow	0	35	35	manasteal	0	5	5																	0
+Sigon's Complete Steel 6	Sigon's Complete Steel 6	0	lifesteal		10	10					ac		100	100																					res-fire	0	12	12	thorns	0	12	12	red-dmg	0	7	7	fire-max	0	24	24	mana		20	20													0
+Infernal Tools 6	Infernal Tools 6	0	dmg-pois	80	25	25					mana		10	10																					att%	0	20	20	nec	0	1	1	openwounds	0	20	20	manasteal		6	6	mana%		20	20	nofreeze		1	1									0
+Berserker's Garb 6	Berserker's Garb 6	0	hp		50	50																													res-pois-len	0	75	75	pois-min	0	16	16	pois-max	0	32	32	pois-len	0	75	75	ac		75	75													0
+Death's Disguise 6	Death's Disguise 6	0	lifesteal		8	8																													att%	0	40	40	dmg-min	0	10	10	res-all	0	25	25																					0
+Angelical Raiment 6	Angelical Raiment 6	0	dex		10	10					mana		50	50																					res-all	0	25	25	half-freeze	0	1	1	mag%	0	40	40	regen-mana		8	8																	0
+Arctic Gear 6	Arctic Gear 6	0	str		5	5					hp		50	50																					dmg-cold/lvl	16			cold-len	0	100	100	nofreeze	0	1	1																					0
+Arcanna's Tricks 6	Arcanna's Tricks 6	0	mana		50	50					hp		50	50	regen-mana		12	12																	cast3	0	20	20	manasteal	0	5	5	mana	0	25	25	allskills		1	1																	0
+Expansion																																																																			
+Natalya's Odium 6	Natalya's Odium 6	100	red-mag		15	15					ac		200	200					res-pois		20	20													res-all		50	50	ass		3	3	ac		150	150	lifesteal		14	14	manasteal		14	14	red-dmg%		30	30	fade		1	1					0
+Aldur's Watchtower 6	Aldur's Watchtower 6	100	att%		150	150					mag%		50	50					lifesteal		10	10													res-all		50	50	dru		3	3	ac		150	150	manasteal		10	10	mana		150	150	dmg%		350	350	state	fullsetgeneric	1	1					0
+Immortal King 6	Immortal King 6	100	att		50	50					att		75	75					att		125	125					att		200	200					res-all		50	50	bar		3	3	hp		150	150	red-mag		10	10	state	fullsetgeneric	1	1													0
+Tal Rasha's Wrappings 6	Tal Rasha's Wrappings 6	100	regen		10	10					mag%		65	65					balance2		25	25													res-all		50	50	sor		3	3	ac		150	150	hp		150	150	ac-miss		50	50	state	fullsetgeneric	1	1									0
+Griswold's Legacy 6	Griswold's Legacy 6	100	str		20	20					dex		30	30																					res-all		50	50	pal		3	3	att		200	200	hp		150	150	state	fullsetgeneric	1	1	balance2		30	30									0
+Trang-Oul's Avatar 6	Trang-Oul's Avatar 6	100	regen-mana		15	15	oskill	Fire Ball	18	18	regen-mana		15	15	oskill	Fire Wall	13	13	regen-mana		15	15	oskill	Meteor	10	10									res-all		50	50	nec		3	3	mana		100	100	ac		200	200	state	monsterset	1	1	regen-mana		15	15	oskill	Fire Mastery	3	3	lifesteal		20	20	0
+M'avina's Battle Hymn 6	M'avina's Battle Hymn 6	100	str		20	20					dex		30	30																					res-all		50	50	ama		3	3	ac		100	100	att		100	100	mag%		100	100	state	fullsetgeneric	1	1									0
+The Disciple 6	The Disciple 6	100	ac		150	150					dmg-pois	75	75	75					str		10	10					dex		10	10					res-all		50	50	allskills		2	2	mana		100	100																					0
+Heaven's Brethren 6	Heaven's Brethren 6	100	lifesteal		10	10					regen		30	30	dmg-fire/lvl	24																			res-all		50	50	allskills		2	2	nofreeze		1	1	light		5	5	red-dmg%		24	24													0
+Orphan's Call 6	Orphan's Call 6	100	hp		35	35					thorns		5	5					ac		100	100													hp		50	50	dex		10	10	str		20	20	ac		100	100	res-all		15	15	mag%	0	80	80									0
+Hwanin's Majesty 6	Hwanin's Majesty 6	100	ac		100	100					ac		200	200																					allskills		2	2	lifesteal		20	20	move3		30	30	res-all		30	30																	0
+Sazabi's Grand Tribute 6	Sazabi's Grand Tribute 6	100	move3		40	40	res-pois-len		75	75																									res-all		30	30	lifesteal		15	15	hp%		27	27	allskills		1	1	red-dmg%		16	16													0
+Bul-Kathos' Children 6	Bul-Kathos' Children 6	100																																	dmg-fire		200	200	allskills		2	2	att		200	200	ac		200	200	dmg-undead		200	200	dmg-demon		200	200	lifesteal		10	10	deadly		20	20	0
+Cow King's Leathers 6	Cow King's Leathers 6	100	res-pois		25	25	ac		100	100																									stam		100	100	str		20	20	gold%		100	100	mag%		100	100	gethit-skill	42	25	5	swing3		30	30	hp		100	100	allskills		1	1	0
+Naj's Ancient Set 6	Naj's Ancient Set 6	100	ac		175	175	mag%/lvl	12																											allskills		1	1	regen		20	20	dex		15	15	res-all		50	50	str		20	20	mana		100	100	fireskill		2	2	hp%		12	12	0
+McAuley's Folly 6	McAuley's Folly 6	100	ac		50	50					att		75	75																					allskills		1	1	mag%		50	50	mana		50	50	lifesteal		4	4																	0
+Civerb's Vestments 7	Civerb's Vestments 7	0	res-fire		25	25																													str	0	15	15	dmg-undead	0	200	200	res-ltng	0	25	25	att%	0	25	25	ac		50	50													0
+Hsarus' Defense 7	Hsarus' Defense 7	0	thorns		5	5																													dmg-max	0	5	5	nofreeze	0	1	1	res-ltng	0	25	25																					0
+Cleglaw's Brace 7	Cleglaw's Brace 7	0	ac		50	50																													ac	0	50	50	manasteal	0	6	6	crush	0	35	35	swing2		20	20																	0
+Iratha's Finery 7	Iratha's Finery 7	0	ac		50	50					move2		20	20	pierce		24	24																	res-all	0	20	20	res-fire-max	0	10	10	res-cold-max	0	10	10	res-ltng-max	0	10	10	res-pois-max	0	10	10	dex	0	15	15									0
+Isenhart's Armory 7	Isenhart's Armory 7	0	str		10	10					dex		10	10																					lifesteal	0	5	5	res-all	0	10	10	att%	0	35	35	block		30	30	move2		20	20													0
+Vidala's Rig 7	Vidala's Rig 7	0	att		75	75	manasteal		7	7	dex		15	15																					dmg-cold/lvl	12			freeze	0	1	1	pierce	0	50	50	str		10	10																	0
+Milabrega's Regalia 7	Milabrega's Regalia 7	0	att		75	75	dmg-ltng/lvl	16			att		125	125	nofreeze		1	1																	lifesteal	0	8	8	pal	0	2	2	manasteal	0	10	10	res-pois	0	15	15																	0
+Cathan's Traps 7	Cathan's Traps 7	0	dmg-fire		15	20	regen-mana		16	16	res-ltng		25	25																					att	0	60	60	red-mag	0	3	3	res-all	0	25	25	cast1	0	10	10	mana	0	20	20													0
+Tancred's Battlegear 7	Tancred's Battlegear 7	0	dmg-ltng		15	15					lifesteal		5	5																					gold%	0	75	75	res-all	0	10	10	slow	0	35	35	manasteal	0	5	5																	0
+Sigon's Complete Steel 7	Sigon's Complete Steel 7	0	lifesteal		10	10					ac		100	100																					res-fire	0	12	12	thorns	0	12	12	red-dmg	0	7	7	fire-max	0	24	24	mana		20	20													0
+Infernal Tools 7	Infernal Tools 7	0	dmg-pois	80	25	25					mana		10	10																					att%	0	20	20	nec	0	1	1	openwounds	0	20	20	manasteal		6	6	mana%		20	20	nofreeze		1	1									0
+Berserker's Garb 7	Berserker's Garb 7	0	hp		50	50																													res-pois-len	0	75	75	pois-min	0	16	16	pois-max	0	32	32	pois-len	0	75	75	ac		75	75													0
+Death's Disguise 7	Death's Disguise 7	0	lifesteal		8	8																													att%	0	40	40	dmg-min	0	10	10	res-all	0	25	25																					0
+Angelical Raiment 7	Angelical Raiment 7	0	dex		10	10					mana		50	50																					res-all	0	25	25	half-freeze	0	1	1	mag%	0	40	40	regen-mana		8	8																	0
+Arctic Gear 7	Arctic Gear 7	0	str		5	5					hp		50	50																					dmg-cold/lvl	16			cold-len	0	100	100	nofreeze	0	1	1																					0
+Arcanna's Tricks 7	Arcanna's Tricks 7	0	mana		50	50					hp		50	50	regen-mana		12	12																	cast3	0	20	20	manasteal	0	5	5	mana	0	25	25	allskills		1	1																	0
+Expansion																																																																			
+Natalya's Odium 7	Natalya's Odium 7	100	red-mag		15	15					ac		200	200					res-pois		20	20													res-all		50	50	ass		3	3	ac		150	150	lifesteal		14	14	manasteal		14	14	red-dmg%		30	30	fade		1	1					0
+Aldur's Watchtower 7	Aldur's Watchtower 7	100	att%		150	150					mag%		50	50					lifesteal		10	10													res-all		50	50	dru		3	3	ac		150	150	manasteal		10	10	mana		150	150	dmg%		350	350	state	fullsetgeneric	1	1					0
+Immortal King 7	Immortal King 7	100	att		50	50					att		75	75					att		125	125					att		200	200					res-all		50	50	bar		3	3	hp		150	150	red-mag		10	10	state	fullsetgeneric	1	1													0
+Tal Rasha's Wrappings 7	Tal Rasha's Wrappings 7	100	regen		10	10					mag%		65	65					balance2		25	25													res-all		50	50	sor		3	3	ac		150	150	hp		150	150	ac-miss		50	50	state	fullsetgeneric	1	1									0
+Griswold's Legacy 7	Griswold's Legacy 7	100	str		20	20					dex		30	30																					res-all		50	50	pal		3	3	att		200	200	hp		150	150	state	fullsetgeneric	1	1	balance2		30	30									0
+Trang-Oul's Avatar 7	Trang-Oul's Avatar 7	100	regen-mana		15	15	oskill	Fire Ball	18	18	regen-mana		15	15	oskill	Fire Wall	13	13	regen-mana		15	15	oskill	Meteor	10	10									res-all		50	50	nec		3	3	mana		100	100	ac		200	200	state	monsterset	1	1	regen-mana		15	15	oskill	Fire Mastery	3	3	lifesteal		20	20	0
+M'avina's Battle Hymn 7	M'avina's Battle Hymn 7	100	str		20	20					dex		30	30																					res-all		50	50	ama		3	3	ac		100	100	att		100	100	mag%		100	100	state	fullsetgeneric	1	1									0
+The Disciple 7	The Disciple 7	100	ac		150	150					dmg-pois	75	75	75					str		10	10					dex		10	10					res-all		50	50	allskills		2	2	mana		100	100																					0
+Heaven's Brethren 7	Heaven's Brethren 7	100	lifesteal		10	10					regen		30	30	dmg-fire/lvl	24																			res-all		50	50	allskills		2	2	nofreeze		1	1	light		5	5	red-dmg%		24	24													0
+Orphan's Call 7	Orphan's Call 7	100	hp		35	35					thorns		5	5					ac		100	100													hp		50	50	dex		10	10	str		20	20	ac		100	100	res-all		15	15	mag%	0	80	80									0
+Hwanin's Majesty 7	Hwanin's Majesty 7	100	ac		100	100					ac		200	200																					allskills		2	2	lifesteal		20	20	move3		30	30	res-all		30	30																	0
+Sazabi's Grand Tribute 7	Sazabi's Grand Tribute 7	100	move3		40	40	res-pois-len		75	75																									res-all		30	30	lifesteal		15	15	hp%		27	27	allskills		1	1	red-dmg%		16	16													0
+Bul-Kathos' Children 7	Bul-Kathos' Children 7	100																																	dmg-fire		200	200	allskills		2	2	att		200	200	ac		200	200	dmg-undead		200	200	dmg-demon		200	200	lifesteal		10	10	deadly		20	20	0
+Cow King's Leathers 7	Cow King's Leathers 7	100	res-pois		25	25	ac		100	100																									stam		100	100	str		20	20	gold%		100	100	mag%		100	100	gethit-skill	42	25	5	swing3		30	30	hp		100	100	allskills		1	1	0
+Naj's Ancient Set 7	Naj's Ancient Set 7	100	ac		175	175	mag%/lvl	12																											allskills		1	1	regen		20	20	dex		15	15	res-all		50	50	str		20	20	mana		100	100	fireskill		2	2	hp%		12	12	0
+McAuley's Folly 7	McAuley's Folly 7	100	ac		50	50					att		75	75																					allskills		1	1	mag%		50	50	mana		50	50	lifesteal		4	4																	0
+Civerb's Vestments 8	Civerb's Vestments 8	0	res-fire		25	25																													str	0	15	15	dmg-undead	0	200	200	res-ltng	0	25	25	att%	0	25	25	ac		50	50													0
+Hsarus' Defense 8	Hsarus' Defense 8	0	thorns		5	5																													dmg-max	0	5	5	nofreeze	0	1	1	res-ltng	0	25	25																					0
+Cleglaw's Brace 8	Cleglaw's Brace 8	0	ac		50	50																													ac	0	50	50	manasteal	0	6	6	crush	0	35	35	swing2		20	20																	0
+Iratha's Finery 8	Iratha's Finery 8	0	ac		50	50					move2		20	20	pierce		24	24																	res-all	0	20	20	res-fire-max	0	10	10	res-cold-max	0	10	10	res-ltng-max	0	10	10	res-pois-max	0	10	10	dex	0	15	15									0
+Isenhart's Armory 8	Isenhart's Armory 8	0	str		10	10					dex		10	10																					lifesteal	0	5	5	res-all	0	10	10	att%	0	35	35	block		30	30	move2		20	20													0
+Vidala's Rig 8	Vidala's Rig 8	0	att		75	75	manasteal		7	7	dex		15	15																					dmg-cold/lvl	12			freeze	0	1	1	pierce	0	50	50	str		10	10																	0
+Milabrega's Regalia 8	Milabrega's Regalia 8	0	att		75	75	dmg-ltng/lvl	16			att		125	125	nofreeze		1	1																	lifesteal	0	8	8	pal	0	2	2	manasteal	0	10	10	res-pois	0	15	15																	0
+Cathan's Traps 8	Cathan's Traps 8	0	dmg-fire		15	20	regen-mana		16	16	res-ltng		25	25																					att	0	60	60	red-mag	0	3	3	res-all	0	25	25	cast1	0	10	10	mana	0	20	20													0
+Tancred's Battlegear 8	Tancred's Battlegear 8	0	dmg-ltng		15	15					lifesteal		5	5																					gold%	0	75	75	res-all	0	10	10	slow	0	35	35	manasteal	0	5	5																	0
+Sigon's Complete Steel 8	Sigon's Complete Steel 8	0	lifesteal		10	10					ac		100	100																					res-fire	0	12	12	thorns	0	12	12	red-dmg	0	7	7	fire-max	0	24	24	mana		20	20													0
+Infernal Tools 8	Infernal Tools 8	0	dmg-pois	80	25	25					mana		10	10																					att%	0	20	20	nec	0	1	1	openwounds	0	20	20	manasteal		6	6	mana%		20	20	nofreeze		1	1									0
+Berserker's Garb 8	Berserker's Garb 8	0	hp		50	50																													res-pois-len	0	75	75	pois-min	0	16	16	pois-max	0	32	32	pois-len	0	75	75	ac		75	75													0
+Death's Disguise 8	Death's Disguise 8	0	lifesteal		8	8																													att%	0	40	40	dmg-min	0	10	10	res-all	0	25	25																					0
+Angelical Raiment 8	Angelical Raiment 8	0	dex		10	10					mana		50	50																					res-all	0	25	25	half-freeze	0	1	1	mag%	0	40	40	regen-mana		8	8																	0
+Arctic Gear 8	Arctic Gear 8	0	str		5	5					hp		50	50																					dmg-cold/lvl	16			cold-len	0	100	100	nofreeze	0	1	1																					0
+Arcanna's Tricks 8	Arcanna's Tricks 8	0	mana		50	50					hp		50	50	regen-mana		12	12																	cast3	0	20	20	manasteal	0	5	5	mana	0	25	25	allskills		1	1																	0
+Expansion																																																																			
+Natalya's Odium 8	Natalya's Odium 8	100	red-mag		15	15					ac		200	200					res-pois		20	20													res-all		50	50	ass		3	3	ac		150	150	lifesteal		14	14	manasteal		14	14	red-dmg%		30	30	fade		1	1					0
+Aldur's Watchtower 8	Aldur's Watchtower 8	100	att%		150	150					mag%		50	50					lifesteal		10	10													res-all		50	50	dru		3	3	ac		150	150	manasteal		10	10	mana		150	150	dmg%		350	350	state	fullsetgeneric	1	1					0
+Immortal King 8	Immortal King 8	100	att		50	50					att		75	75					att		125	125					att		200	200					res-all		50	50	bar		3	3	hp		150	150	red-mag		10	10	state	fullsetgeneric	1	1													0
+Tal Rasha's Wrappings 8	Tal Rasha's Wrappings 8	100	regen		10	10					mag%		65	65					balance2		25	25													res-all		50	50	sor		3	3	ac		150	150	hp		150	150	ac-miss		50	50	state	fullsetgeneric	1	1									0
+Griswold's Legacy 8	Griswold's Legacy 8	100	str		20	20					dex		30	30																					res-all		50	50	pal		3	3	att		200	200	hp		150	150	state	fullsetgeneric	1	1	balance2		30	30									0
+Trang-Oul's Avatar 8	Trang-Oul's Avatar 8	100	regen-mana		15	15	oskill	Fire Ball	18	18	regen-mana		15	15	oskill	Fire Wall	13	13	regen-mana		15	15	oskill	Meteor	10	10									res-all		50	50	nec		3	3	mana		100	100	ac		200	200	state	monsterset	1	1	regen-mana		15	15	oskill	Fire Mastery	3	3	lifesteal		20	20	0
+M'avina's Battle Hymn 8	M'avina's Battle Hymn 8	100	str		20	20					dex		30	30																					res-all		50	50	ama		3	3	ac		100	100	att		100	100	mag%		100	100	state	fullsetgeneric	1	1									0
+The Disciple 8	The Disciple 8	100	ac		150	150					dmg-pois	75	75	75					str		10	10					dex		10	10					res-all		50	50	allskills		2	2	mana		100	100																					0
+Heaven's Brethren 8	Heaven's Brethren 8	100	lifesteal		10	10					regen		30	30	dmg-fire/lvl	24																			res-all		50	50	allskills		2	2	nofreeze		1	1	light		5	5	red-dmg%		24	24													0
+Orphan's Call 8	Orphan's Call 8	100	hp		35	35					thorns		5	5					ac		100	100													hp		50	50	dex		10	10	str		20	20	ac		100	100	res-all		15	15	mag%	0	80	80									0
+Hwanin's Majesty 8	Hwanin's Majesty 8	100	ac		100	100					ac		200	200																					allskills		2	2	lifesteal		20	20	move3		30	30	res-all		30	30																	0
+Sazabi's Grand Tribute 8	Sazabi's Grand Tribute 8	100	move3		40	40	res-pois-len		75	75																									res-all		30	30	lifesteal		15	15	hp%		27	27	allskills		1	1	red-dmg%		16	16													0
+Bul-Kathos' Children 8	Bul-Kathos' Children 8	100																																	dmg-fire		200	200	allskills		2	2	att		200	200	ac		200	200	dmg-undead		200	200	dmg-demon		200	200	lifesteal		10	10	deadly		20	20	0
+Cow King's Leathers 8	Cow King's Leathers 8	100	res-pois		25	25	ac		100	100																									stam		100	100	str		20	20	gold%		100	100	mag%		100	100	gethit-skill	42	25	5	swing3		30	30	hp		100	100	allskills		1	1	0
+Naj's Ancient Set 8	Naj's Ancient Set 8	100	ac		175	175	mag%/lvl	12																											allskills		1	1	regen		20	20	dex		15	15	res-all		50	50	str		20	20	mana		100	100	fireskill		2	2	hp%		12	12	0
+McAuley's Folly 8	McAuley's Folly 8	100	ac		50	50					att		75	75																					allskills		1	1	mag%		50	50	mana		50	50	lifesteal		4	4																	0
+Civerb's Vestments 9	Civerb's Vestments 9	0	res-fire		25	25																													str	0	15	15	dmg-undead	0	200	200	res-ltng	0	25	25	att%	0	25	25	ac		50	50													0
+Hsarus' Defense 9	Hsarus' Defense 9	0	thorns		5	5																													dmg-max	0	5	5	nofreeze	0	1	1	res-ltng	0	25	25																					0
+Cleglaw's Brace 9	Cleglaw's Brace 9	0	ac		50	50																													ac	0	50	50	manasteal	0	6	6	crush	0	35	35	swing2		20	20																	0
+Iratha's Finery 9	Iratha's Finery 9	0	ac		50	50					move2		20	20	pierce		24	24																	res-all	0	20	20	res-fire-max	0	10	10	res-cold-max	0	10	10	res-ltng-max	0	10	10	res-pois-max	0	10	10	dex	0	15	15									0
+Isenhart's Armory 9	Isenhart's Armory 9	0	str		10	10					dex		10	10																					lifesteal	0	5	5	res-all	0	10	10	att%	0	35	35	block		30	30	move2		20	20													0
+Vidala's Rig 9	Vidala's Rig 9	0	att		75	75	manasteal		7	7	dex		15	15																					dmg-cold/lvl	12			freeze	0	1	1	pierce	0	50	50	str		10	10																	0
+Milabrega's Regalia 9	Milabrega's Regalia 9	0	att		75	75	dmg-ltng/lvl	16			att		125	125	nofreeze		1	1																	lifesteal	0	8	8	pal	0	2	2	manasteal	0	10	10	res-pois	0	15	15																	0
+Cathan's Traps 9	Cathan's Traps 9	0	dmg-fire		15	20	regen-mana		16	16	res-ltng		25	25																					att	0	60	60	red-mag	0	3	3	res-all	0	25	25	cast1	0	10	10	mana	0	20	20													0
+Tancred's Battlegear 9	Tancred's Battlegear 9	0	dmg-ltng		15	15					lifesteal		5	5																					gold%	0	75	75	res-all	0	10	10	slow	0	35	35	manasteal	0	5	5																	0
+Sigon's Complete Steel 9	Sigon's Complete Steel 9	0	lifesteal		10	10					ac		100	100																					res-fire	0	12	12	thorns	0	12	12	red-dmg	0	7	7	fire-max	0	24	24	mana		20	20													0
+Infernal Tools 9	Infernal Tools 9	0	dmg-pois	80	25	25					mana		10	10																					att%	0	20	20	nec	0	1	1	openwounds	0	20	20	manasteal		6	6	mana%		20	20	nofreeze		1	1									0
+Berserker's Garb 9	Berserker's Garb 9	0	hp		50	50																													res-pois-len	0	75	75	pois-min	0	16	16	pois-max	0	32	32	pois-len	0	75	75	ac		75	75													0
+Death's Disguise 9	Death's Disguise 9	0	lifesteal		8	8																													att%	0	40	40	dmg-min	0	10	10	res-all	0	25	25																					0
+Angelical Raiment 9	Angelical Raiment 9	0	dex		10	10					mana		50	50																					res-all	0	25	25	half-freeze	0	1	1	mag%	0	40	40	regen-mana		8	8																	0
+Arctic Gear 9	Arctic Gear 9	0	str		5	5					hp		50	50																					dmg-cold/lvl	16			cold-len	0	100	100	nofreeze	0	1	1																					0
+Arcanna's Tricks 9	Arcanna's Tricks 9	0	mana		50	50					hp		50	50	regen-mana		12	12																	cast3	0	20	20	manasteal	0	5	5	mana	0	25	25	allskills		1	1																	0
+Expansion																																																																			
+Natalya's Odium 9	Natalya's Odium 9	100	red-mag		15	15					ac		200	200					res-pois		20	20													res-all		50	50	ass		3	3	ac		150	150	lifesteal		14	14	manasteal		14	14	red-dmg%		30	30	fade		1	1					0
+Aldur's Watchtower 9	Aldur's Watchtower 9	100	att%		150	150					mag%		50	50					lifesteal		10	10													res-all		50	50	dru		3	3	ac		150	150	manasteal		10	10	mana		150	150	dmg%		350	350	state	fullsetgeneric	1	1					0
+Immortal King 9	Immortal King 9	100	att		50	50					att		75	75					att		125	125					att		200	200					res-all		50	50	bar		3	3	hp		150	150	red-mag		10	10	state	fullsetgeneric	1	1													0
+Tal Rasha's Wrappings 9	Tal Rasha's Wrappings 9	100	regen		10	10					mag%		65	65					balance2		25	25													res-all		50	50	sor		3	3	ac		150	150	hp		150	150	ac-miss		50	50	state	fullsetgeneric	1	1									0
+Griswold's Legacy 9	Griswold's Legacy 9	100	str		20	20					dex		30	30																					res-all		50	50	pal		3	3	att		200	200	hp		150	150	state	fullsetgeneric	1	1	balance2		30	30									0
+Trang-Oul's Avatar 9	Trang-Oul's Avatar 9	100	regen-mana		15	15	oskill	Fire Ball	18	18	regen-mana		15	15	oskill	Fire Wall	13	13	regen-mana		15	15	oskill	Meteor	10	10									res-all		50	50	nec		3	3	mana		100	100	ac		200	200	state	monsterset	1	1	regen-mana		15	15	oskill	Fire Mastery	3	3	lifesteal		20	20	0
+M'avina's Battle Hymn 9	M'avina's Battle Hymn 9	100	str		20	20					dex		30	30																					res-all		50	50	ama		3	3	ac		100	100	att		100	100	mag%		100	100	state	fullsetgeneric	1	1									0
+The Disciple 9	The Disciple 9	100	ac		150	150					dmg-pois	75	75	75					str		10	10					dex		10	10					res-all		50	50	allskills		2	2	mana		100	100																					0
+Heaven's Brethren 9	Heaven's Brethren 9	100	lifesteal		10	10					regen		30	30	dmg-fire/lvl	24																			res-all		50	50	allskills		2	2	nofreeze		1	1	light		5	5	red-dmg%		24	24													0
+Orphan's Call 9	Orphan's Call 9	100	hp		35	35					thorns		5	5					ac		100	100													hp		50	50	dex		10	10	str		20	20	ac		100	100	res-all		15	15	mag%	0	80	80									0
+Hwanin's Majesty 9	Hwanin's Majesty 9	100	ac		100	100					ac		200	200																					allskills		2	2	lifesteal		20	20	move3		30	30	res-all		30	30																	0
+Sazabi's Grand Tribute 9	Sazabi's Grand Tribute 9	100	move3		40	40	res-pois-len		75	75																									res-all		30	30	lifesteal		15	15	hp%		27	27	allskills		1	1	red-dmg%		16	16													0
+Bul-Kathos' Children 9	Bul-Kathos' Children 9	100																																	dmg-fire		200	200	allskills		2	2	att		200	200	ac		200	200	dmg-undead		200	200	dmg-demon		200	200	lifesteal		10	10	deadly		20	20	0
+Cow King's Leathers 9	Cow King's Leathers 9	100	res-pois		25	25	ac		100	100																									stam		100	100	str		20	20	gold%		100	100	mag%		100	100	gethit-skill	42	25	5	swing3		30	30	hp		100	100	allskills		1	1	0
+Naj's Ancient Set 9	Naj's Ancient Set 9	100	ac		175	175	mag%/lvl	12																											allskills		1	1	regen		20	20	dex		15	15	res-all		50	50	str		20	20	mana		100	100	fireskill		2	2	hp%		12	12	0
+McAuley's Folly 9	McAuley's Folly 9	100	ac		50	50					att		75	75																					allskills		1	1	mag%		50	50	mana		50	50	lifesteal		4	4																	0
+Civerb's Vestments 10	Civerb's Vestments 10	0	res-fire		25	25																													str	0	15	15	dmg-undead	0	200	200	res-ltng	0	25	25	att%	0	25	25	ac		50	50													0
+Hsarus' Defense 10	Hsarus' Defense 10	0	thorns		5	5																													dmg-max	0	5	5	nofreeze	0	1	1	res-ltng	0	25	25																					0
+Cleglaw's Brace 10	Cleglaw's Brace 10	0	ac		50	50																													ac	0	50	50	manasteal	0	6	6	crush	0	35	35	swing2		20	20																	0
+Iratha's Finery 10	Iratha's Finery 10	0	ac		50	50					move2		20	20	pierce		24	24																	res-all	0	20	20	res-fire-max	0	10	10	res-cold-max	0	10	10	res-ltng-max	0	10	10	res-pois-max	0	10	10	dex	0	15	15									0
+Isenhart's Armory 10	Isenhart's Armory 10	0	str		10	10					dex		10	10																					lifesteal	0	5	5	res-all	0	10	10	att%	0	35	35	block		30	30	move2		20	20													0
+Vidala's Rig 10	Vidala's Rig 10	0	att		75	75	manasteal		7	7	dex		15	15																					dmg-cold/lvl	12			freeze	0	1	1	pierce	0	50	50	str		10	10																	0
+Milabrega's Regalia 10	Milabrega's Regalia 10	0	att		75	75	dmg-ltng/lvl	16			att		125	125	nofreeze		1	1																	lifesteal	0	8	8	pal	0	2	2	manasteal	0	10	10	res-pois	0	15	15																	0
+Cathan's Traps 10	Cathan's Traps 10	0	dmg-fire		15	20	regen-mana		16	16	res-ltng		25	25																					att	0	60	60	red-mag	0	3	3	res-all	0	25	25	cast1	0	10	10	mana	0	20	20													0
+Tancred's Battlegear 10	Tancred's Battlegear 10	0	dmg-ltng		15	15					lifesteal		5	5																					gold%	0	75	75	res-all	0	10	10	slow	0	35	35	manasteal	0	5	5																	0
+Sigon's Complete Steel 10	Sigon's Complete Steel 10	0	lifesteal		10	10					ac		100	100																					res-fire	0	12	12	thorns	0	12	12	red-dmg	0	7	7	fire-max	0	24	24	mana		20	20													0
+Infernal Tools 10	Infernal Tools 10	0	dmg-pois	80	25	25					mana		10	10																					att%	0	20	20	nec	0	1	1	openwounds	0	20	20	manasteal		6	6	mana%		20	20	nofreeze		1	1									0
+Berserker's Garb 10	Berserker's Garb 10	0	hp		50	50																													res-pois-len	0	75	75	pois-min	0	16	16	pois-max	0	32	32	pois-len	0	75	75	ac		75	75													0
+Death's Disguise 10	Death's Disguise 10	0	lifesteal		8	8																													att%	0	40	40	dmg-min	0	10	10	res-all	0	25	25																					0
+Angelical Raiment 10	Angelical Raiment 10	0	dex		10	10					mana		50	50																					res-all	0	25	25	half-freeze	0	1	1	mag%	0	40	40	regen-mana		8	8																	0
+Arctic Gear 10	Arctic Gear 10	0	str		5	5					hp		50	50																					dmg-cold/lvl	16			cold-len	0	100	100	nofreeze	0	1	1																					0
+Arcanna's Tricks 10	Arcanna's Tricks 10	0	mana		50	50					hp		50	50	regen-mana		12	12																	cast3	0	20	20	manasteal	0	5	5	mana	0	25	25	allskills		1	1																	0
+Expansion																																																																			
+Natalya's Odium 10	Natalya's Odium 10	100	red-mag		15	15					ac		200	200					res-pois		20	20													res-all		50	50	ass		3	3	ac		150	150	lifesteal		14	14	manasteal		14	14	red-dmg%		30	30	fade		1	1					0
+Aldur's Watchtower 10	Aldur's Watchtower 10	100	att%		150	150					mag%		50	50					lifesteal		10	10													res-all		50	50	dru		3	3	ac		150	150	manasteal		10	10	mana		150	150	dmg%		350	350	state	fullsetgeneric	1	1					0
+Immortal King 10	Immortal King 10	100	att		50	50					att		75	75					att		125	125					att		200	200					res-all		50	50	bar		3	3	hp		150	150	red-mag		10	10	state	fullsetgeneric	1	1													0
+Tal Rasha's Wrappings 10	Tal Rasha's Wrappings 10	100	regen		10	10					mag%		65	65					balance2		25	25													res-all		50	50	sor		3	3	ac		150	150	hp		150	150	ac-miss		50	50	state	fullsetgeneric	1	1									0
+Griswold's Legacy 10	Griswold's Legacy 10	100	str		20	20					dex		30	30																					res-all		50	50	pal		3	3	att		200	200	hp		150	150	state	fullsetgeneric	1	1	balance2		30	30									0
+Trang-Oul's Avatar 10	Trang-Oul's Avatar 10	100	regen-mana		15	15	oskill	Fire Ball	18	18	regen-mana		15	15	oskill	Fire Wall	13	13	regen-mana		15	15	oskill	Meteor	10	10									res-all		50	50	nec		3	3	mana		100	100	ac		200	200	state	monsterset	1	1	regen-mana		15	15	oskill	Fire Mastery	3	3	lifesteal		20	20	0
+M'avina's Battle Hymn 10	M'avina's Battle Hymn 10	100	str		20	20					dex		30	30																					res-all		50	50	ama		3	3	ac		100	100	att		100	100	mag%		100	100	state	fullsetgeneric	1	1									0
+The Disciple 10	The Disciple 10	100	ac		150	150					dmg-pois	75	75	75					str		10	10					dex		10	10					res-all		50	50	allskills		2	2	mana		100	100																					0
+Heaven's Brethren 10	Heaven's Brethren 10	100	lifesteal		10	10					regen		30	30	dmg-fire/lvl	24																			res-all		50	50	allskills		2	2	nofreeze		1	1	light		5	5	red-dmg%		24	24													0
+Orphan's Call 10	Orphan's Call 10	100	hp		35	35					thorns		5	5					ac		100	100													hp		50	50	dex		10	10	str		20	20	ac		100	100	res-all		15	15	mag%	0	80	80									0
+Hwanin's Majesty 10	Hwanin's Majesty 10	100	ac		100	100					ac		200	200																					allskills		2	2	lifesteal		20	20	move3		30	30	res-all		30	30																	0
+Sazabi's Grand Tribute 10	Sazabi's Grand Tribute 10	100	move3		40	40	res-pois-len		75	75																									res-all		30	30	lifesteal		15	15	hp%		27	27	allskills		1	1	red-dmg%		16	16													0
+Bul-Kathos' Children 10	Bul-Kathos' Children 10	100																																	dmg-fire		200	200	allskills		2	2	att		200	200	ac		200	200	dmg-undead		200	200	dmg-demon		200	200	lifesteal		10	10	deadly		20	20	0
+Cow King's Leathers 10	Cow King's Leathers 10	100	res-pois		25	25	ac		100	100																									stam		100	100	str		20	20	gold%		100	100	mag%		100	100	gethit-skill	42	25	5	swing3		30	30	hp		100	100	allskills		1	1	0
+Naj's Ancient Set 10	Naj's Ancient Set 10	100	ac		175	175	mag%/lvl	12																											allskills		1	1	regen		20	20	dex		15	15	res-all		50	50	str		20	20	mana		100	100	fireskill		2	2	hp%		12	12	0
+McAuley's Folly 10	McAuley's Folly 10	100	ac		50	50					att		75	75																					allskills		1	1	mag%		50	50	mana		50	50	lifesteal		4	4																	0
+Civerb's Vestments 11	Civerb's Vestments 11	0	res-fire		25	25																													str	0	15	15	dmg-undead	0	200	200	res-ltng	0	25	25	att%	0	25	25	ac		50	50													0
+Hsarus' Defense 11	Hsarus' Defense 11	0	thorns		5	5																													dmg-max	0	5	5	nofreeze	0	1	1	res-ltng	0	25	25																					0
+Cleglaw's Brace 11	Cleglaw's Brace 11	0	ac		50	50																													ac	0	50	50	manasteal	0	6	6	crush	0	35	35	swing2		20	20																	0
+Iratha's Finery 11	Iratha's Finery 11	0	ac		50	50					move2		20	20	pierce		24	24																	res-all	0	20	20	res-fire-max	0	10	10	res-cold-max	0	10	10	res-ltng-max	0	10	10	res-pois-max	0	10	10	dex	0	15	15									0
+Isenhart's Armory 11	Isenhart's Armory 11	0	str		10	10					dex		10	10																					lifesteal	0	5	5	res-all	0	10	10	att%	0	35	35	block		30	30	move2		20	20													0
+Vidala's Rig 11	Vidala's Rig 11	0	att		75	75	manasteal		7	7	dex		15	15																					dmg-cold/lvl	12			freeze	0	1	1	pierce	0	50	50	str		10	10																	0
+Milabrega's Regalia 11	Milabrega's Regalia 11	0	att		75	75	dmg-ltng/lvl	16			att		125	125	nofreeze		1	1																	lifesteal	0	8	8	pal	0	2	2	manasteal	0	10	10	res-pois	0	15	15																	0
+Cathan's Traps 11	Cathan's Traps 11	0	dmg-fire		15	20	regen-mana		16	16	res-ltng		25	25																					att	0	60	60	red-mag	0	3	3	res-all	0	25	25	cast1	0	10	10	mana	0	20	20													0
+Tancred's Battlegear 11	Tancred's Battlegear 11	0	dmg-ltng		15	15					lifesteal		5	5																					gold%	0	75	75	res-all	0	10	10	slow	0	35	35	manasteal	0	5	5																	0
+Sigon's Complete Steel 11	Sigon's Complete Steel 11	0	lifesteal		10	10					ac		100	100																					res-fire	0	12	12	thorns	0	12	12	red-dmg	0	7	7	fire-max	0	24	24	mana		20	20													0
+Infernal Tools 11	Infernal Tools 11	0	dmg-pois	80	25	25					mana		10	10																					att%	0	20	20	nec	0	1	1	openwounds	0	20	20	manasteal		6	6	mana%		20	20	nofreeze		1	1									0
+Berserker's Garb 11	Berserker's Garb 11	0	hp		50	50																													res-pois-len	0	75	75	pois-min	0	16	16	pois-max	0	32	32	pois-len	0	75	75	ac		75	75													0
+Death's Disguise 11	Death's Disguise 11	0	lifesteal		8	8																													att%	0	40	40	dmg-min	0	10	10	res-all	0	25	25																					0
+Angelical Raiment 11	Angelical Raiment 11	0	dex		10	10					mana		50	50																					res-all	0	25	25	half-freeze	0	1	1	mag%	0	40	40	regen-mana		8	8																	0
+Arctic Gear 11	Arctic Gear 11	0	str		5	5					hp		50	50																					dmg-cold/lvl	16			cold-len	0	100	100	nofreeze	0	1	1																					0
+Arcanna's Tricks 11	Arcanna's Tricks 11	0	mana		50	50					hp		50	50	regen-mana		12	12																	cast3	0	20	20	manasteal	0	5	5	mana	0	25	25	allskills		1	1																	0
+Expansion																																																																			
+Natalya's Odium 11	Natalya's Odium 11	100	red-mag		15	15					ac		200	200					res-pois		20	20													res-all		50	50	ass		3	3	ac		150	150	lifesteal		14	14	manasteal		14	14	red-dmg%		30	30	fade		1	1					0
+Aldur's Watchtower 11	Aldur's Watchtower 11	100	att%		150	150					mag%		50	50					lifesteal		10	10													res-all		50	50	dru		3	3	ac		150	150	manasteal		10	10	mana		150	150	dmg%		350	350	state	fullsetgeneric	1	1					0
+Immortal King 11	Immortal King 11	100	att		50	50					att		75	75					att		125	125					att		200	200					res-all		50	50	bar		3	3	hp		150	150	red-mag		10	10	state	fullsetgeneric	1	1													0
+Tal Rasha's Wrappings 11	Tal Rasha's Wrappings 11	100	regen		10	10					mag%		65	65					balance2		25	25													res-all		50	50	sor		3	3	ac		150	150	hp		150	150	ac-miss		50	50	state	fullsetgeneric	1	1									0
+Griswold's Legacy 11	Griswold's Legacy 11	100	str		20	20					dex		30	30																					res-all		50	50	pal		3	3	att		200	200	hp		150	150	state	fullsetgeneric	1	1	balance2		30	30									0
+Trang-Oul's Avatar 11	Trang-Oul's Avatar 11	100	regen-mana		15	15	oskill	Fire Ball	18	18	regen-mana		15	15	oskill	Fire Wall	13	13	regen-mana		15	15	oskill	Meteor	10	10									res-all		50	50	nec		3	3	mana		100	100	ac		200	200	state	monsterset	1	1	regen-mana		15	15	oskill	Fire Mastery	3	3	lifesteal		20	20	0
+M'avina's Battle Hymn 11	M'avina's Battle Hymn 11	100	str		20	20					dex		30	30																					res-all		50	50	ama		3	3	ac		100	100	att		100	100	mag%		100	100	state	fullsetgeneric	1	1									0
+The Disciple 11	The Disciple 11	100	ac		150	150					dmg-pois	75	75	75					str		10	10					dex		10	10					res-all		50	50	allskills		2	2	mana		100	100																					0
+Heaven's Brethren 11	Heaven's Brethren 11	100	lifesteal		10	10					regen		30	30	dmg-fire/lvl	24																			res-all		50	50	allskills		2	2	nofreeze		1	1	light		5	5	red-dmg%		24	24													0
+Orphan's Call 11	Orphan's Call 11	100	hp		35	35					thorns		5	5					ac		100	100													hp		50	50	dex		10	10	str		20	20	ac		100	100	res-all		15	15	mag%	0	80	80									0
+Hwanin's Majesty 11	Hwanin's Majesty 11	100	ac		100	100					ac		200	200																					allskills		2	2	lifesteal		20	20	move3		30	30	res-all		30	30																	0
+Sazabi's Grand Tribute 11	Sazabi's Grand Tribute 11	100	move3		40	40	res-pois-len		75	75																									res-all		30	30	lifesteal		15	15	hp%		27	27	allskills		1	1	red-dmg%		16	16													0
+Bul-Kathos' Children 11	Bul-Kathos' Children 11	100																																	dmg-fire		200	200	allskills		2	2	att		200	200	ac		200	200	dmg-undead		200	200	dmg-demon		200	200	lifesteal		10	10	deadly		20	20	0
+Cow King's Leathers 11	Cow King's Leathers 11	100	res-pois		25	25	ac		100	100																									stam		100	100	str		20	20	gold%		100	100	mag%		100	100	gethit-skill	42	25	5	swing3		30	30	hp		100	100	allskills		1	1	0
+Naj's Ancient Set 11	Naj's Ancient Set 11	100	ac		175	175	mag%/lvl	12																											allskills		1	1	regen		20	20	dex		15	15	res-all		50	50	str		20	20	mana		100	100	fireskill		2	2	hp%		12	12	0
+McAuley's Folly 11	McAuley's Folly 11	100	ac		50	50					att		75	75																					allskills		1	1	mag%		50	50	mana		50	50	lifesteal		4	4																	0
+Civerb's Vestments 12	Civerb's Vestments 12	0	res-fire		25	25																													str	0	15	15	dmg-undead	0	200	200	res-ltng	0	25	25	att%	0	25	25	ac		50	50													0
+Hsarus' Defense 12	Hsarus' Defense 12	0	thorns		5	5																													dmg-max	0	5	5	nofreeze	0	1	1	res-ltng	0	25	25																					0
+Cleglaw's Brace 12	Cleglaw's Brace 12	0	ac		50	50																													ac	0	50	50	manasteal	0	6	6	crush	0	35	35	swing2		20	20																	0
+Iratha's Finery 12	Iratha's Finery 12	0	ac		50	50					move2		20	20	pierce		24	24																	res-all	0	20	20	res-fire-max	0	10	10	res-cold-max	0	10	10	res-ltng-max	0	10	10	res-pois-max	0	10	10	dex	0	15	15									0
+Isenhart's Armory 12	Isenhart's Armory 12	0	str		10	10					dex		10	10																					lifesteal	0	5	5	res-all	0	10	10	att%	0	35	35	block		30	30	move2		20	20													0
+Vidala's Rig 12	Vidala's Rig 12	0	att		75	75	manasteal		7	7	dex		15	15																					dmg-cold/lvl	12			freeze	0	1	1	pierce	0	50	50	str		10	10																	0
+Milabrega's Regalia 12	Milabrega's Regalia 12	0	att		75	75	dmg-ltng/lvl	16			att		125	125	nofreeze		1	1																	lifesteal	0	8	8	pal	0	2	2	manasteal	0	10	10	res-pois	0	15	15																	0
+Cathan's Traps 12	Cathan's Traps 12	0	dmg-fire		15	20	regen-mana		16	16	res-ltng		25	25																					att	0	60	60	red-mag	0	3	3	res-all	0	25	25	cast1	0	10	10	mana	0	20	20													0
+Tancred's Battlegear 12	Tancred's Battlegear 12	0	dmg-ltng		15	15					lifesteal		5	5																					gold%	0	75	75	res-all	0	10	10	slow	0	35	35	manasteal	0	5	5																	0
+Sigon's Complete Steel 12	Sigon's Complete Steel 12	0	lifesteal		10	10					ac		100	100																					res-fire	0	12	12	thorns	0	12	12	red-dmg	0	7	7	fire-max	0	24	24	mana		20	20													0
+Infernal Tools 12	Infernal Tools 12	0	dmg-pois	80	25	25					mana		10	10																					att%	0	20	20	nec	0	1	1	openwounds	0	20	20	manasteal		6	6	mana%		20	20	nofreeze		1	1									0
+Berserker's Garb 12	Berserker's Garb 12	0	hp		50	50																													res-pois-len	0	75	75	pois-min	0	16	16	pois-max	0	32	32	pois-len	0	75	75	ac		75	75													0
+Death's Disguise 12	Death's Disguise 12	0	lifesteal		8	8																													att%	0	40	40	dmg-min	0	10	10	res-all	0	25	25																					0
+Angelical Raiment 12	Angelical Raiment 12	0	dex		10	10					mana		50	50																					res-all	0	25	25	half-freeze	0	1	1	mag%	0	40	40	regen-mana		8	8																	0
+Arctic Gear 12	Arctic Gear 12	0	str		5	5					hp		50	50																					dmg-cold/lvl	16			cold-len	0	100	100	nofreeze	0	1	1																					0
+Arcanna's Tricks 12	Arcanna's Tricks 12	0	mana		50	50					hp		50	50	regen-mana		12	12																	cast3	0	20	20	manasteal	0	5	5	mana	0	25	25	allskills		1	1																	0
+Expansion																																																																			
+Natalya's Odium 12	Natalya's Odium 12	100	red-mag		15	15					ac		200	200					res-pois		20	20													res-all		50	50	ass		3	3	ac		150	150	lifesteal		14	14	manasteal		14	14	red-dmg%		30	30	fade		1	1					0
+Aldur's Watchtower 12	Aldur's Watchtower 12	100	att%		150	150					mag%		50	50					lifesteal		10	10													res-all		50	50	dru		3	3	ac		150	150	manasteal		10	10	mana		150	150	dmg%		350	350	state	fullsetgeneric	1	1					0
+Immortal King 12	Immortal King 12	100	att		50	50					att		75	75					att		125	125					att		200	200					res-all		50	50	bar		3	3	hp		150	150	red-mag		10	10	state	fullsetgeneric	1	1													0
+Tal Rasha's Wrappings 12	Tal Rasha's Wrappings 12	100	regen		10	10					mag%		65	65					balance2		25	25													res-all		50	50	sor		3	3	ac		150	150	hp		150	150	ac-miss		50	50	state	fullsetgeneric	1	1									0
+Griswold's Legacy 12	Griswold's Legacy 12	100	str		20	20					dex		30	30																					res-all		50	50	pal		3	3	att		200	200	hp		150	150	state	fullsetgeneric	1	1	balance2		30	30									0
+Trang-Oul's Avatar 12	Trang-Oul's Avatar 12	100	regen-mana		15	15	oskill	Fire Ball	18	18	regen-mana		15	15	oskill	Fire Wall	13	13	regen-mana		15	15	oskill	Meteor	10	10									res-all		50	50	nec		3	3	mana		100	100	ac		200	200	state	monsterset	1	1	regen-mana		15	15	oskill	Fire Mastery	3	3	lifesteal		20	20	0
+M'avina's Battle Hymn 12	M'avina's Battle Hymn 12	100	str		20	20					dex		30	30																					res-all		50	50	ama		3	3	ac		100	100	att		100	100	mag%		100	100	state	fullsetgeneric	1	1									0
+The Disciple 12	The Disciple 12	100	ac		150	150					dmg-pois	75	75	75					str		10	10					dex		10	10					res-all		50	50	allskills		2	2	mana		100	100																					0
+Heaven's Brethren 12	Heaven's Brethren 12	100	lifesteal		10	10					regen		30	30	dmg-fire/lvl	24																			res-all		50	50	allskills		2	2	nofreeze		1	1	light		5	5	red-dmg%		24	24													0
+Orphan's Call 12	Orphan's Call 12	100	hp		35	35					thorns		5	5					ac		100	100													hp		50	50	dex		10	10	str		20	20	ac		100	100	res-all		15	15	mag%	0	80	80									0
+Hwanin's Majesty 12	Hwanin's Majesty 12	100	ac		100	100					ac		200	200																					allskills		2	2	lifesteal		20	20	move3		30	30	res-all		30	30																	0
+Sazabi's Grand Tribute 12	Sazabi's Grand Tribute 12	100	move3		40	40	res-pois-len		75	75																									res-all		30	30	lifesteal		15	15	hp%		27	27	allskills		1	1	red-dmg%		16	16													0
+Bul-Kathos' Children 12	Bul-Kathos' Children 12	100																																	dmg-fire		200	200	allskills		2	2	att		200	200	ac		200	200	dmg-undead		200	200	dmg-demon		200	200	lifesteal		10	10	deadly		20	20	0
+Cow King's Leathers 12	Cow King's Leathers 12	100	res-pois		25	25	ac		100	100																									stam		100	100	str		20	20	gold%		100	100	mag%		100	100	gethit-skill	42	25	5	swing3		30	30	hp		100	100	allskills		1	1	0
+Naj's Ancient Set 12	Naj's Ancient Set 12	100	ac		175	175	mag%/lvl	12																											allskills		1	1	regen		20	20	dex		15	15	res-all		50	50	str		20	20	mana		100	100	fireskill		2	2	hp%		12	12	0
+McAuley's Folly 12	McAuley's Folly 12	100	ac		50	50					att		75	75																					allskills		1	1	mag%		50	50	mana		50	50	lifesteal		4	4																	0
+Civerb's Vestments 13	Civerb's Vestments 13	0	res-fire		25	25																													str	0	15	15	dmg-undead	0	200	200	res-ltng	0	25	25	att%	0	25	25	ac		50	50													0
+Hsarus' Defense 13	Hsarus' Defense 13	0	thorns		5	5																													dmg-max	0	5	5	nofreeze	0	1	1	res-ltng	0	25	25																					0
+Cleglaw's Brace 13	Cleglaw's Brace 13	0	ac		50	50																													ac	0	50	50	manasteal	0	6	6	crush	0	35	35	swing2		20	20																	0
+Iratha's Finery 13	Iratha's Finery 13	0	ac		50	50					move2		20	20	pierce		24	24																	res-all	0	20	20	res-fire-max	0	10	10	res-cold-max	0	10	10	res-ltng-max	0	10	10	res-pois-max	0	10	10	dex	0	15	15									0
+Isenhart's Armory 13	Isenhart's Armory 13	0	str		10	10					dex		10	10																					lifesteal	0	5	5	res-all	0	10	10	att%	0	35	35	block		30	30	move2		20	20													0
+Vidala's Rig 13	Vidala's Rig 13	0	att		75	75	manasteal		7	7	dex		15	15																					dmg-cold/lvl	12			freeze	0	1	1	pierce	0	50	50	str		10	10																	0
+Milabrega's Regalia 13	Milabrega's Regalia 13	0	att		75	75	dmg-ltng/lvl	16			att		125	125	nofreeze		1	1																	lifesteal	0	8	8	pal	0	2	2	manasteal	0	10	10	res-pois	0	15	15																	0
+Cathan's Traps 13	Cathan's Traps 13	0	dmg-fire		15	20	regen-mana		16	16	res-ltng		25	25																					att	0	60	60	red-mag	0	3	3	res-all	0	25	25	cast1	0	10	10	mana	0	20	20													0
+Tancred's Battlegear 13	Tancred's Battlegear 13	0	dmg-ltng		15	15					lifesteal		5	5																					gold%	0	75	75	res-all	0	10	10	slow	0	35	35	manasteal	0	5	5																	0
+Sigon's Complete Steel 13	Sigon's Complete Steel 13	0	lifesteal		10	10					ac		100	100																					res-fire	0	12	12	thorns	0	12	12	red-dmg	0	7	7	fire-max	0	24	24	mana		20	20													0
+Infernal Tools 13	Infernal Tools 13	0	dmg-pois	80	25	25					mana		10	10																					att%	0	20	20	nec	0	1	1	openwounds	0	20	20	manasteal		6	6	mana%		20	20	nofreeze		1	1									0
+Berserker's Garb 13	Berserker's Garb 13	0	hp		50	50																													res-pois-len	0	75	75	pois-min	0	16	16	pois-max	0	32	32	pois-len	0	75	75	ac		75	75													0
+Death's Disguise 13	Death's Disguise 13	0	lifesteal		8	8																													att%	0	40	40	dmg-min	0	10	10	res-all	0	25	25																					0
+Angelical Raiment 13	Angelical Raiment 13	0	dex		10	10					mana		50	50																					res-all	0	25	25	half-freeze	0	1	1	mag%	0	40	40	regen-mana		8	8																	0
+Arctic Gear 13	Arctic Gear 13	0	str		5	5					hp		50	50																					dmg-cold/lvl	16			cold-len	0	100	100	nofreeze	0	1	1																					0
+Arcanna's Tricks 13	Arcanna's Tricks 13	0	mana		50	50					hp		50	50	regen-mana		12	12																	cast3	0	20	20	manasteal	0	5	5	mana	0	25	25	allskills		1	1																	0
+Expansion																																																																			
+Natalya's Odium 13	Natalya's Odium 13	100	red-mag		15	15					ac		200	200					res-pois		20	20													res-all		50	50	ass		3	3	ac		150	150	lifesteal		14	14	manasteal		14	14	red-dmg%		30	30	fade		1	1					0
+Aldur's Watchtower 13	Aldur's Watchtower 13	100	att%		150	150					mag%		50	50					lifesteal		10	10													res-all		50	50	dru		3	3	ac		150	150	manasteal		10	10	mana		150	150	dmg%		350	350	state	fullsetgeneric	1	1					0
+Immortal King 13	Immortal King 13	100	att		50	50					att		75	75					att		125	125					att		200	200					res-all		50	50	bar		3	3	hp		150	150	red-mag		10	10	state	fullsetgeneric	1	1													0
+Tal Rasha's Wrappings 13	Tal Rasha's Wrappings 13	100	regen		10	10					mag%		65	65					balance2		25	25													res-all		50	50	sor		3	3	ac		150	150	hp		150	150	ac-miss		50	50	state	fullsetgeneric	1	1									0
+Griswold's Legacy 13	Griswold's Legacy 13	100	str		20	20					dex		30	30																					res-all		50	50	pal		3	3	att		200	200	hp		150	150	state	fullsetgeneric	1	1	balance2		30	30									0
+Trang-Oul's Avatar 13	Trang-Oul's Avatar 13	100	regen-mana		15	15	oskill	Fire Ball	18	18	regen-mana		15	15	oskill	Fire Wall	13	13	regen-mana		15	15	oskill	Meteor	10	10									res-all		50	50	nec		3	3	mana		100	100	ac		200	200	state	monsterset	1	1	regen-mana		15	15	oskill	Fire Mastery	3	3	lifesteal		20	20	0
+M'avina's Battle Hymn 13	M'avina's Battle Hymn 13	100	str		20	20					dex		30	30																					res-all		50	50	ama		3	3	ac		100	100	att		100	100	mag%		100	100	state	fullsetgeneric	1	1									0
+The Disciple 13	The Disciple 13	100	ac		150	150					dmg-pois	75	75	75					str		10	10					dex		10	10					res-all		50	50	allskills		2	2	mana		100	100																					0
+Heaven's Brethren 13	Heaven's Brethren 13	100	lifesteal		10	10					regen		30	30	dmg-fire/lvl	24																			res-all		50	50	allskills		2	2	nofreeze		1	1	light		5	5	red-dmg%		24	24													0
+Orphan's Call 13	Orphan's Call 13	100	hp		35	35					thorns		5	5					ac		100	100													hp		50	50	dex		10	10	str		20	20	ac		100	100	res-all		15	15	mag%	0	80	80									0
+Hwanin's Majesty 13	Hwanin's Majesty 13	100	ac		100	100					ac		200	200																					allskills		2	2	lifesteal		20	20	move3		30	30	res-all		30	30																	0
+Sazabi's Grand Tribute 13	Sazabi's Grand Tribute 13	100	move3		40	40	res-pois-len		75	75																									res-all		30	30	lifesteal		15	15	hp%		27	27	allskills		1	1	red-dmg%		16	16													0
+Bul-Kathos' Children 13	Bul-Kathos' Children 13	100																																	dmg-fire		200	200	allskills		2	2	att		200	200	ac		200	200	dmg-undead		200	200	dmg-demon		200	200	lifesteal		10	10	deadly		20	20	0
+Cow King's Leathers 13	Cow King's Leathers 13	100	res-pois		25	25	ac		100	100																									stam		100	100	str		20	20	gold%		100	100	mag%		100	100	gethit-skill	42	25	5	swing3		30	30	hp		100	100	allskills		1	1	0
+Naj's Ancient Set 13	Naj's Ancient Set 13	100	ac		175	175	mag%/lvl	12																											allskills		1	1	regen		20	20	dex		15	15	res-all		50	50	str		20	20	mana		100	100	fireskill		2	2	hp%		12	12	0
+McAuley's Folly 13	McAuley's Folly 13	100	ac		50	50					att		75	75																					allskills		1	1	mag%		50	50	mana		50	50	lifesteal		4	4																	0
+Civerb's Vestments 14	Civerb's Vestments 14	0	res-fire		25	25																													str	0	15	15	dmg-undead	0	200	200	res-ltng	0	25	25	att%	0	25	25	ac		50	50													0
+Hsarus' Defense 14	Hsarus' Defense 14	0	thorns		5	5																													dmg-max	0	5	5	nofreeze	0	1	1	res-ltng	0	25	25																					0
+Cleglaw's Brace 14	Cleglaw's Brace 14	0	ac		50	50																													ac	0	50	50	manasteal	0	6	6	crush	0	35	35	swing2		20	20																	0
+Iratha's Finery 14	Iratha's Finery 14	0	ac		50	50					move2		20	20	pierce		24	24																	res-all	0	20	20	res-fire-max	0	10	10	res-cold-max	0	10	10	res-ltng-max	0	10	10	res-pois-max	0	10	10	dex	0	15	15									0
+Isenhart's Armory 14	Isenhart's Armory 14	0	str		10	10					dex		10	10																					lifesteal	0	5	5	res-all	0	10	10	att%	0	35	35	block		30	30	move2		20	20													0
+Vidala's Rig 14	Vidala's Rig 14	0	att		75	75	manasteal		7	7	dex		15	15																					dmg-cold/lvl	12			freeze	0	1	1	pierce	0	50	50	str		10	10																	0
+Milabrega's Regalia 14	Milabrega's Regalia 14	0	att		75	75	dmg-ltng/lvl	16			att		125	125	nofreeze		1	1																	lifesteal	0	8	8	pal	0	2	2	manasteal	0	10	10	res-pois	0	15	15																	0
+Cathan's Traps 14	Cathan's Traps 14	0	dmg-fire		15	20	regen-mana		16	16	res-ltng		25	25																					att	0	60	60	red-mag	0	3	3	res-all	0	25	25	cast1	0	10	10	mana	0	20	20													0
+Tancred's Battlegear 14	Tancred's Battlegear 14	0	dmg-ltng		15	15					lifesteal		5	5																					gold%	0	75	75	res-all	0	10	10	slow	0	35	35	manasteal	0	5	5																	0
+Sigon's Complete Steel 14	Sigon's Complete Steel 14	0	lifesteal		10	10					ac		100	100																					res-fire	0	12	12	thorns	0	12	12	red-dmg	0	7	7	fire-max	0	24	24	mana		20	20													0
+Infernal Tools 14	Infernal Tools 14	0	dmg-pois	80	25	25					mana		10	10																					att%	0	20	20	nec	0	1	1	openwounds	0	20	20	manasteal		6	6	mana%		20	20	nofreeze		1	1									0
+Berserker's Garb 14	Berserker's Garb 14	0	hp		50	50																													res-pois-len	0	75	75	pois-min	0	16	16	pois-max	0	32	32	pois-len	0	75	75	ac		75	75													0
+Death's Disguise 14	Death's Disguise 14	0	lifesteal		8	8																													att%	0	40	40	dmg-min	0	10	10	res-all	0	25	25																					0
+Angelical Raiment 14	Angelical Raiment 14	0	dex		10	10					mana		50	50																					res-all	0	25	25	half-freeze	0	1	1	mag%	0	40	40	regen-mana		8	8																	0
+Arctic Gear 14	Arctic Gear 14	0	str		5	5					hp		50	50																					dmg-cold/lvl	16			cold-len	0	100	100	nofreeze	0	1	1																					0
+Arcanna's Tricks 14	Arcanna's Tricks 14	0	mana		50	50					hp		50	50	regen-mana		12	12																	cast3	0	20	20	manasteal	0	5	5	mana	0	25	25	allskills		1	1																	0
+Expansion																																																																			
+Natalya's Odium 14	Natalya's Odium 14	100	red-mag		15	15					ac		200	200					res-pois		20	20													res-all		50	50	ass		3	3	ac		150	150	lifesteal		14	14	manasteal		14	14	red-dmg%		30	30	fade		1	1					0
+Aldur's Watchtower 14	Aldur's Watchtower 14	100	att%		150	150					mag%		50	50					lifesteal		10	10													res-all		50	50	dru		3	3	ac		150	150	manasteal		10	10	mana		150	150	dmg%		350	350	state	fullsetgeneric	1	1					0
+Immortal King 14	Immortal King 14	100	att		50	50					att		75	75					att		125	125					att		200	200					res-all		50	50	bar		3	3	hp		150	150	red-mag		10	10	state	fullsetgeneric	1	1													0
+Tal Rasha's Wrappings 14	Tal Rasha's Wrappings 14	100	regen		10	10					mag%		65	65					balance2		25	25													res-all		50	50	sor		3	3	ac		150	150	hp		150	150	ac-miss		50	50	state	fullsetgeneric	1	1									0
+Griswold's Legacy 14	Griswold's Legacy 14	100	str		20	20					dex		30	30																					res-all		50	50	pal		3	3	att		200	200	hp		150	150	state	fullsetgeneric	1	1	balance2		30	30									0
+Trang-Oul's Avatar 14	Trang-Oul's Avatar 14	100	regen-mana		15	15	oskill	Fire Ball	18	18	regen-mana		15	15	oskill	Fire Wall	13	13	regen-mana		15	15	oskill	Meteor	10	10									res-all		50	50	nec		3	3	mana		100	100	ac		200	200	state	monsterset	1	1	regen-mana		15	15	oskill	Fire Mastery	3	3	lifesteal		20	20	0
+M'avina's Battle Hymn 14	M'avina's Battle Hymn 14	100	str		20	20					dex		30	30																					res-all		50	50	ama		3	3	ac		100	100	att		100	100	mag%		100	100	state	fullsetgeneric	1	1									0
+The Disciple 14	The Disciple 14	100	ac		150	150					dmg-pois	75	75	75					str		10	10					dex		10	10					res-all		50	50	allskills		2	2	mana		100	100																					0
+Heaven's Brethren 14	Heaven's Brethren 14	100	lifesteal		10	10					regen		30	30	dmg-fire/lvl	24																			res-all		50	50	allskills		2	2	nofreeze		1	1	light		5	5	red-dmg%		24	24													0
+Orphan's Call 14	Orphan's Call 14	100	hp		35	35					thorns		5	5					ac		100	100													hp		50	50	dex		10	10	str		20	20	ac		100	100	res-all		15	15	mag%	0	80	80									0
+Hwanin's Majesty 14	Hwanin's Majesty 14	100	ac		100	100					ac		200	200																					allskills		2	2	lifesteal		20	20	move3		30	30	res-all		30	30																	0
+Sazabi's Grand Tribute 14	Sazabi's Grand Tribute 14	100	move3		40	40	res-pois-len		75	75																									res-all		30	30	lifesteal		15	15	hp%		27	27	allskills		1	1	red-dmg%		16	16													0
+Bul-Kathos' Children 14	Bul-Kathos' Children 14	100																																	dmg-fire		200	200	allskills		2	2	att		200	200	ac		200	200	dmg-undead		200	200	dmg-demon		200	200	lifesteal		10	10	deadly		20	20	0
+Cow King's Leathers 14	Cow King's Leathers 14	100	res-pois		25	25	ac		100	100																									stam		100	100	str		20	20	gold%		100	100	mag%		100	100	gethit-skill	42	25	5	swing3		30	30	hp		100	100	allskills		1	1	0
+Naj's Ancient Set 14	Naj's Ancient Set 14	100	ac		175	175	mag%/lvl	12																											allskills		1	1	regen		20	20	dex		15	15	res-all		50	50	str		20	20	mana		100	100	fireskill		2	2	hp%		12	12	0
+McAuley's Folly 14	McAuley's Folly 14	100	ac		50	50					att		75	75																					allskills		1	1	mag%		50	50	mana		50	50	lifesteal		4	4																	0
+Civerb's Vestments 15	Civerb's Vestments 15	0	res-fire		25	25																													str	0	15	15	dmg-undead	0	200	200	res-ltng	0	25	25	att%	0	25	25	ac		50	50													0
+Hsarus' Defense 15	Hsarus' Defense 15	0	thorns		5	5																													dmg-max	0	5	5	nofreeze	0	1	1	res-ltng	0	25	25																					0
+Cleglaw's Brace 15	Cleglaw's Brace 15	0	ac		50	50																													ac	0	50	50	manasteal	0	6	6	crush	0	35	35	swing2		20	20																	0
+Iratha's Finery 15	Iratha's Finery 15	0	ac		50	50					move2		20	20	pierce		24	24																	res-all	0	20	20	res-fire-max	0	10	10	res-cold-max	0	10	10	res-ltng-max	0	10	10	res-pois-max	0	10	10	dex	0	15	15									0
+Isenhart's Armory 15	Isenhart's Armory 15	0	str		10	10					dex		10	10																					lifesteal	0	5	5	res-all	0	10	10	att%	0	35	35	block		30	30	move2		20	20													0
+Vidala's Rig 15	Vidala's Rig 15	0	att		75	75	manasteal		7	7	dex		15	15																					dmg-cold/lvl	12			freeze	0	1	1	pierce	0	50	50	str		10	10																	0
+Milabrega's Regalia 15	Milabrega's Regalia 15	0	att		75	75	dmg-ltng/lvl	16			att		125	125	nofreeze		1	1																	lifesteal	0	8	8	pal	0	2	2	manasteal	0	10	10	res-pois	0	15	15																	0
+Cathan's Traps 15	Cathan's Traps 15	0	dmg-fire		15	20	regen-mana		16	16	res-ltng		25	25																					att	0	60	60	red-mag	0	3	3	res-all	0	25	25	cast1	0	10	10	mana	0	20	20													0
+Tancred's Battlegear 15	Tancred's Battlegear 15	0	dmg-ltng		15	15					lifesteal		5	5																					gold%	0	75	75	res-all	0	10	10	slow	0	35	35	manasteal	0	5	5																	0
+Sigon's Complete Steel 15	Sigon's Complete Steel 15	0	lifesteal		10	10					ac		100	100																					res-fire	0	12	12	thorns	0	12	12	red-dmg	0	7	7	fire-max	0	24	24	mana		20	20													0
+Infernal Tools 15	Infernal Tools 15	0	dmg-pois	80	25	25					mana		10	10																					att%	0	20	20	nec	0	1	1	openwounds	0	20	20	manasteal		6	6	mana%		20	20	nofreeze		1	1									0
+Berserker's Garb 15	Berserker's Garb 15	0	hp		50	50																													res-pois-len	0	75	75	pois-min	0	16	16	pois-max	0	32	32	pois-len	0	75	75	ac		75	75													0
+Death's Disguise 15	Death's Disguise 15	0	lifesteal		8	8																													att%	0	40	40	dmg-min	0	10	10	res-all	0	25	25																					0
+Angelical Raiment 15	Angelical Raiment 15	0	dex		10	10					mana		50	50																					res-all	0	25	25	half-freeze	0	1	1	mag%	0	40	40	regen-mana		8	8																	0
+Arctic Gear 15	Arctic Gear 15	0	str		5	5					hp		50	50																					dmg-cold/lvl	16			cold-len	0	100	100	nofreeze	0	1	1																					0
+Arcanna's Tricks 15	Arcanna's Tricks 15	0	mana		50	50					hp		50	50	regen-mana		12	12																	cast3	0	20	20	manasteal	0	5	5	mana	0	25	25	allskills		1	1																	0
+Expansion																																																																			
+Natalya's Odium 15	Natalya's Odium 15	100	red-mag		15	15					ac		200	200					res-pois		20	20													res-all		50	50	ass		3	3	ac		150	150	lifesteal		14	14	manasteal		14	14	red-dmg%		30	30	fade		1	1					0
+Aldur's Watchtower 15	Aldur's Watchtower 15	100	att%		150	150					mag%		50	50					lifesteal		10	10													res-all		50	50	dru		3	3	ac		150	150	manasteal		10	10	mana		150	150	dmg%		350	350	state	fullsetgeneric	1	1					0
+Immortal King 15	Immortal King 15	100	att		50	50					att		75	75					att		125	125					att		200	200					res-all		50	50	bar		3	3	hp		150	150	red-mag		10	10	state	fullsetgeneric	1	1													0
+Tal Rasha's Wrappings 15	Tal Rasha's Wrappings 15	100	regen		10	10					mag%		65	65					balance2		25	25													res-all		50	50	sor		3	3	ac		150	150	hp		150	150	ac-miss		50	50	state	fullsetgeneric	1	1									0
+Griswold's Legacy 15	Griswold's Legacy 15	100	str		20	20					dex		30	30																					res-all		50	50	pal		3	3	att		200	200	hp		150	150	state	fullsetgeneric	1	1	balance2		30	30									0
+Trang-Oul's Avatar 15	Trang-Oul's Avatar 15	100	regen-mana		15	15	oskill	Fire Ball	18	18	regen-mana		15	15	oskill	Fire Wall	13	13	regen-mana		15	15	oskill	Meteor	10	10									res-all		50	50	nec		3	3	mana		100	100	ac		200	200	state	monsterset	1	1	regen-mana		15	15	oskill	Fire Mastery	3	3	lifesteal		20	20	0
+M'avina's Battle Hymn 15	M'avina's Battle Hymn 15	100	str		20	20					dex		30	30																					res-all		50	50	ama		3	3	ac		100	100	att		100	100	mag%		100	100	state	fullsetgeneric	1	1									0
+The Disciple 15	The Disciple 15	100	ac		150	150					dmg-pois	75	75	75					str		10	10					dex		10	10					res-all		50	50	allskills		2	2	mana		100	100																					0
+Heaven's Brethren 15	Heaven's Brethren 15	100	lifesteal		10	10					regen		30	30	dmg-fire/lvl	24																			res-all		50	50	allskills		2	2	nofreeze		1	1	light		5	5	red-dmg%		24	24													0
+Orphan's Call 15	Orphan's Call 15	100	hp		35	35					thorns		5	5					ac		100	100													hp		50	50	dex		10	10	str		20	20	ac		100	100	res-all		15	15	mag%	0	80	80									0
+Hwanin's Majesty 15	Hwanin's Majesty 15	100	ac		100	100					ac		200	200																					allskills		2	2	lifesteal		20	20	move3		30	30	res-all		30	30																	0
+Sazabi's Grand Tribute 15	Sazabi's Grand Tribute 15	100	move3		40	40	res-pois-len		75	75																									res-all		30	30	lifesteal		15	15	hp%		27	27	allskills		1	1	red-dmg%		16	16													0
+Bul-Kathos' Children 15	Bul-Kathos' Children 15	100																																	dmg-fire		200	200	allskills		2	2	att		200	200	ac		200	200	dmg-undead		200	200	dmg-demon		200	200	lifesteal		10	10	deadly		20	20	0
+Cow King's Leathers 15	Cow King's Leathers 15	100	res-pois		25	25	ac		100	100																									stam		100	100	str		20	20	gold%		100	100	mag%		100	100	gethit-skill	42	25	5	swing3		30	30	hp		100	100	allskills		1	1	0
+Naj's Ancient Set 15	Naj's Ancient Set 15	100	ac		175	175	mag%/lvl	12																											allskills		1	1	regen		20	20	dex		15	15	res-all		50	50	str		20	20	mana		100	100	fireskill		2	2	hp%		12	12	0
+McAuley's Folly 15	McAuley's Folly 15	100	ac		50	50					att		75	75																					allskills		1	1	mag%		50	50	mana		50	50	lifesteal		4	4																	0
+Civerb's Vestments 16	Civerb's Vestments 16	0	res-fire		25	25																													str	0	15	15	dmg-undead	0	200	200	res-ltng	0	25	25	att%	0	25	25	ac		50	50													0
+Hsarus' Defense 16	Hsarus' Defense 16	0	thorns		5	5																													dmg-max	0	5	5	nofreeze	0	1	1	res-ltng	0	25	25																					0
+Cleglaw's Brace 16	Cleglaw's Brace 16	0	ac		50	50																													ac	0	50	50	manasteal	0	6	6	crush	0	35	35	swing2		20	20																	0
+Iratha's Finery 16	Iratha's Finery 16	0	ac		50	50					move2		20	20	pierce		24	24																	res-all	0	20	20	res-fire-max	0	10	10	res-cold-max	0	10	10	res-ltng-max	0	10	10	res-pois-max	0	10	10	dex	0	15	15									0
+Isenhart's Armory 16	Isenhart's Armory 16	0	str		10	10					dex		10	10																					lifesteal	0	5	5	res-all	0	10	10	att%	0	35	35	block		30	30	move2		20	20													0
+Vidala's Rig 16	Vidala's Rig 16	0	att		75	75	manasteal		7	7	dex		15	15																					dmg-cold/lvl	12			freeze	0	1	1	pierce	0	50	50	str		10	10																	0
+Milabrega's Regalia 16	Milabrega's Regalia 16	0	att		75	75	dmg-ltng/lvl	16			att		125	125	nofreeze		1	1																	lifesteal	0	8	8	pal	0	2	2	manasteal	0	10	10	res-pois	0	15	15																	0
+Cathan's Traps 16	Cathan's Traps 16	0	dmg-fire		15	20	regen-mana		16	16	res-ltng		25	25																					att	0	60	60	red-mag	0	3	3	res-all	0	25	25	cast1	0	10	10	mana	0	20	20													0
+Tancred's Battlegear 16	Tancred's Battlegear 16	0	dmg-ltng		15	15					lifesteal		5	5																					gold%	0	75	75	res-all	0	10	10	slow	0	35	35	manasteal	0	5	5																	0
+Sigon's Complete Steel 16	Sigon's Complete Steel 16	0	lifesteal		10	10					ac		100	100																					res-fire	0	12	12	thorns	0	12	12	red-dmg	0	7	7	fire-max	0	24	24	mana		20	20													0
+Infernal Tools 16	Infernal Tools 16	0	dmg-pois	80	25	25					mana		10	10																					att%	0	20	20	nec	0	1	1	openwounds	0	20	20	manasteal		6	6	mana%		20	20	nofreeze		1	1									0
+Berserker's Garb 16	Berserker's Garb 16	0	hp		50	50																													res-pois-len	0	75	75	pois-min	0	16	16	pois-max	0	32	32	pois-len	0	75	75	ac		75	75													0
+Death's Disguise 16	Death's Disguise 16	0	lifesteal		8	8																													att%	0	40	40	dmg-min	0	10	10	res-all	0	25	25																					0
+Angelical Raiment 16	Angelical Raiment 16	0	dex		10	10					mana		50	50																					res-all	0	25	25	half-freeze	0	1	1	mag%	0	40	40	regen-mana		8	8																	0
+Arctic Gear 16	Arctic Gear 16	0	str		5	5					hp		50	50																					dmg-cold/lvl	16			cold-len	0	100	100	nofreeze	0	1	1																					0
+Arcanna's Tricks 16	Arcanna's Tricks 16	0	mana		50	50					hp		50	50	regen-mana		12	12																	cast3	0	20	20	manasteal	0	5	5	mana	0	25	25	allskills		1	1																	0
+Expansion																																																																			
+Natalya's Odium 16	Natalya's Odium 16	100	red-mag		15	15					ac		200	200					res-pois		20	20													res-all		50	50	ass		3	3	ac		150	150	lifesteal		14	14	manasteal		14	14	red-dmg%		30	30	fade		1	1					0
+Aldur's Watchtower 16	Aldur's Watchtower 16	100	att%		150	150					mag%		50	50					lifesteal		10	10													res-all		50	50	dru		3	3	ac		150	150	manasteal		10	10	mana		150	150	dmg%		350	350	state	fullsetgeneric	1	1					0
+Immortal King 16	Immortal King 16	100	att		50	50					att		75	75					att		125	125					att		200	200					res-all		50	50	bar		3	3	hp		150	150	red-mag		10	10	state	fullsetgeneric	1	1													0
+Tal Rasha's Wrappings 16	Tal Rasha's Wrappings 16	100	regen		10	10					mag%		65	65					balance2		25	25													res-all		50	50	sor		3	3	ac		150	150	hp		150	150	ac-miss		50	50	state	fullsetgeneric	1	1									0
+Griswold's Legacy 16	Griswold's Legacy 16	100	str		20	20					dex		30	30																					res-all		50	50	pal		3	3	att		200	200	hp		150	150	state	fullsetgeneric	1	1	balance2		30	30									0
+Trang-Oul's Avatar 16	Trang-Oul's Avatar 16	100	regen-mana		15	15	oskill	Fire Ball	18	18	regen-mana		15	15	oskill	Fire Wall	13	13	regen-mana		15	15	oskill	Meteor	10	10									res-all		50	50	nec		3	3	mana		100	100	ac		200	200	state	monsterset	1	1	regen-mana		15	15	oskill	Fire Mastery	3	3	lifesteal		20	20	0
+M'avina's Battle Hymn 16	M'avina's Battle Hymn 16	100	str		20	20					dex		30	30																					res-all		50	50	ama		3	3	ac		100	100	att		100	100	mag%		100	100	state	fullsetgeneric	1	1									0
+The Disciple 16	The Disciple 16	100	ac		150	150					dmg-pois	75	75	75					str		10	10					dex		10	10					res-all		50	50	allskills		2	2	mana		100	100																					0
+Heaven's Brethren 16	Heaven's Brethren 16	100	lifesteal		10	10					regen		30	30	dmg-fire/lvl	24																			res-all		50	50	allskills		2	2	nofreeze		1	1	light		5	5	red-dmg%		24	24													0
+Orphan's Call 16	Orphan's Call 16	100	hp		35	35					thorns		5	5					ac		100	100													hp		50	50	dex		10	10	str		20	20	ac		100	100	res-all		15	15	mag%	0	80	80									0
+Hwanin's Majesty 16	Hwanin's Majesty 16	100	ac		100	100					ac		200	200																					allskills		2	2	lifesteal		20	20	move3		30	30	res-all		30	30																	0
+Sazabi's Grand Tribute 16	Sazabi's Grand Tribute 16	100	move3		40	40	res-pois-len		75	75																									res-all		30	30	lifesteal		15	15	hp%		27	27	allskills		1	1	red-dmg%		16	16													0
+Bul-Kathos' Children 16	Bul-Kathos' Children 16	100																																	dmg-fire		200	200	allskills		2	2	att		200	200	ac		200	200	dmg-undead		200	200	dmg-demon		200	200	lifesteal		10	10	deadly		20	20	0
+Cow King's Leathers 16	Cow King's Leathers 16	100	res-pois		25	25	ac		100	100																									stam		100	100	str		20	20	gold%		100	100	mag%		100	100	gethit-skill	42	25	5	swing3		30	30	hp		100	100	allskills		1	1	0
+Naj's Ancient Set 16	Naj's Ancient Set 16	100	ac		175	175	mag%/lvl	12																											allskills		1	1	regen		20	20	dex		15	15	res-all		50	50	str		20	20	mana		100	100	fireskill		2	2	hp%		12	12	0
+McAuley's Folly 16	McAuley's Folly 16	100	ac		50	50					att		75	75																					allskills		1	1	mag%		50	50	mana		50	50	lifesteal		4	4																	0
+Civerb's Vestments 17	Civerb's Vestments 17	0	res-fire		25	25																													str	0	15	15	dmg-undead	0	200	200	res-ltng	0	25	25	att%	0	25	25	ac		50	50													0
+Hsarus' Defense 17	Hsarus' Defense 17	0	thorns		5	5																													dmg-max	0	5	5	nofreeze	0	1	1	res-ltng	0	25	25																					0
+Cleglaw's Brace 17	Cleglaw's Brace 17	0	ac		50	50																													ac	0	50	50	manasteal	0	6	6	crush	0	35	35	swing2		20	20																	0
+Iratha's Finery 17	Iratha's Finery 17	0	ac		50	50					move2		20	20	pierce		24	24																	res-all	0	20	20	res-fire-max	0	10	10	res-cold-max	0	10	10	res-ltng-max	0	10	10	res-pois-max	0	10	10	dex	0	15	15									0
+Isenhart's Armory 17	Isenhart's Armory 17	0	str		10	10					dex		10	10																					lifesteal	0	5	5	res-all	0	10	10	att%	0	35	35	block		30	30	move2		20	20													0
+Vidala's Rig 17	Vidala's Rig 17	0	att		75	75	manasteal		7	7	dex		15	15																					dmg-cold/lvl	12			freeze	0	1	1	pierce	0	50	50	str		10	10																	0
+Milabrega's Regalia 17	Milabrega's Regalia 17	0	att		75	75	dmg-ltng/lvl	16			att		125	125	nofreeze		1	1																	lifesteal	0	8	8	pal	0	2	2	manasteal	0	10	10	res-pois	0	15	15																	0
+Cathan's Traps 17	Cathan's Traps 17	0	dmg-fire		15	20	regen-mana		16	16	res-ltng		25	25																					att	0	60	60	red-mag	0	3	3	res-all	0	25	25	cast1	0	10	10	mana	0	20	20													0
+Tancred's Battlegear 17	Tancred's Battlegear 17	0	dmg-ltng		15	15					lifesteal		5	5																					gold%	0	75	75	res-all	0	10	10	slow	0	35	35	manasteal	0	5	5																	0
+Sigon's Complete Steel 17	Sigon's Complete Steel 17	0	lifesteal		10	10					ac		100	100																					res-fire	0	12	12	thorns	0	12	12	red-dmg	0	7	7	fire-max	0	24	24	mana		20	20													0
+Infernal Tools 17	Infernal Tools 17	0	dmg-pois	80	25	25					mana		10	10																					att%	0	20	20	nec	0	1	1	openwounds	0	20	20	manasteal		6	6	mana%		20	20	nofreeze		1	1									0
+Berserker's Garb 17	Berserker's Garb 17	0	hp		50	50																													res-pois-len	0	75	75	pois-min	0	16	16	pois-max	0	32	32	pois-len	0	75	75	ac		75	75													0
+Death's Disguise 17	Death's Disguise 17	0	lifesteal		8	8																													att%	0	40	40	dmg-min	0	10	10	res-all	0	25	25																					0
+Angelical Raiment 17	Angelical Raiment 17	0	dex		10	10					mana		50	50																					res-all	0	25	25	half-freeze	0	1	1	mag%	0	40	40	regen-mana		8	8																	0
+Arctic Gear 17	Arctic Gear 17	0	str		5	5					hp		50	50																					dmg-cold/lvl	16			cold-len	0	100	100	nofreeze	0	1	1																					0
+Arcanna's Tricks 17	Arcanna's Tricks 17	0	mana		50	50					hp		50	50	regen-mana		12	12																	cast3	0	20	20	manasteal	0	5	5	mana	0	25	25	allskills		1	1																	0
+Expansion																																																																			
+Natalya's Odium 17	Natalya's Odium 17	100	red-mag		15	15					ac		200	200					res-pois		20	20													res-all		50	50	ass		3	3	ac		150	150	lifesteal		14	14	manasteal		14	14	red-dmg%		30	30	fade		1	1					0
+Aldur's Watchtower 17	Aldur's Watchtower 17	100	att%		150	150					mag%		50	50					lifesteal		10	10													res-all		50	50	dru		3	3	ac		150	150	manasteal		10	10	mana		150	150	dmg%		350	350	state	fullsetgeneric	1	1					0
+Immortal King 17	Immortal King 17	100	att		50	50					att		75	75					att		125	125					att		200	200					res-all		50	50	bar		3	3	hp		150	150	red-mag		10	10	state	fullsetgeneric	1	1													0
+Tal Rasha's Wrappings 17	Tal Rasha's Wrappings 17	100	regen		10	10					mag%		65	65					balance2		25	25													res-all		50	50	sor		3	3	ac		150	150	hp		150	150	ac-miss		50	50	state	fullsetgeneric	1	1									0
+Griswold's Legacy 17	Griswold's Legacy 17	100	str		20	20					dex		30	30																					res-all		50	50	pal		3	3	att		200	200	hp		150	150	state	fullsetgeneric	1	1	balance2		30	30									0
+Trang-Oul's Avatar 17	Trang-Oul's Avatar 17	100	regen-mana		15	15	oskill	Fire Ball	18	18	regen-mana		15	15	oskill	Fire Wall	13	13	regen-mana		15	15	oskill	Meteor	10	10									res-all		50	50	nec		3	3	mana		100	100	ac		200	200	state	monsterset	1	1	regen-mana		15	15	oskill	Fire Mastery	3	3	lifesteal		20	20	0
+M'avina's Battle Hymn 17	M'avina's Battle Hymn 17	100	str		20	20					dex		30	30																					res-all		50	50	ama		3	3	ac		100	100	att		100	100	mag%		100	100	state	fullsetgeneric	1	1									0
+The Disciple 17	The Disciple 17	100	ac		150	150					dmg-pois	75	75	75					str		10	10					dex		10	10					res-all		50	50	allskills		2	2	mana		100	100																					0
+Heaven's Brethren 17	Heaven's Brethren 17	100	lifesteal		10	10					regen		30	30	dmg-fire/lvl	24																			res-all		50	50	allskills		2	2	nofreeze		1	1	light		5	5	red-dmg%		24	24													0
+Orphan's Call 17	Orphan's Call 17	100	hp		35	35					thorns		5	5					ac		100	100													hp		50	50	dex		10	10	str		20	20	ac		100	100	res-all		15	15	mag%	0	80	80									0
+Hwanin's Majesty 17	Hwanin's Majesty 17	100	ac		100	100					ac		200	200																					allskills		2	2	lifesteal		20	20	move3		30	30	res-all		30	30																	0
+Sazabi's Grand Tribute 17	Sazabi's Grand Tribute 17	100	move3		40	40	res-pois-len		75	75																									res-all		30	30	lifesteal		15	15	hp%		27	27	allskills		1	1	red-dmg%		16	16													0
+Bul-Kathos' Children 17	Bul-Kathos' Children 17	100																																	dmg-fire		200	200	allskills		2	2	att		200	200	ac		200	200	dmg-undead		200	200	dmg-demon		200	200	lifesteal		10	10	deadly		20	20	0
+Cow King's Leathers 17	Cow King's Leathers 17	100	res-pois		25	25	ac		100	100																									stam		100	100	str		20	20	gold%		100	100	mag%		100	100	gethit-skill	42	25	5	swing3		30	30	hp		100	100	allskills		1	1	0
+Naj's Ancient Set 17	Naj's Ancient Set 17	100	ac		175	175	mag%/lvl	12																											allskills		1	1	regen		20	20	dex		15	15	res-all		50	50	str		20	20	mana		100	100	fireskill		2	2	hp%		12	12	0
+McAuley's Folly 17	McAuley's Folly 17	100	ac		50	50					att		75	75																					allskills		1	1	mag%		50	50	mana		50	50	lifesteal		4	4																	0
+Civerb's Vestments 18	Civerb's Vestments 18	0	res-fire		25	25																													str	0	15	15	dmg-undead	0	200	200	res-ltng	0	25	25	att%	0	25	25	ac		50	50													0
+Hsarus' Defense 18	Hsarus' Defense 18	0	thorns		5	5																													dmg-max	0	5	5	nofreeze	0	1	1	res-ltng	0	25	25																					0
+Cleglaw's Brace 18	Cleglaw's Brace 18	0	ac		50	50																													ac	0	50	50	manasteal	0	6	6	crush	0	35	35	swing2		20	20																	0
+Iratha's Finery 18	Iratha's Finery 18	0	ac		50	50					move2		20	20	pierce		24	24																	res-all	0	20	20	res-fire-max	0	10	10	res-cold-max	0	10	10	res-ltng-max	0	10	10	res-pois-max	0	10	10	dex	0	15	15									0
+Isenhart's Armory 18	Isenhart's Armory 18	0	str		10	10					dex		10	10																					lifesteal	0	5	5	res-all	0	10	10	att%	0	35	35	block		30	30	move2		20	20													0
+Vidala's Rig 18	Vidala's Rig 18	0	att		75	75	manasteal		7	7	dex		15	15																					dmg-cold/lvl	12			freeze	0	1	1	pierce	0	50	50	str		10	10																	0
+Milabrega's Regalia 18	Milabrega's Regalia 18	0	att		75	75	dmg-ltng/lvl	16			att		125	125	nofreeze		1	1																	lifesteal	0	8	8	pal	0	2	2	manasteal	0	10	10	res-pois	0	15	15																	0
+Cathan's Traps 18	Cathan's Traps 18	0	dmg-fire		15	20	regen-mana		16	16	res-ltng		25	25																					att	0	60	60	red-mag	0	3	3	res-all	0	25	25	cast1	0	10	10	mana	0	20	20													0
+Tancred's Battlegear 18	Tancred's Battlegear 18	0	dmg-ltng		15	15					lifesteal		5	5																					gold%	0	75	75	res-all	0	10	10	slow	0	35	35	manasteal	0	5	5																	0
+Sigon's Complete Steel 18	Sigon's Complete Steel 18	0	lifesteal		10	10					ac		100	100																					res-fire	0	12	12	thorns	0	12	12	red-dmg	0	7	7	fire-max	0	24	24	mana		20	20													0
+Infernal Tools 18	Infernal Tools 18	0	dmg-pois	80	25	25					mana		10	10																					att%	0	20	20	nec	0	1	1	openwounds	0	20	20	manasteal		6	6	mana%		20	20	nofreeze		1	1									0
+Berserker's Garb 18	Berserker's Garb 18	0	hp		50	50																													res-pois-len	0	75	75	pois-min	0	16	16	pois-max	0	32	32	pois-len	0	75	75	ac		75	75													0
+Death's Disguise 18	Death's Disguise 18	0	lifesteal		8	8																													att%	0	40	40	dmg-min	0	10	10	res-all	0	25	25																					0
+Angelical Raiment 18	Angelical Raiment 18	0	dex		10	10					mana		50	50																					res-all	0	25	25	half-freeze	0	1	1	mag%	0	40	40	regen-mana		8	8																	0
+Arctic Gear 18	Arctic Gear 18	0	str		5	5					hp		50	50																					dmg-cold/lvl	16			cold-len	0	100	100	nofreeze	0	1	1																					0
+Arcanna's Tricks 18	Arcanna's Tricks 18	0	mana		50	50					hp		50	50	regen-mana		12	12																	cast3	0	20	20	manasteal	0	5	5	mana	0	25	25	allskills		1	1																	0
+Expansion																																																																			
+Natalya's Odium 18	Natalya's Odium 18	100	red-mag		15	15					ac		200	200					res-pois		20	20													res-all		50	50	ass		3	3	ac		150	150	lifesteal		14	14	manasteal		14	14	red-dmg%		30	30	fade		1	1					0
+Aldur's Watchtower 18	Aldur's Watchtower 18	100	att%		150	150					mag%		50	50					lifesteal		10	10													res-all		50	50	dru		3	3	ac		150	150	manasteal		10	10	mana		150	150	dmg%		350	350	state	fullsetgeneric	1	1					0
+Immortal King 18	Immortal King 18	100	att		50	50					att		75	75					att		125	125					att		200	200					res-all		50	50	bar		3	3	hp		150	150	red-mag		10	10	state	fullsetgeneric	1	1													0
+Tal Rasha's Wrappings 18	Tal Rasha's Wrappings 18	100	regen		10	10					mag%		65	65					balance2		25	25													res-all		50	50	sor		3	3	ac		150	150	hp		150	150	ac-miss		50	50	state	fullsetgeneric	1	1									0
+Griswold's Legacy 18	Griswold's Legacy 18	100	str		20	20					dex		30	30																					res-all		50	50	pal		3	3	att		200	200	hp		150	150	state	fullsetgeneric	1	1	balance2		30	30									0
+Trang-Oul's Avatar 18	Trang-Oul's Avatar 18	100	regen-mana		15	15	oskill	Fire Ball	18	18	regen-mana		15	15	oskill	Fire Wall	13	13	regen-mana		15	15	oskill	Meteor	10	10									res-all		50	50	nec		3	3	mana		100	100	ac		200	200	state	monsterset	1	1	regen-mana		15	15	oskill	Fire Mastery	3	3	lifesteal		20	20	0
+M'avina's Battle Hymn 18	M'avina's Battle Hymn 18	100	str		20	20					dex		30	30																					res-all		50	50	ama		3	3	ac		100	100	att		100	100	mag%		100	100	state	fullsetgeneric	1	1									0
+The Disciple 18	The Disciple 18	100	ac		150	150					dmg-pois	75	75	75					str		10	10					dex		10	10					res-all		50	50	allskills		2	2	mana		100	100																					0
+Heaven's Brethren 18	Heaven's Brethren 18	100	lifesteal		10	10					regen		30	30	dmg-fire/lvl	24																			res-all		50	50	allskills		2	2	nofreeze		1	1	light		5	5	red-dmg%		24	24													0
+Orphan's Call 18	Orphan's Call 18	100	hp		35	35					thorns		5	5					ac		100	100													hp		50	50	dex		10	10	str		20	20	ac		100	100	res-all		15	15	mag%	0	80	80									0
+Hwanin's Majesty 18	Hwanin's Majesty 18	100	ac		100	100					ac		200	200																					allskills		2	2	lifesteal		20	20	move3		30	30	res-all		30	30																	0
+Sazabi's Grand Tribute 18	Sazabi's Grand Tribute 18	100	move3		40	40	res-pois-len		75	75																									res-all		30	30	lifesteal		15	15	hp%		27	27	allskills		1	1	red-dmg%		16	16													0
+Bul-Kathos' Children 18	Bul-Kathos' Children 18	100																																	dmg-fire		200	200	allskills		2	2	att		200	200	ac		200	200	dmg-undead		200	200	dmg-demon		200	200	lifesteal		10	10	deadly		20	20	0
+Cow King's Leathers 18	Cow King's Leathers 18	100	res-pois		25	25	ac		100	100																									stam		100	100	str		20	20	gold%		100	100	mag%		100	100	gethit-skill	42	25	5	swing3		30	30	hp		100	100	allskills		1	1	0
+Naj's Ancient Set 18	Naj's Ancient Set 18	100	ac		175	175	mag%/lvl	12																											allskills		1	1	regen		20	20	dex		15	15	res-all		50	50	str		20	20	mana		100	100	fireskill		2	2	hp%		12	12	0
+McAuley's Folly 18	McAuley's Folly 18	100	ac		50	50					att		75	75																					allskills		1	1	mag%		50	50	mana		50	50	lifesteal		4	4																	0
+Civerb's Vestments 19	Civerb's Vestments 19	0	res-fire		25	25																													str	0	15	15	dmg-undead	0	200	200	res-ltng	0	25	25	att%	0	25	25	ac		50	50													0
+Hsarus' Defense 19	Hsarus' Defense 19	0	thorns		5	5																													dmg-max	0	5	5	nofreeze	0	1	1	res-ltng	0	25	25																					0
+Cleglaw's Brace 19	Cleglaw's Brace 19	0	ac		50	50																													ac	0	50	50	manasteal	0	6	6	crush	0	35	35	swing2		20	20																	0
+Iratha's Finery 19	Iratha's Finery 19	0	ac		50	50					move2		20	20	pierce		24	24																	res-all	0	20	20	res-fire-max	0	10	10	res-cold-max	0	10	10	res-ltng-max	0	10	10	res-pois-max	0	10	10	dex	0	15	15									0
+Isenhart's Armory 19	Isenhart's Armory 19	0	str		10	10					dex		10	10																					lifesteal	0	5	5	res-all	0	10	10	att%	0	35	35	block		30	30	move2		20	20													0
+Vidala's Rig 19	Vidala's Rig 19	0	att		75	75	manasteal		7	7	dex		15	15																					dmg-cold/lvl	12			freeze	0	1	1	pierce	0	50	50	str		10	10																	0
+Milabrega's Regalia 19	Milabrega's Regalia 19	0	att		75	75	dmg-ltng/lvl	16			att		125	125	nofreeze		1	1																	lifesteal	0	8	8	pal	0	2	2	manasteal	0	10	10	res-pois	0	15	15																	0
+Cathan's Traps 19	Cathan's Traps 19	0	dmg-fire		15	20	regen-mana		16	16	res-ltng		25	25																					att	0	60	60	red-mag	0	3	3	res-all	0	25	25	cast1	0	10	10	mana	0	20	20													0
+Tancred's Battlegear 19	Tancred's Battlegear 19	0	dmg-ltng		15	15					lifesteal		5	5																					gold%	0	75	75	res-all	0	10	10	slow	0	35	35	manasteal	0	5	5																	0
+Sigon's Complete Steel 19	Sigon's Complete Steel 19	0	lifesteal		10	10					ac		100	100																					res-fire	0	12	12	thorns	0	12	12	red-dmg	0	7	7	fire-max	0	24	24	mana		20	20													0
+Infernal Tools 19	Infernal Tools 19	0	dmg-pois	80	25	25					mana		10	10																					att%	0	20	20	nec	0	1	1	openwounds	0	20	20	manasteal		6	6	mana%		20	20	nofreeze		1	1									0
+Berserker's Garb 19	Berserker's Garb 19	0	hp		50	50																													res-pois-len	0	75	75	pois-min	0	16	16	pois-max	0	32	32	pois-len	0	75	75	ac		75	75													0
+Death's Disguise 19	Death's Disguise 19	0	lifesteal		8	8																													att%	0	40	40	dmg-min	0	10	10	res-all	0	25	25																					0
+Angelical Raiment 19	Angelical Raiment 19	0	dex		10	10					mana		50	50																					res-all	0	25	25	half-freeze	0	1	1	mag%	0	40	40	regen-mana		8	8																	0
+Arctic Gear 19	Arctic Gear 19	0	str		5	5					hp		50	50																					dmg-cold/lvl	16			cold-len	0	100	100	nofreeze	0	1	1																					0
+Arcanna's Tricks 19	Arcanna's Tricks 19	0	mana		50	50					hp		50	50	regen-mana		12	12																	cast3	0	20	20	manasteal	0	5	5	mana	0	25	25	allskills		1	1																	0
+Expansion																																																																			
+Natalya's Odium 19	Natalya's Odium 19	100	red-mag		15	15					ac		200	200					res-pois		20	20													res-all		50	50	ass		3	3	ac		150	150	lifesteal		14	14	manasteal		14	14	red-dmg%		30	30	fade		1	1					0
+Aldur's Watchtower 19	Aldur's Watchtower 19	100	att%		150	150					mag%		50	50					lifesteal		10	10													res-all		50	50	dru		3	3	ac		150	150	manasteal		10	10	mana		150	150	dmg%		350	350	state	fullsetgeneric	1	1					0
+Immortal King 19	Immortal King 19	100	att		50	50					att		75	75					att		125	125					att		200	200					res-all		50	50	bar		3	3	hp		150	150	red-mag		10	10	state	fullsetgeneric	1	1													0
+Tal Rasha's Wrappings 19	Tal Rasha's Wrappings 19	100	regen		10	10					mag%		65	65					balance2		25	25													res-all		50	50	sor		3	3	ac		150	150	hp		150	150	ac-miss		50	50	state	fullsetgeneric	1	1									0
+Griswold's Legacy 19	Griswold's Legacy 19	100	str		20	20					dex		30	30																					res-all		50	50	pal		3	3	att		200	200	hp		150	150	state	fullsetgeneric	1	1	balance2		30	30									0
+Trang-Oul's Avatar 19	Trang-Oul's Avatar 19	100	regen-mana		15	15	oskill	Fire Ball	18	18	regen-mana		15	15	oskill	Fire Wall	13	13	regen-mana		15	15	oskill	Meteor	10	10									res-all		50	50	nec		3	3	mana		100	100	ac		200	200	state	monsterset	1	1	regen-mana		15	15	oskill	Fire Mastery	3	3	lifesteal		20	20	0
+M'avina's Battle Hymn 19	M'avina's Battle Hymn 19	100	str		20	20					dex		30	30																					res-all		50	50	ama		3	3	ac		100	100	att		100	100	mag%		100	100	state	fullsetgeneric	1	1									0
+The Disciple 19	The Disciple 19	100	ac		150	150					dmg-pois	75	75	75					str		10	10					dex		10	10					res-all		50	50	allskills		2	2	mana		100	100																					0
+Heaven's Brethren 19	Heaven's Brethren 19	100	lifesteal		10	10					regen		30	30	dmg-fire/lvl	24																			res-all		50	50	allskills		2	2	nofreeze		1	1	light		5	5	red-dmg%		24	24													0
+Orphan's Call 19	Orphan's Call 19	100	hp		35	35					thorns		5	5					ac		100	100													hp		50	50	dex		10	10	str		20	20	ac		100	100	res-all		15	15	mag%	0	80	80									0
+Hwanin's Majesty 19	Hwanin's Majesty 19	100	ac		100	100					ac		200	200																					allskills		2	2	lifesteal		20	20	move3		30	30	res-all		30	30																	0
+Sazabi's Grand Tribute 19	Sazabi's Grand Tribute 19	100	move3		40	40	res-pois-len		75	75																									res-all		30	30	lifesteal		15	15	hp%		27	27	allskills		1	1	red-dmg%		16	16													0
+Bul-Kathos' Children 19	Bul-Kathos' Children 19	100																																	dmg-fire		200	200	allskills		2	2	att		200	200	ac		200	200	dmg-undead		200	200	dmg-demon		200	200	lifesteal		10	10	deadly		20	20	0
+Cow King's Leathers 19	Cow King's Leathers 19	100	res-pois		25	25	ac		100	100																									stam		100	100	str		20	20	gold%		100	100	mag%		100	100	gethit-skill	42	25	5	swing3		30	30	hp		100	100	allskills		1	1	0
+Naj's Ancient Set 19	Naj's Ancient Set 19	100	ac		175	175	mag%/lvl	12																											allskills		1	1	regen		20	20	dex		15	15	res-all		50	50	str		20	20	mana		100	100	fireskill		2	2	hp%		12	12	0
+McAuley's Folly 19	McAuley's Folly 19	100	ac		50	50					att		75	75																					allskills		1	1	mag%		50	50	mana		50	50	lifesteal		4	4																	0
+Civerb's Vestments 20	Civerb's Vestments 20	0	res-fire		25	25																													str	0	15	15	dmg-undead	0	200	200	res-ltng	0	25	25	att%	0	25	25	ac		50	50													0
+Hsarus' Defense 20	Hsarus' Defense 20	0	thorns		5	5																													dmg-max	0	5	5	nofreeze	0	1	1	res-ltng	0	25	25																					0
+Cleglaw's Brace 20	Cleglaw's Brace 20	0	ac		50	50																													ac	0	50	50	manasteal	0	6	6	crush	0	35	35	swing2		20	20																	0
+Iratha's Finery 20	Iratha's Finery 20	0	ac		50	50					move2		20	20	pierce		24	24																	res-all	0	20	20	res-fire-max	0	10	10	res-cold-max	0	10	10	res-ltng-max	0	10	10	res-pois-max	0	10	10	dex	0	15	15									0
+Isenhart's Armory 20	Isenhart's Armory 20	0	str		10	10					dex		10	10																					lifesteal	0	5	5	res-all	0	10	10	att%	0	35	35	block		30	30	move2		20	20													0
+Vidala's Rig 20	Vidala's Rig 20	0	att		75	75	manasteal		7	7	dex		15	15																					dmg-cold/lvl	12			freeze	0	1	1	pierce	0	50	50	str		10	10																	0
+Milabrega's Regalia 20	Milabrega's Regalia 20	0	att		75	75	dmg-ltng/lvl	16			att		125	125	nofreeze		1	1																	lifesteal	0	8	8	pal	0	2	2	manasteal	0	10	10	res-pois	0	15	15																	0
+Cathan's Traps 20	Cathan's Traps 20	0	dmg-fire		15	20	regen-mana		16	16	res-ltng		25	25																					att	0	60	60	red-mag	0	3	3	res-all	0	25	25	cast1	0	10	10	mana	0	20	20													0
+Tancred's Battlegear 20	Tancred's Battlegear 20	0	dmg-ltng		15	15					lifesteal		5	5																					gold%	0	75	75	res-all	0	10	10	slow	0	35	35	manasteal	0	5	5																	0
+Sigon's Complete Steel 20	Sigon's Complete Steel 20	0	lifesteal		10	10					ac		100	100																					res-fire	0	12	12	thorns	0	12	12	red-dmg	0	7	7	fire-max	0	24	24	mana		20	20													0
+Infernal Tools 20	Infernal Tools 20	0	dmg-pois	80	25	25					mana		10	10																					att%	0	20	20	nec	0	1	1	openwounds	0	20	20	manasteal		6	6	mana%		20	20	nofreeze		1	1									0
+Berserker's Garb 20	Berserker's Garb 20	0	hp		50	50																													res-pois-len	0	75	75	pois-min	0	16	16	pois-max	0	32	32	pois-len	0	75	75	ac		75	75													0
+Death's Disguise 20	Death's Disguise 20	0	lifesteal		8	8																													att%	0	40	40	dmg-min	0	10	10	res-all	0	25	25																					0
+Angelical Raiment 20	Angelical Raiment 20	0	dex		10	10					mana		50	50																					res-all	0	25	25	half-freeze	0	1	1	mag%	0	40	40	regen-mana		8	8																	0
+Arctic Gear 20	Arctic Gear 20	0	str		5	5					hp		50	50																					dmg-cold/lvl	16			cold-len	0	100	100	nofreeze	0	1	1																					0
+Arcanna's Tricks 20	Arcanna's Tricks 20	0	mana		50	50					hp		50	50	regen-mana		12	12																	cast3	0	20	20	manasteal	0	5	5	mana	0	25	25	allskills		1	1																	0
+Expansion																																																																			
+Natalya's Odium 20	Natalya's Odium 20	100	red-mag		15	15					ac		200	200					res-pois		20	20													res-all		50	50	ass		3	3	ac		150	150	lifesteal		14	14	manasteal		14	14	red-dmg%		30	30	fade		1	1					0
+Aldur's Watchtower 20	Aldur's Watchtower 20	100	att%		150	150					mag%		50	50					lifesteal		10	10													res-all		50	50	dru		3	3	ac		150	150	manasteal		10	10	mana		150	150	dmg%		350	350	state	fullsetgeneric	1	1					0
+Immortal King 20	Immortal King 20	100	att		50	50					att		75	75					att		125	125					att		200	200					res-all		50	50	bar		3	3	hp		150	150	red-mag		10	10	state	fullsetgeneric	1	1													0
+Tal Rasha's Wrappings 20	Tal Rasha's Wrappings 20	100	regen		10	10					mag%		65	65					balance2		25	25													res-all		50	50	sor		3	3	ac		150	150	hp		150	150	ac-miss		50	50	state	fullsetgeneric	1	1									0
+Griswold's Legacy 20	Griswold's Legacy 20	100	str		20	20					dex		30	30																					res-all		50	50	pal		3	3	att		200	200	hp		150	150	state	fullsetgeneric	1	1	balance2		30	30									0
+Trang-Oul's Avatar 20	Trang-Oul's Avatar 20	100	regen-mana		15	15	oskill	Fire Ball	18	18	regen-mana		15	15	oskill	Fire Wall	13	13	regen-mana		15	15	oskill	Meteor	10	10									res-all		50	50	nec		3	3	mana		100	100	ac		200	200	state	monsterset	1	1	regen-mana		15	15	oskill	Fire Mastery	3	3	lifesteal		20	20	0
+M'avina's Battle Hymn 20	M'avina's Battle Hymn 20	100	str		20	20					dex		30	30																					res-all		50	50	ama		3	3	ac		100	100	att		100	100	mag%		100	100	state	fullsetgeneric	1	1									0
+The Disciple 20	The Disciple 20	100	ac		150	150					dmg-pois	75	75	75					str		10	10					dex		10	10					res-all		50	50	allskills		2	2	mana		100	100																					0
+Heaven's Brethren 20	Heaven's Brethren 20	100	lifesteal		10	10					regen		30	30	dmg-fire/lvl	24																			res-all		50	50	allskills		2	2	nofreeze		1	1	light		5	5	red-dmg%		24	24													0
+Orphan's Call 20	Orphan's Call 20	100	hp		35	35					thorns		5	5					ac		100	100													hp		50	50	dex		10	10	str		20	20	ac		100	100	res-all		15	15	mag%	0	80	80									0
+Hwanin's Majesty 20	Hwanin's Majesty 20	100	ac		100	100					ac		200	200																					allskills		2	2	lifesteal		20	20	move3		30	30	res-all		30	30																	0
+Sazabi's Grand Tribute 20	Sazabi's Grand Tribute 20	100	move3		40	40	res-pois-len		75	75																									res-all		30	30	lifesteal		15	15	hp%		27	27	allskills		1	1	red-dmg%		16	16													0
+Bul-Kathos' Children 20	Bul-Kathos' Children 20	100																																	dmg-fire		200	200	allskills		2	2	att		200	200	ac		200	200	dmg-undead		200	200	dmg-demon		200	200	lifesteal		10	10	deadly		20	20	0
+Cow King's Leathers 20	Cow King's Leathers 20	100	res-pois		25	25	ac		100	100																									stam		100	100	str		20	20	gold%		100	100	mag%		100	100	gethit-skill	42	25	5	swing3		30	30	hp		100	100	allskills		1	1	0
+Naj's Ancient Set 20	Naj's Ancient Set 20	100	ac		175	175	mag%/lvl	12																											allskills		1	1	regen		20	20	dex		15	15	res-all		50	50	str		20	20	mana		100	100	fireskill		2	2	hp%		12	12	0
+McAuley's Folly 20	McAuley's Folly 20	100	ac		50	50					att		75	75																					allskills		1	1	mag%		50	50	mana		50	50	lifesteal		4	4																	0

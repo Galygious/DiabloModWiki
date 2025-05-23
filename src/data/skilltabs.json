@@ -1,0 +1,34 @@
+{
+  "classes": [
+    "Amazon",
+    "Sorceress",
+    "Necromancer",
+    "Paladin",
+    "Barbarian",
+    "Druid",
+    "Assassin"
+  ],
+  "skills": [
+    [0, "Bow and Crossbow Skills"],
+    [0, "Passive and Magic Skills"],
+    [0, "Javelin and Spear Skills"],
+    [1, "Fire Spells"],
+    [1, "Lightning Spells"],
+    [1, "Cold Spells"],
+    [2, "Curses"],
+    [2, "Poison and Bone Skills"],
+    [2, "Summoning Skills"],
+    [3, "Combat Skills"],
+    [3, "Offensive Auras"],
+    [3, "Defensive Auras"],
+    [4, "Combat Skills"],
+    [4, "Combat Masteries"],
+    [4, "Warcries"],
+    [5, "Summoning Skills"],
+    [5, "Shape Shifting Skills"], 
+    [5, "Elemental Skills"],
+    [6, "Traps"],
+    [6, "Shadow Disciplines"],
+    [6, "Martial Arts"]
+  ]
+}
