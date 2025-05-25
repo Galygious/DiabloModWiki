@@ -243,61 +243,44 @@ function groupItemsByName(items: any[]): Record<string, any[]> {
 /**
  * Extract and format item properties with set bonuses and proper D2 resistance logic
  */
-function formatItemProperties(item: any, modData?: any): { individual: string[], setBonuses: Record<string, string[]> } {
-  // First, collect individual properties and calculate resistances properly
+function formatItemProperties(
+  item: any,
+  modData?: any,
+  includeRawProperties: boolean = false
+): {
+  formattedProperties: { individual: string[], setBonuses: Record<string, string[]> },
+  rawProperties?: Record<string, any>
+} {
   const resistances = { fire: 0, cold: 0, lightning: 0, poison: 0 };
-  const otherProperties: Array<{ prop: string, par: any, min: any, max: any }> = [];
-  
+  const otherProperties: Array<{ prop: string, par: any, min: any, max: any, effectiveValue: number }> = [];
+  const rawProps: Record<string, any> = {};
+
   // Process individual property fields (prop1-12, min1-12, max1-12) and separate resistances
   for (let i = 1; i <= 12; i++) {
     const prop = item[`prop${i}`];
     const par = item[`par${i}`];
     const min = item[`min${i}`];
     const max = item[`max${i}`];
-    
+
     if (prop && prop.trim() !== '') {
-      // Parse numeric values with special handling for class skills
       const parseNumericValue = (value: any): number | undefined => {
-        // Handle null, undefined, or empty values
-        if (value === null || value === undefined || value === '') {
-          return undefined;
-        }
-        
-        // Handle numbers (including NaN)
-        if (typeof value === 'number') {
-          return isNaN(value) ? undefined : value;
-        }
-        
-        // Handle strings
+        if (value === null || value === undefined || value === '') return undefined;
+        if (typeof value === 'number') return isNaN(value) ? undefined : value;
         if (typeof value === 'string') {
           const trimmed = value.trim();
-          if (trimmed === '' || trimmed === 'NaN' || trimmed.toLowerCase() === 'nan') {
-            return undefined;
-          }
-          
-          // Try to parse as integer first, then float
+          if (trimmed === '' || trimmed === 'NaN' || trimmed.toLowerCase() === 'nan') return undefined;
           let parsed = parseInt(trimmed, 10);
-          if (isNaN(parsed)) {
-            parsed = parseFloat(trimmed);
-          }
-          
+          if (isNaN(parsed)) parsed = parseFloat(trimmed);
           return isNaN(parsed) ? undefined : parsed;
         }
-        
-        // Handle booleans
-        if (typeof value === 'boolean') {
-          return value ? 1 : 0;
-        }
-        
-        // Handle any other type - try to convert to number
+        if (typeof value === 'boolean') return value ? 1 : 0;
         const converted = Number(value);
         return isNaN(converted) ? undefined : converted;
       };
 
       let minVal = parseNumericValue(min);
       let maxVal = parseNumericValue(max);
-      
-      // Special handling for class skills - sometimes the value is in par field
+
       const classSkills = ['ama', 'sor', 'nec', 'pal', 'bar', 'dru', 'ass'];
       if (classSkills.includes(prop) && (minVal === undefined || maxVal === undefined)) {
         const parVal = parseNumericValue(par);
@@ -307,30 +290,43 @@ function formatItemProperties(item: any, modData?: any): { individual: string[],
         }
       }
       
-      // Enhanced fallback for properties that should have values but don't
-      // These are properties that typically should have numeric values
       const shouldHaveValues = ['allskills', 'str', 'dex', 'vit', 'enr', 'hp', 'mana', 'ac', 'dmg%'];
       if (shouldHaveValues.includes(prop) && (minVal === undefined || maxVal === undefined)) {
-        // Default to 1 for skill-like properties, 0 for others
         const defaultValue = prop === 'allskills' || prop.includes('skill') ? 1 : 0;
         minVal = minVal ?? defaultValue;
         maxVal = maxVal ?? defaultValue;
       }
-      
-      // Skip properties without valid numeric values
+
       if (minVal === undefined && maxVal === undefined) {
         continue;
       }
-      
-      // Get the effective value (use average for ranges, or the single value)
+
       let effectiveValue: number;
       if (minVal !== undefined && maxVal !== undefined) {
-        effectiveValue = minVal === maxVal ? minVal : (minVal + maxVal) / 2;
+        effectiveValue = minVal === maxVal ? minVal : (minVal + maxVal) / 2; // Using average for now, may need specific logic for min/max
       } else {
         effectiveValue = minVal !== undefined ? minVal : maxVal!;
       }
       
-      // Handle resistance properties
+      // Store raw properties if requested
+      if (includeRawProperties) {
+        // Normalize common property codes for easier filtering
+        let statCode = prop.toLowerCase().replace(/[^a-z0-9]/g, ''); // basic sanitization
+        if (statCode === 'allskills' || classSkills.includes(statCode)) {
+            rawProps[statCode] = (rawProps[statCode] || 0) + effectiveValue;
+        } else if (prop === 'res-all') {
+            rawProps['resall'] = (rawProps['resall'] || 0) + effectiveValue;
+        } else if (prop.startsWith('res-') && !prop.endsWith('-max')) {
+            statCode = prop.substring(0, prop.indexOf('-max') > -1 ? prop.indexOf('-max') : prop.length).replace('-', '');
+            rawProps[statCode] = (rawProps[statCode] || 0) + effectiveValue;
+        } else {
+            // For other properties, try to use a sensible code
+            // This might need expansion based on common filterable stats
+             rawProps[statCode] = effectiveValue;
+        }
+      }
+
+
       if (prop === 'res-all') {
         resistances.fire += effectiveValue;
         resistances.cold += effectiveValue;
@@ -345,24 +341,22 @@ function formatItemProperties(item: any, modData?: any): { individual: string[],
       } else if (prop === 'res-pois') {
         resistances.poison += effectiveValue;
       } else if (prop.startsWith('res-') && prop.endsWith('-max')) {
-        // Handle maximum resistance properties separately (they don't combine with regular resistances)
-        otherProperties.push({ prop, par, min: minVal || 0, max: maxVal || minVal || 0 });
+        otherProperties.push({ prop, par, min: minVal || 0, max: maxVal || minVal || 0, effectiveValue });
       } else {
-        // Non-resistance property
-        otherProperties.push({ prop, par, min: minVal || 0, max: maxVal || minVal || 0 });
+        otherProperties.push({ prop, par, min: minVal || 0, max: maxVal || minVal || 0, effectiveValue });
       }
     }
   }
-  
-  // Process individual properties first
-  const individualProperties = processProperties(resistances, otherProperties, modData);
-  
-  // Now process set bonuses
-  const setBonuses = processSetBonuses(item, modData);
-  
+
+  const individualProperties = processProperties(resistances, otherProperties, modData, includeRawProperties ? rawProps : undefined);
+  const setBonuses = processSetBonuses(item, modData); // Set bonuses don't need raw props for unique page
+
   return {
-    individual: individualProperties,
-    setBonuses: setBonuses
+    formattedProperties: {
+      individual: individualProperties.formatted,
+      setBonuses: setBonuses
+    },
+    ...(includeRawProperties && { rawProperties: individualProperties.raw || rawProps }) // Merge raw props from processProperties
   };
 }
 
@@ -371,117 +365,89 @@ function formatItemProperties(item: any, modData?: any): { individual: string[],
  */
 function processProperties(
   resistances: { fire: number, cold: number, lightning: number, poison: number },
-  otherProperties: Array<{ prop: string, par: any, min: any, max: any }>,
-  modData?: any
-): string[] {
-  // Now format all properties with priority tracking
+  otherProperties: Array<{ prop: string, par: any, min: any, max: any, effectiveValue: number }>,
+  modData?: any,
+  initialRawProps?: Record<string, any> // Accept initialRawProps
+): { formatted: string[], raw?: Record<string, any> } {
   const propertyMap = new Map<string, { values: number[], pars: any[], priority: number }>();
-  
-  // Helper function to get stat priority from ItemStatCost.json
+  const rawPropsToReturn: Record<string, any> = initialRawProps ? { ...initialRawProps } : {};
+
+
   const getStatPriority = (prop: string): number => {
-    if (!modData?.propertiesLookup || !modData?.itemStatCostLookup) {
-      return 0; // Default priority
-    }
-    
+    if (!modData?.propertiesLookup || !modData?.itemStatCostLookup) return 0;
     try {
       const propertyData = modData.propertiesLookup[prop];
       if (propertyData && propertyData.stat1) {
         const statName = propertyData.stat1;
         const statCostData = modData.itemStatCostLookup[statName];
         if (statCostData && statCostData.descpriority !== undefined) {
-          const priority = parseInt(statCostData.descpriority) || 0;
-          return priority;
+          return parseInt(statCostData.descpriority) || 0;
         }
       }
-    } catch (error) {
-      // Fallback to 0 if lookup fails
-    }
-    
-    return 0; // Default priority for unknown stats
+    } catch (error) {}
+    return 0;
   };
-  
-  // Handle resistances with D2 logic - resistances typically have high priority
+
   const resistanceValues = [resistances.fire, resistances.cold, resistances.lightning, resistances.poison];
   const allSame = resistanceValues.every(val => val === resistanceValues[0]) && resistanceValues[0] !== 0;
-  
+
   if (allSame) {
     const allResProperty = `All Resistances +${resistanceValues[0]}%`;
-    // Use res-all priority since that's what created this combined stat
     const resPriority = getStatPriority('res-all');
     propertyMap.set(allResProperty, { values: [resistanceValues[0]], pars: [''], priority: resPriority });
+    if (initialRawProps !== undefined) rawPropsToReturn['resall'] = (rawPropsToReturn['resall'] || 0) + resistanceValues[0];
   } else {
     if (resistances.fire !== 0) {
       const fireProperty = `Fire Resist +${resistances.fire}%`;
-      const firePriority = getStatPriority('res-fire');
-      propertyMap.set(fireProperty, { values: [resistances.fire], pars: [''], priority: firePriority });
+      propertyMap.set(fireProperty, { values: [resistances.fire], pars: [''], priority: getStatPriority('res-fire') });
+      if (initialRawProps !== undefined) rawPropsToReturn['resfire'] = (rawPropsToReturn['resfire'] || 0) + resistances.fire;
     }
     if (resistances.cold !== 0) {
       const coldProperty = `Cold Resist +${resistances.cold}%`;
-      const coldPriority = getStatPriority('res-cold');
-      propertyMap.set(coldProperty, { values: [resistances.cold], pars: [''], priority: coldPriority });
+      propertyMap.set(coldProperty, { values: [resistances.cold], pars: [''], priority: getStatPriority('res-cold') });
+      if (initialRawProps !== undefined) rawPropsToReturn['rescold'] = (rawPropsToReturn['rescold'] || 0) + resistances.cold;
     }
     if (resistances.lightning !== 0) {
       const lightningProperty = `Lightning Resist +${resistances.lightning}%`;
-      const lightningPriority = getStatPriority('res-ltng');
-      propertyMap.set(lightningProperty, { values: [resistances.lightning], pars: [''], priority: lightningPriority });
+      propertyMap.set(lightningProperty, { values: [resistances.lightning], pars: [''], priority: getStatPriority('res-ltng') });
+      if (initialRawProps !== undefined) rawPropsToReturn['resltng'] = (rawPropsToReturn['resltng'] || 0) + resistances.lightning;
     }
     if (resistances.poison !== 0) {
       const poisonProperty = `Poison Resist +${resistances.poison}%`;
-      const poisonPriority = getStatPriority('res-pois');
-      propertyMap.set(poisonProperty, { values: [resistances.poison], pars: [''], priority: poisonPriority });
+      propertyMap.set(poisonProperty, { values: [resistances.poison], pars: [''], priority: getStatPriority('res-pois') });
+      if (initialRawProps !== undefined) rawPropsToReturn['respois'] = (rawPropsToReturn['respois'] || 0) + resistances.poison;
     }
   }
-  
-  // Handle other properties
-  for (const { prop, par, min, max } of otherProperties) {
+
+  for (const { prop, par, min, max, effectiveValue } of otherProperties) {
     const formattedProperty = formatProperty(prop, par, min, max, modData);
     const priority = getStatPriority(prop);
     
-    if (!propertyMap.has(formattedProperty)) {
-      propertyMap.set(formattedProperty, { values: [], pars: [], priority });
-    }
-    
-    const effectiveValue = min === max ? min : (min + max) / 2;
-    const existingData = propertyMap.get(formattedProperty)!;
-    existingData.values.push(effectiveValue);
-    existingData.pars.push(par);
-    // Keep the highest priority if combining properties
-    existingData.priority = Math.max(existingData.priority, priority);
-  }
-  
-  // Process combined properties and prepare for sorting
-  const propertiesWithPriority: Array<{ text: string, priority: number }> = [];
-  
-  for (const [propertyText, data] of propertyMap.entries()) {
-    if (data.values.length > 1) {
-      const totalValue = data.values.reduce((sum, val) => sum + val, 0);
-      
-      // Try to update the value in the property text
-      const updatedProperty = propertyText.replace(/([+-]?\d+(?:-\d+)?)/g, (match) => {
-        const isRange = match.includes('-');
-        if (isRange) {
-          return `${Math.round(totalValue)}`;
-        } else {
-          return `${Math.round(totalValue)}`;
-        }
-      });
-      
-      propertiesWithPriority.push({ text: updatedProperty, priority: data.priority });
+    if (propertyMap.has(formattedProperty)) {
+      const existing = propertyMap.get(formattedProperty)!;
+      existing.values.push(effectiveValue); // Use effectiveValue
+      existing.pars.push(par);
     } else {
-      propertiesWithPriority.push({ text: propertyText, priority: data.priority });
+      propertyMap.set(formattedProperty, { values: [effectiveValue], pars: [par], priority });
     }
+     if (initialRawProps !== undefined) {
+        // Ensure raw props collected in formatItemProperties are preferred or correctly aggregated
+        const statCode = prop.toLowerCase().replace(/[^a-z0-9]/g, '');
+        if (!rawPropsToReturn[statCode] || prop.startsWith('res-') && prop.endsWith('-max')) { // Max res overwrite, others accumulate
+             rawPropsToReturn[statCode] = effectiveValue;
+        } else if (prop !== 'res-all' && !prop.startsWith('res-') && !prop.endsWith('-max')) {
+            // Accumulate non-resistance, non-max-resistance properties if already present from initialRawProps
+            // This logic might need refinement based on how stats should combine
+            // For now, let initialRawProps (direct item props) take precedence for simple stats
+        }
+     }
   }
-  
-  // Sort by priority (higher priority first), maintaining file order for equal priorities
-  propertiesWithPriority.sort((a, b) => {
-    if (b.priority !== a.priority) {
-      return b.priority - a.priority; // Higher priority first
-    }
-    return 0; // Maintain original order for equal priorities
-  });
-  
-  // Return just the text, now properly ordered
-  return propertiesWithPriority.map(p => p.text);
+
+  const sortedProperties = Array.from(propertyMap.entries())
+    .sort(([, a], [, b]) => b.priority - a.priority) // Higher priority first
+    .map(([key]) => key); // Only need the formatted string
+
+  return { formatted: sortedProperties, raw: initialRawProps !== undefined ? rawPropsToReturn : undefined };
 }
 
 /**
@@ -1151,6 +1117,9 @@ function generateItemPageHtml(
   cssClass: string,
   modData: any
 ): string {
+  // Extract all unique stats and their ranges for filter options
+  // This will be implemented later if needed for populating filter dropdowns dynamically
+
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -1159,7 +1128,7 @@ function generateItemPageHtml(
     <title>${title}</title>
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
-<body class="theme-dark">
+<body class=\"theme-dark\"> // Assuming dark theme, make dynamic later if needed
     <header>
         <div class="container">
             <h1><a href="../index.html">D2 Mod Wiki</a></h1>
@@ -1175,17 +1144,84 @@ function generateItemPageHtml(
     <main class="container">
         <h2>${title}</h2>
         
-        <div class="items-grid-container">
-            ${Object.entries(groupedItems).map(([name, variations]) => `
-            <div class="item-column ${cssClass}">
+        <!-- Advanced Filtering Panel -->
+        <div class="filter-panel">
+            <div class="filter-header">
+                <h3>Advanced Filters & Search</h3>
+                <button id="toggle-filters" class="filter-toggle">Show Filters</button>
+            </div>
+            
+            <div id="filter-content" class="filter-content" style="display: none;">
+                <!-- Quick Search -->
+                <div class="filter-section">
+                    <label for="quick-search">Quick Search:</label>
+                    <input type="text" id="quick-search" placeholder="Search item names or stats..." />
+                </div>
+                
+                <!-- Sort Options -->
+                <div class="filter-section">
+                    <label for="sort-by">Sort By:</label>
+                    <select id="sort-by">
+                        <option value="name">Name (A-Z)</option>
+                        <option value="name-desc">Name (Z-A)</option>
+                        <option value="level">Required Level</option>
+                        <option value="level-desc">Required Level (High to Low)</option>
+                        // Add other sort options as needed, e.g., by a specific stat
+                    </select>
+                </div>
+                
+                <!-- Dynamic Stat Filters -->
+                <div class="filter-section">
+                    <label>Stat Filters:</label>
+                    <div id="stat-filters">
+                        <div class="stat-filter-group">
+                            {/* Example: <select class="stat-select">...</select> <input type="number" min="0"> */}
+                            <button id="add-stat-filter" class="add-filter-btn">+ Add Stat Filter</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Filter Actions -->
+                <div class="filter-actions">
+                    <button id="apply-filters" class="apply-btn">Apply Filters</button>
+                    <button id="clear-filters" class="clear-btn">Clear All</button>
+                    <span id="filter-results-count" class="filter-results-count"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="items-grid-container" id="items-container">
+            ${Object.entries(groupedItems).map(([name, variations]) => {
+              // Data attributes for the entire group/column (e.g., for quick search on item base name)
+              const groupDataAttributes = `data-item-name="${name.toLowerCase()}"`;
+
+              return `
+            <div class="item-column ${cssClass}" ${groupDataAttributes}>
                 <div class="item-column-header">
                     <h3>${name}</h3>
                     <span class="variation-count">${variations.length} Variation${variations.length > 1 ? 's' : ''}</span>
                 </div>
                 
                 <div class="variations-stack">
-                    ${variations.map((item, index) => `
-                    <div class="variation-card">
+                    ${variations.map((item, index) => {
+                      const itemProcessingResult = formatItemProperties(item, modData, true);
+                      const individualFormattedProps = itemProcessingResult.formattedProperties.individual;
+                      const setBonusesFormattedProps = itemProcessingResult.formattedProperties.setBonuses;
+                      const currentRawProperties = itemProcessingResult.rawProperties;
+                      let dataAttributes = '';
+                      if (currentRawProperties) {
+                        for (const [statCode, statValue] of Object.entries(currentRawProperties)) {
+                          if (statCode && typeof statValue !== 'undefined') {
+                            dataAttributes += ` data-stat-${statCode}="${statValue}"`;
+                          }
+                        }
+                      }
+                      dataAttributes += ` data-level-req="${item.lvlreq || item.lvl || 0}"`;
+                      dataAttributes += ` data-name="${(item.name || name).toLowerCase()}"`;
+
+
+                      return `
+                    <div class="variation-card" ${dataAttributes}>
                         <div class="variation-header">
                             <span class="variation-label">Variation ${index + 1}</span>
                             <div class="item-summary">
@@ -1197,12 +1233,10 @@ function generateItemPageHtml(
                         <div class="variation-stats">
                             <div class="properties-list">
                                 ${(() => {
-                                  const properties = formatItemProperties(item, modData);
                                   let html = '';
-                                  
                                   // Individual properties section
-                                  if (properties.individual.length > 0) {
-                                    html += properties.individual.map(prop => 
+                                  if (individualFormattedProps.length > 0) {
+                                    html += individualFormattedProps.map((prop: string) => 
                                       `<div class="property-item individual-property">${prop}</div>`
                                     ).join('');
                                   } else {
@@ -1210,33 +1244,32 @@ function generateItemPageHtml(
                                   }
                                   
                                   // Set bonuses section
-                                  const setBonusKeys = Object.keys(properties.setBonuses);
+                                  const setBonusKeys = Object.keys(setBonusesFormattedProps);
                                   if (setBonusKeys.length > 0) {
                                     html += '<div class="set-bonuses-divider"></div>';
                                     html += '<div class="set-bonuses-header">Set Bonuses:</div>';
                                     
                                     setBonusKeys.forEach(pieceCount => {
-                                      const bonuses = properties.setBonuses[pieceCount];
+                                      const bonuses = setBonusesFormattedProps[pieceCount];
                                       if (bonuses.length > 0) {
                                         html += `<div class="set-bonus-group">`;
                                         html += `<div class="set-bonus-label">${pieceCount}:</div>`;
-                                        html += bonuses.map(bonus => 
+                                        html += bonuses.map((bonus: string) => 
                                           `<div class="property-item set-bonus-property">${bonus}</div>`
                                         ).join('');
                                         html += `</div>`;
                                       }
                                     });
                                   }
-                                  
                                   return html;
                                 })()}
                             </div>
                         </div>
                     </div>
-                    `).join('')}
+                    `}).join('')}
                 </div>
             </div>
-            `).join('')}
+            `}).join('')}
         </div>
     </main>
 
@@ -1983,15 +2016,16 @@ function generateSetItemsPage(
                         <div class="set-pieces">
                             <div class="section-title">Set Pieces</div>
                             ${pieces.map(piece => {
-                              const properties = formatItemProperties(piece, modData);
+                              // Call formatItemProperties. The 'individual' properties are always under the 'formattedProperties' key.
+                              const propertiesResult = formatItemProperties(piece, modData); 
                               const pieceName = piece.name || piece.index;
                               
                               return `
                                 <div class="piece-item">
                                     <div class="piece-name">${pieceName}</div>
-                                    ${properties.individual.length > 0 ? `
+                                    ${propertiesResult.formattedProperties.individual.length > 0 ? `
                                         <div class="piece-properties">
-                                            ${properties.individual.map(prop => 
+                                            ${propertiesResult.formattedProperties.individual.map((prop: string) => 
                                               `<div class="property-item">${prop}</div>`
                                             ).join('')}
                                         </div>
@@ -2066,6 +2100,7 @@ function generateSetItemsPage(
 </html>
   `.trim();
 }
+
 
 
 
